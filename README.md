@@ -25,10 +25,27 @@ Welcome to my QA Portfolio! I am a detailed-oriented Quality Assurance Engineer 
 ---
 
 ## 📁 Portfolio Projects & Artifacts
-*Inside this profile, you can find examples of my test documentation:*
 
-- 📝 **[COMING SOON] Test Cases & Checklists:** Comprehensive manual test cases for mobile UI and functionality.
-- 🐛 **[COMING SOON] Sample Bug Reports:** Well-structured defect reports with clear steps to reproduce, expected/actual results, and severity levels.
+Inside this profile, you can find examples of my test documentation and hands-on QA deliverables:
+
+### 💻 Project 1: Web Application Testing (Functional & UI Validation)
+Comprehensive functional verification covering navigation blocks, theme switching, and strict form boundary validation for user registration.
+
+*   **Artifact Type:** Manual Test Suite & Test Summary Report
+*   **Total Scope:** **85 Test Cases** (IDs T189 - T273)
+*   **Execution Status:** **100% Passed** 🟢
+*   **Core Modules Tested:**
+    *   **Theme & Navigation:** Validation of UI theme toggling (Dark/Light mode) and main header redirects (Home, Courses, About Us).
+    *   **Registration Form Boundaries:** Comprehensive positive and negative testing for input fields (*Name, Last Name, Email, Password*) including empty validations, character type constraints (Cyrillic, European layouts), length limits, and email syntax verification.
+*   **📂 Deliverables:**
+    *   📄 [Read Full Test Summary Report](./Test_Summary_Report.md) 👈 *Analysis & Test Metrics*
+    *   📊 [Download & View Raw Test Cases](./Web_Application_Test_Cases.csv) 👈 *Step-by-step test scenarios*
+
+---
+
+### 🎮 Project 2: Mobile Game Testing (GameDev Artifacts)
+*   **Status:** `[COMING SOON]`
+*   **Target:** Verified build stability, UI controls, interruptions, and performance limits for mobile applications.
 
 ---
 
