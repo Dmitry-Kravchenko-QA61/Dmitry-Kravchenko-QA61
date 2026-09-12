@@ -36,5 +36,3 @@ Welcome to my QA Portfolio! I am a detailed-oriented Quality Assurance Engineer 
 - **Telegram:** [@dmitrykravchenko27](https://t.me)
 - **Email:** dmitry.kravchenko.yuryevich@gmail.com
 - **Location:** Kharkiv, Ukraine 🇺🇦 (Open to Remote work)## Hi there 👋
-- ⚡ Fun fact: ...
--->
