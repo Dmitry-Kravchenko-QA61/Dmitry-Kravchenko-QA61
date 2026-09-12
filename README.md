@@ -39,7 +39,7 @@ Comprehensive functional verification covering navigation blocks, theme switchin
     *   **Registration Form Boundaries:** Comprehensive positive and negative testing for input fields (*Name, Last Name, Email, Password*) including empty validations, character type constraints (Cyrillic, European layouts), length limits, and email syntax verification.
 *   **📂 Deliverables:**
     *   📄 [Read Full Test Summary Report](./Test_Summary_Report.md) 👈 *Analysis & Test Metrics*
-    *   📊 [Download & View Raw Test Cases](./Web_Application_Test_Cases.csv) 👈 *Step-by-step test scenarios*
+    *   📊 [Download & View Raw Test Cases](./Web_Application_85_Test_Cases.xlsx) 👈 *Step-by-step test scenarios*
 
 ---
 
