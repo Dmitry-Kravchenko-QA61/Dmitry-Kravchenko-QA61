@@ -32,7 +32,7 @@ Inside this profile, you can find examples of my test documentation and hands-on
 Comprehensive functional verification covering navigation blocks, theme switching, and strict form boundary validation for user registration.
 
 *   **Artifact Type:** Manual Test Suite & Test Summary Report
-*   **Total Scope:** **86 Test Cases** (IDs T101 - T410)
+*   **Total Scope:** **85 Test Cases** (IDs T1 - T85)
 *   **Execution Status:** **100% Passed** 🟢
 *   **Core Modules Tested:**
     *   **Theme & Navigation:** Validation of UI theme toggling (Dark/Light mode) and main header redirects (Home, Courses, About Us).
@@ -40,7 +40,7 @@ Comprehensive functional verification covering navigation blocks, theme switchin
 *   **📂 Deliverables:**
 *   *   📋 [Read Full Test Plan](./Web_Application_Test_Plan.doc) 👈 *Testing strategy, scope, and risks*
     *   📄 [Read Full Test Summary Report](./Test_Summary_Report.md) 👈 *Analysis & Test Metrics*
-    *   📊 [Download & View Raw Test Cases](./Web_Application_86_Test_Cases.xlsx) 👈 *Step-by-step test scenarios*
+    *   📊 [Download & View Raw Test Cases](./Web_Application_85_Test_Cases.xlsx) 👈 *Step-by-step test scenarios*
 
 ---
 
