@@ -38,6 +38,7 @@ Comprehensive functional verification covering navigation blocks, theme switchin
     *   **Theme & Navigation:** Validation of UI theme toggling (Dark/Light mode) and main header redirects (Home, Courses, About Us).
     *   **Registration Form Boundaries:** Comprehensive positive and negative testing for input fields (*Name, Last Name, Email, Password*) including empty validations, character type constraints (Cyrillic, European layouts), length limits, and email syntax verification.
 *   **📂 Deliverables:**
+*   *   📋 [Read Full Test Plan](./Web_Application_Test_Plan.doc) 👈 *Testing strategy, scope, and risks*
     *   📄 [Read Full Test Summary Report](./Test_Summary_Report.md) 👈 *Analysis & Test Metrics*
     *   📊 [Download & View Raw Test Cases](./Web_Application_85_Test_Cases.xlsx) 👈 *Step-by-step test scenarios*
 
