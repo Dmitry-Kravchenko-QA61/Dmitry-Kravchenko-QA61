@@ -34,7 +34,7 @@ Inside this profile, you can find examples of my test documentation and hands-on
 Comprehensive functional verification covering navigation blocks, search engines, catalog filters, and complex responsive layout elements.
 
 *   **Artifact Type:** Manual Test Suite & Test Summary Report
-*   **Total Scope:** 85 Test Cases (IDs T1 - T85)
+*   **Total Scope:** 85 Test Cases (IDs T254 - T358)
 *   **Execution Status:** 96.4% Passed (3 Defect Logs Documented) ⚠️
 *   **Core Modules Tested:**
     *   *About Us & Team Layouts:* UI responsiveness, speed metrics, modal bios, and active language switches.
