@@ -1,26 +1,28 @@
 # Hi there, I'm Dmitry Kravchenko! 👋
+
 ### Junior QA Engineer | Passionate about GameDev Testing 🎮
 
-Welcome to my QA Portfolio! I am a detailed-oriented Quality Assurance Engineer with a solid foundation in manual web/mobile testing and system administration. 
+Welcome to my QA Portfolio! I am a detail-oriented Quality Assurance Engineer with a solid foundation in manual web/mobile testing and system administration.
 
 ---
 
 ## 🚀 About Me
-- 🎓 **Education:** Graduated from **IT STEP Academy** with an International Diploma in Manual Software Testing & Systems Administration.
-- ⚡ **Technical Excellence:** Achieved a **97% score** on the Cisco international final exam (**Cisco Certified IT Essentials**).
-- 🕹️ **GameDev Experience:** Participated in testing real mobile game projects developed by PixelCraft Studio:
-  - *Shadows of Silence* (2D, live on Google Play Market)
-  - *Last Signal 2* (3D indie game, currently in active testing)
+
+*   🎓 **Education:** Graduated from IT STEP Academy with an International Diploma in Manual Software Testing & Systems Administration.
+*   ⚡ **Technical Excellence:** Achieved a **97% score** on the Cisco international final exam (Cisco Certified IT Essentials).
+*   🕹️ **GameDev Experience:** Participated in testing real mobile game projects developed by PixelCraft Studio:
+    *   *Shadows of Silence* (2D, live on Google Play Market)
+    *   *Last Signal 2* (3D indie game, currently in active testing)
 
 ---
 
 ## 🛠️ Tech Stack & Skills
 
-- **Testing Methodologies:** Manual Testing (Black/Grey box), Web & Mobile Testing, Functional, Smoke, Regression, Sanity, Interrupt Testing, UI/UX Verification.
-- **Test Documentation:** Test Plans, Checklists, Test Cases, Bug Reports, Requirements Analysis.
-- **SDLC / STLC:** Agile (Scrum, Kanban), Bug Life Cycle.
-- **Tools & Tech:** Jira, TestRail, Git/GitHub, Unix Terminal, VSCode, SQL (Basic Database Theory).
-- **Environments:** Windows, Linux, Android, Chrome DevTools, HTML/CSS.
+*   **Testing Methodologies:** Manual Testing (Black/Grey box), Web & Mobile Testing, Functional, Smoke, Regression, Sanity, Interrupt Testing, UI/UX Verification.
+*   **Test Documentation:** Test Plans, Checklists, Test Cases, Bug Reports, Requirements Analysis.
+*   **SDLC / STLC:** Agile (Scrum, Kanban), Bug Life Cycle.
+*   **Tools & Tech:** Jira, TestRail, Git/GitHub, Unix Terminal, VSCode, SQL (Basic Database Theory).
+*   **Environments:** Windows, Linux, Android, Chrome DevTools, HTML/CSS.
 
 ---
 
@@ -29,28 +31,28 @@ Welcome to my QA Portfolio! I am a detailed-oriented Quality Assurance Engineer 
 Inside this profile, you can find examples of my test documentation and hands-on QA deliverables:
 
 ### 💻 Project 1: Web Application Testing (Functional & UI Validation)
-Comprehensive functional verification covering navigation blocks, theme switching, and strict form boundary validation for user registration.
+Comprehensive functional verification covering navigation blocks, search engines, catalog filters, and complex responsive layout elements.
 
 *   **Artifact Type:** Manual Test Suite & Test Summary Report
-*   **Total Scope:** **85 Test Cases** (IDs T1 - T85)
-*   **Execution Status:** **100% Passed** 🟢
+*   **Total Scope:** 85 Test Cases (IDs T1 - T85)
+*   **Execution Status:** 96.4% Passed (3 Defect Logs Documented) ⚠️
 *   **Core Modules Tested:**
-    *   **Theme & Navigation:** Validation of UI theme toggling (Dark/Light mode) and main header redirects (Home, Courses, About Us).
-    *   **Registration Form Boundaries:** Comprehensive positive and negative testing for input fields (*Name, Last Name, Email, Password*) including empty validations, character type constraints (Cyrillic, European layouts), length limits, and email syntax verification.
-*   **📂 Deliverables:**
-*   *   📋 [Read Full Test Plan](./Web_Application_Test_Plan.doc) 👈 *Testing strategy, scope, and risks*
-    *   📄 [Read Full Test Summary Report](./Test_Summary_Report.md) 👈 *Analysis & Test Metrics*
-    *   📊 [Download & View Raw Test Cases](./Web_Application_85_Test_Cases.xlsx) 👈 *Step-by-step test scenarios*
-
----
+    *   *About Us & Team Layouts:* UI responsiveness, speed metrics, modal bios, and active language switches.
+    *   *Courses Catalog & Filters:* Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars.
+    *   *Interactive Bug Sandbox:* Kanban board drag-and-drop, mock form fields validation, and error log simulators.
+*   **Deliverables:**
+    *   📂 [Read Full Test Plan](URL_НА_ВАШ_ТЕСТ_ПЛАН) 📑 *Testing strategy, scope, and risks*
+    *   📂 [Read Full Test Summary Report](URL_НА_ВАШ_ОТЧЕТ) 📑 *Analysis & Test Metrics*
+    *   📊 [Download & View Raw Test Cases](URL_НА_СКАЧИВАНИЕ_XLSX) 📑 *Step-by-step test scenarios in Excel*
 
 ### 🎮 Project 2: Mobile Game Testing (GameDev Artifacts)
-*   - 🎮 **[PixelCraft Studio Mobile Games Testing Portfolio](PixelCraft-Studio-Games-Testing):** This folder contains my real test artifacts, including comprehensive manual checklists, test cases, and structural bug reports for the 2D game *Shadows of Silence* and the 3D indie game *Last Signal 2*.
+*   🕹️ **PixelCraft Studio Mobile Games Testing Portfolio:** This folder contains my real test artifacts, including comprehensive manual checklists, test cases, and structural bug reports for the 2D game *Shadows of Silence* and the 3D indie game *Last Signal 2*.
 *   **Target:** Verified build stability, UI controls, interruptions, and performance limits for mobile applications.
 
 ---
 
-## 📫 How to reach me:
-- **Telegram:** [@dmitrykravchenko27](https://t.me)
-- **Email:** dmitry.kravchenko.yuryevich@gmail.com
-- **Location:** Kharkiv, Ukraine 🇺🇦 (Open to Remote work)## Hi there 👋
+## 📬 How to reach me:
+
+*   **Telegram:** [@dmitrykravchenko27](https://t.me)
+*   **Email:** [dmitry.kravchenko.yuryevich@gmail.com](mailto:dmitry.kravchenko.yuryevich@gmail.com)
+*   **Location:** Kharkiv, Ukraine 🇺🇦 (Open to Remote work)
