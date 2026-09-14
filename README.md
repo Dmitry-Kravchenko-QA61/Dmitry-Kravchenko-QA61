@@ -41,9 +41,9 @@ Comprehensive functional verification covering navigation blocks, search engines
     *   *Courses Catalog & Filters:* Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars.
     *   *Interactive Bug Sandbox:* Kanban board drag-and-drop, mock form fields validation, and error log simulators.
 *   **Deliverables:**
-    *   📂 [Read Full Test Plan](URL_НА_ВАШ_ТЕСТ_ПЛАН) 📑 *Testing strategy, scope, and risks*
-    *   📂 [Read Full Test Summary Report](URL_НА_ВАШ_ОТЧЕТ) 📑 *Analysis & Test Metrics*
-    *   📊 [Download & View Raw Test Cases](URL_НА_СКАЧИВАНИЕ_XLSX) 📑 *Step-by-step test scenarios in Excel*
+    *   📂 [Read Full Test Plan](Web_Application_Test_Plan.doc) 📑 *Testing strategy, scope, and risks*
+    *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics*
+    *   📊 [Download & View Raw Test Cases](Web_Application_85_Test_Cases.xlsx) 📑 *Step-by-step test scenarios in Excel*
 
 ### 🎮 Project 2: Mobile Game Testing (GameDev Artifacts)
 *   - 🎮 **[PixelCraft Studio Mobile Games Testing Portfolio](PixelCraft-Studio-Games-Testing):** This folder contains my real test artifacts, including comprehensive manual checklists, test cases, and structural bug reports for the 2D game *Shadows of Silence* and the 3D indie game *Last Signal 2*.
