@@ -37,16 +37,17 @@ Comprehensive functional verification covering navigation blocks, search engines
 *   **Total Scope:** 85 Test Cases (IDs T274 - T358)
 *   **Execution Status:** 96.4% Passed (3 Defect Logs Documented) ⚠️
 *   **Core Modules Tested:**
+    *   *Theory Module:* Validated educational text layouts, content navigation links, and cross-browser formatting.
     *   *About Us & Team Layouts:* UI responsiveness, speed metrics, modal bios, and active language switches.
     *   *Courses Catalog & Filters:* Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars.
     *   *Interactive Bug Sandbox:* Kanban board drag-and-drop, mock form fields validation, and error log simulators.
 *   **Deliverables:**
-    *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks*
+    *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the Theory module*
     *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics*
     *   📊 [Download & View Raw Test Cases](85_Web_Application_Test_Cases) 📑 *Step-by-step test scenarios in Excel*
 
 ### 🎮 Project 2: Mobile Game Testing (GameDev Artifacts)
-*   - 🎮 **[PixelCraft Studio Mobile Games Testing Portfolio](PixelCraft-Studio-Games-Testing):** This folder contains my real test artifacts, including comprehensive manual checklists, test cases, and structural bug reports for the 2D game *Shadows of Silence* and the 3D indie game *Last Signal 2*.
+*   - 🎮 **[PixelCraft Studio Mobile Games Testing Portfolio](PixelCraft-Studio-Games-Testing):** This folder contains my real test artifacts, including comprehensive manual checklists, test cases, and structural bug reports (**27 detailed bug reports for Shadows of Silence** and **7 verified bug reports for Last Signal 2**).
 *   **Target:** Verified build stability, UI controls, interruptions, and performance limits for mobile applications.
 
 ---
