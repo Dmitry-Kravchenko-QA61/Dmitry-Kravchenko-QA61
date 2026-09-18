@@ -11,7 +11,7 @@ Welcome to my QA Portfolio! I am a detail-oriented Quality Assurance Engineer wi
 *   🎓 **Education:** Graduated from IT STEP Academy with an International Diploma in Manual Software Testing & Systems Administration.
 *   ⚡ **Technical Excellence:** Achieved a **97% score** on the Cisco international final exam (Cisco Certified IT Essentials).
 *   🕹️ **GameDev Experience:** Participated in testing real mobile game projects developed by PixelCraft Studio:
-    *   *Shadows of Silence* (2D, live on Google Play Market)
+    *   *Shadows of Silence* (2D, live on Google Play Store)
     *   *Last Signal 2* (3D indie game, currently in active testing)
 
 ---
@@ -56,4 +56,4 @@ Comprehensive functional verification covering navigation blocks, search engines
 
 *   **Telegram:** [@dmitrykravchenko27](https://t.me)
 *   **Email:** [dmitry.kravchenko.yuryevich@gmail.com](mailto:dmitry.kravchenko.yuryevich@gmail.com)
-*   **Location:** Kharkiv, Ukraine 🇺🇦 (Open to Remote work)
+*   **Location:** Kharkiv, Ukraine 🇺🇦 (Open to remote work)
