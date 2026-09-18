@@ -12,11 +12,11 @@
 The primary objective of this testing cycle was to verify layout stability, end-to-end navigation flows, UI/UX responsiveness, and interactive sandbox states of the web platform's core pages.
 
 **In Scope:**
-*   **About Us Page:** Core headings, mission blocks, localization, and accordion behavior.
+*   **About Us:** Core headings, mission blocks, localization, and accordion behavior.
 *   **Courses Catalog:** Grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
-*   **Bugs & Test Cases Sandbox:** Mock Jira forms, drag-and-drop kanban columns, and state triggers.
-*   **Team & Instructors Layout:** Expert profiles, filter tabs, modal biographies, and responsive flexbox wrapping.
-*   **Brand Identity Media Kit:** Download wrappers, theme toggles, hex color palette tokens, and padding asset diagrams.
+*   **Bugs & Test Cases:** Mock Jira forms, drag-and-drop kanban columns, and state triggers.
+*   **Team & Instructors:** Expert profiles, filter tabs, modal biographies, and responsive flexbox wrapping.
+*   **Brand Identity:** Download wrappers, theme toggles, hex color palette tokens, and padding asset diagrams.
 
 ---
 
