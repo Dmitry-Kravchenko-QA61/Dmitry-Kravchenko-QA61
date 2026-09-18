@@ -36,10 +36,10 @@ Comprehensive functional verification covering navigation blocks, search engines
 
 *   **Artifact Type:** Manual Test Suite & Test Summary Report
 *   **Total Scope:** 85 Test Cases (IDs T274 - T358)
-*   **Execution Status:** 96.5% Passed (3 Defect Logs Documented) ⚠️
+*   **Pass Rate:** 96.5% (82 Passed, 3 Failed) ⚠️
 *   **Core Modules Tested:**
     *   *Theory Module:* Validated educational text layouts, content navigation links, and cross-browser formatting.
-    *   *About Us & Team Layouts:* UI responsiveness, speed metrics, modal bios, and active language switches.
+    *   *About Us & Team Layouts:* UI responsiveness, speed metrics, modal pop-ups for team bios, and active language switches.
     *   *Courses Catalog & Filters:* Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars.
     *   *Interactive Bug Sandbox:* Kanban board drag-and-drop, mock form fields validation, and error log simulators.
 *   **Deliverables:**
