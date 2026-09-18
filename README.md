@@ -22,8 +22,8 @@ Welcome to my QA Portfolio! I am a detail-oriented Quality Assurance Engineer wi
 *   **Test Documentation:** Test Plans, Checklists, Test Cases, Bug Reports, Requirements Analysis.
 *   **SDLC/STLC:** Agile (Scrum, Kanban), Bug Life Cycle.
 *   **Tools & Tech:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL (Basic Database), Chrome
-DevTools, Google Docs / Sheets, Canva.
-*   **Environments:** Windows, Linux, Android, HTML/CSS.
+DevTools, HTML/CSS, Google Docs / Sheets, Canva.
+*   **Environments:** Windows, Linux, Android.
 
 ---
 
