@@ -54,7 +54,7 @@ Comprehensive functional verification covering navigation blocks, site search, c
 
 ---
 
-## 📬 How to reach me:
+## 📬 How to reach me
 
 *   **Telegram:** [@dmitrykravchenko27](https://t.me)
 *   **Email:** [windowlightbox@gmail.com](mailto:windowlightbox@gmail.com)
