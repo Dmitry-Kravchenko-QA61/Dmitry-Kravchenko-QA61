@@ -45,7 +45,7 @@ Comprehensive functional verification covering navigation blocks, search engines
 *   **Deliverables:**
     *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the Theory module*
     *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics*
-    *   📊 [Download & View Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step test scenarios in Excel*
+    *   📊 [Download & View Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step test scenarios*
 
 ### 🎮 Project 2: Mobile Game Testing (GameDev Artifacts)
 *   - 🎮 **[PixelCraft Studio Mobile Games Testing Portfolio](PixelCraft-Studio-Games-Testing):** This folder contains my real test artifacts, including comprehensive manual checklists, test cases, and structural bug reports (**27 defect reports for Shadows of Silence** and **7 for Last Signal 2**).
