@@ -39,11 +39,11 @@ Comprehensive functional verification covering navigation blocks, site search, c
 *   **Total Scope:** 85 Test Cases (IDs T274 - T358)
 *   **Pass Rate:** 96.47% (82 Passed, 3 Failed)
 *   **Core Modules Tested:**
-    * **About Us Page:** Validated educational text layouts, content navigation links, and cross-browser formatting. *(15 Tests: T274 - T288)*
+    * **About Us:** Validated educational text layouts, content navigation links, and cross-browser formatting. *(15 Tests: T274 - T288)*
     * **Courses Catalog:** Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars. *(17 Tests: T289 - T305)*
-    * **Bugs & Test Cases Sandbox:** Kanban board drag-and-drop, mock form fields validation, and error log simulators. *(17 Tests: T306 - T322)*
-    * **Team & Instructors Layout:** UI responsiveness, speed metrics, modal pop-ups for team bios, and active language switches. *(19 Tests: T323 - T341)*
-    * **Brand Identity Media Kit:** Verified asset wrappers, typography consistency, and hex copy-to-clipboard functionality. *(17 Tests: T342 - T358)*
+    * **Bugs & Test Cases:** Kanban board drag-and-drop, mock form fields validation, and error log simulators. *(17 Tests: T306 - T322)*
+    * **Team & Instructors:** UI responsiveness, speed metrics, modal pop-ups for team bios, and active language switches. *(19 Tests: T323 - T341)*
+    * **Brand Identity:** Verified asset wrappers, typography consistency, and hex copy-to-clipboard functionality. *(17 Tests: T342 - T358)*
 *   **Deliverables:**
     *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the Theory module*
     *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics*
