@@ -37,7 +37,7 @@ Comprehensive functional verification covering navigation blocks, site search, c
 
 *   **Artifact Type:** Manual Test Suite & Test Summary Report
 *   **Total Scope:** 85 Test Cases (IDs T274 - T358)
-*   **Pass Rate:** 96.5% (82 Passed, 3 Failed)
+*   **Pass Rate:** 96.47% (82 Passed, 3 Failed)
 *   **Core Modules Tested:**
     *   *Theory Module:* Validated educational text layouts, content navigation links, and cross-browser formatting.
     *   *About Us & Team Layouts:* UI responsiveness, speed metrics, modal pop-ups for team bios, and active language switches.
