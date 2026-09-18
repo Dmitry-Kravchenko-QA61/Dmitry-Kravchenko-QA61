@@ -43,7 +43,7 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 
 # 4. Detailed Defect Logs (Discovered Bugs)
 
-### 🐛 Bug #1: Visual Layout Shift on 'About Us' Page (ID: T278)
+### 🐛 Bug #1: Visual Layout Shift on About Us Module (ID: T278)
 * **Description:** The corporate values block causes a severe visual layout shift during standard DOM loading protocols, overlapping adjacent text components.
 * **Severity:** Minor (UI Layout Discrepancy)
 
@@ -51,13 +51,13 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 * **Description:** Typing specific key definitions like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API & DB Testing' course card remains hidden.
 * **Severity:** Major (Functional Limitation in Content Discovery)
 
-### 🐛 Bug #3: Hover State Overlay Exception on Team Profiles (ID: T337)
+### 🐛 Bug #3: Hover State Overlay Exception on Team / Instructors Module (ID: T337)
 * **Description:** Hovering a cursor over Dmitry Kravchenko's profile card background photo does not render the darkened opacity overlay. Social sharing sub-elements are partially hidden.
 * **Severity:** Trivial (Cosmetic / Usability Polish)
 
 # 5. Conclusion & Recommendations
 
-While the overall platform architecture shows robust structural stability, the Quality Gate status is currently **REJECTED** pending the resolution of the Major search filtering restriction found in the Course Catalog (ID: T297).
+While the overall platform architecture shows robust structural stability, the Quality Gate status is currently **REJECTED** pending the resolution of the Major search filtering restriction found in the Courses Catalog (ID: T297).
 
 * **Quality Gate Status:** ❌ REJECTED (Fixes Required)
-* **Next Steps:** Hotfix deployment is requested for the Course Search Module (T297). UI styling regressions on the About Us layout (T278) and Instructor portraits (T337) can be safely tracked as minor backlog actions for the upcoming sprint.
+* **Next Steps:** Hotfix deployment is requested for the Courses Catalog module (T297) to restore search functionality. UI styling regressions on the About Us module (T278) and Team / Instructors module (T337) can be safely tracked as minor backlog actions for the upcoming sprint.
