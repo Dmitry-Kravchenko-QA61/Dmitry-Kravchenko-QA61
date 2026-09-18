@@ -12,7 +12,7 @@
 The primary objective of this testing cycle was to verify layout stability, end-to-end navigation flows, UI/UX responsiveness, and interactive sandbox states of the web platform's core pages.
 
 **In Scope:**
-*   **About Us:** Core headings, mission blocks, localization, and accordion behavior.
+*   **About Us (Theory) Module:** Core headings, mission blocks, localization, and accordion behavior.
 *   **Courses Catalog:** Grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
 *   **Bugs & Test Cases:** Mock Jira forms, drag-and-drop kanban columns, and state triggers.
 *   **Team & Instructors:** Expert profiles, filter tabs, modal biographies, and responsive flexbox wrapping.
@@ -33,7 +33,7 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 
 | Module / Page | Test Case IDs | Total Tests | Passed | Failed | Status / Major Blockers Found |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **About Us** | T274 – T288 | 15 | 14 | 1 | 🔴 **T278 Failed:** Corporate values block visual layout shift. |
+| **About Us (Theory) Module ** | T274 – T288 | 15 | 14 | 1 | 🔴 **T278 Failed:** Corporate values block visual layout shift. |
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **T297 Failed:** Search bar fails to filter specific API cards. |
 | **Bugs & Test Cases** | T306 – T322 | 17 | 17 | 0 | 🟢 Stable. All mock Jira form controls working as intended. |
 | **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **T337 Failed:** Transparency overlay broken on specific mentor assets. |
@@ -43,7 +43,7 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 
 # 4. Detailed Defect Logs (Discovered Bugs)
 
-### 🐛 Bug #1: Visual Layout Shift on About Us Module (ID: T278)
+### 🐛 Bug #1: Visual Layout Shift on About Us (Theory) Module (ID: T278)
 * **Description:** The corporate values block causes a severe visual layout shift during standard DOM loading protocols, overlapping adjacent text components.
 * **Severity:** Minor (UI Layout Discrepancy)
 
@@ -60,4 +60,4 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 While the overall platform architecture shows robust structural stability, the Quality Gate status is currently **REJECTED** pending the resolution of the Major search filtering restriction found in the Courses Catalog (ID: T297).
 
 * **Quality Gate Status:** ❌ REJECTED (Fixes Required)
-* **Next Steps:** Hotfix deployment is requested for the Courses Catalog module (T297) to restore search functionality. UI styling regressions on the About Us module (T278) and Team / Instructors module (T337) can be safely tracked as minor backlog actions for the upcoming sprint.
+* **Next Steps:** Hotfix deployment is requested for the Courses Catalog module (T297) to restore search functionality. UI styling regressions on the About Us (Theory) module (T278) and Team / Instructors module (T337) can be safely tracked as minor backlog actions for the upcoming sprint.
