@@ -56,5 +56,5 @@ Comprehensive functional verification covering navigation blocks, search engines
 ## 📬 How to reach me:
 
 *   **Telegram:** [@dmitrykravchenko27](https://t.me)
-*   **Email:** [dmitry.kravchenko.yuryevich@gmail.com](mailto:dmitry.kravchenko.yuryevich@gmail.com)
-*   **Location:** Kharkiv, Ukraine 🇺🇦 (Open to remote work)
+*   **Email:** [windowlightbox@gmail.com](mailto:windowlightbox@gmail.com)
+*   **Location:** Kharkiv, Ukraine (Open to remote work)
