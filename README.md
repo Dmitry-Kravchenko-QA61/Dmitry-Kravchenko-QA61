@@ -20,8 +20,8 @@ Welcome to my QA Portfolio! I am a detail-oriented Quality Assurance Engineer wi
 
 *   **Testing Methodologies:** Manual Testing (Black/Grey box), Web & Mobile Testing, Functional, Smoke, Regression, Sanity, Interrupt Testing, UI/UX Verification.
 *   **Test Documentation:** Test Plans, Checklists, Test Cases, Bug Reports, Requirements Analysis.
-*   **SDLC / STLC:** Agile (Scrum, Kanban), Bug Life Cycle.
-*   **Tools & Tech:** Jira, TestRail, Git/GitHub, Unix Terminal, VSCode, SQL (Basic Database Theory), Chrome
+*   **SDLC/STLC:** Agile (Scrum, Kanban), Bug Life Cycle.
+*   **Tools & Tech:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL (Basic Database), Chrome
 DevTools, Google Docs / Sheets, Canva.
 *   **Environments:** Windows, Linux, Android, HTML/CSS.
 
