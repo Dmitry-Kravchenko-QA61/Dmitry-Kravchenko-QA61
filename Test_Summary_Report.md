@@ -9,7 +9,7 @@
 
 ## 2. Objective & Scope
 
-The primary objective of this testing cycle was to verify layout stability, end-to-end navigation flows, UI/UX responsiveness, and interactive sandbox states of the web platform's core pages.
+The primary objective of this testing cycle was to verify layout stability, end-to-end navigation flows, UI/UX layout positioning across desktop screen resolutions, and interactive sandbox states of the web platform's core pages.
 
 **In Scope:**
 
