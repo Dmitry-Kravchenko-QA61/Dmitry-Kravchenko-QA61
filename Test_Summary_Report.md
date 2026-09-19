@@ -42,12 +42,12 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 ## 4. Detailed Defect Logs (Discovered Bugs)
 
 ### 🐛 Bug #1: Visual Layout Shift on Theory Website Module (ID: T278)
-* **Description:** The Corporate Values block causes a minor visual layout shift during standard DOM loading protocols, leading to a partial text overlap with adjacent components.
+* **Description:** The Corporate Values block causes a minor visual layout shift during standard DOM rendering, leading to a partial text overlap with adjacent components.
 * **Severity:** Minor (UI Layout Discrepancy)
 
 ### 🐛 Bug #2: Catalog Search Query Parsing Failure (ID: T297)
-* **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API & DB Testing' course card remains hidden.
-* **Severity:** Major (Functional Limitation in Content Discovery)
+* **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API & DB Testing' course card remains hidden, completely blocking users from finding matching content.
+* **Severity:** Major (Core Functional Blocker in Content Discovery)
 
 ### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: T337)
 * **Description:** Hovering a cursor over a mentor profile card background photo does not render the darkened opacity overlay. Social sharing sub-elements remain partially hidden.
@@ -57,4 +57,4 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 While the overall platform architecture shows robust structural stability, the Quality Gate status is currently **REJECTED** pending the resolution of the Major search filtering restriction found in the Courses Catalog (ID: T297).
 
 * **Quality Gate Status:** ❌ **REJECTED** (Fixes Required)
-* **Next Steps:** A standard bugfix deployment is requested for the Courses Catalog module (T297) to restore search functionality prior to release. UI styling regressions on the Theory Website module (T278) and Team / Instructors module (T337) can be safely tracked as minor backlog actions for the upcoming sprint.
+* **Next Steps:** A standard bugfix deployment is requested for the Courses Catalog module (T297) to restore search functionality prior to release. UI styling regressions on the Theory Website module (T278) and Team / Instructors module (T337) do not block the release and can be safely tracked as minor backlog actions for the upcoming sprint.
