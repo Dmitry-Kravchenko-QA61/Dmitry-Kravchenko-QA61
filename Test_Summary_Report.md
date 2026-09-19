@@ -29,30 +29,29 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 | :---: | :---: | :---: | :---: | :---: |
 | 85 | 82 | 3 | 0 | **96.47%** ⚠️ |
 
-### 🔍 Module Distribution & Findings
+### ⚙️ Module Distribution & Findings
 
 | Module / Page | Test Case IDs | Total Tests | Passed | Failed | Status / Major Blockers Found |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Theory Website Module** | T274 – T288 | 15 | 14 | 1 | 🔴 **T278 Failed:** Corporate values block visual layout shift. |
+| **Theory Website Module** | T274 – T288 | 15 | 14 | 1 | 🔴 **T278 Failed:** Corporate Values block causes visual layout shift. |
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **T297 Failed:** Catalog search query parsing failure. |
 | **Bugs & Test Cases** | T306 – T322 | 17 | 17 | 0 | 🟢 **Stable.** All mock Jira form controls working as intended. |
-| **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **T337 Failed:** Transparency overlay broken on specific mentor assets. |
+| **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **T337 Failed:** Hover state transparency overlay broken on mentor assets. |
 | **User Profile & Settings** | T342 – T358 | 17 | 17 | 0 | 🟢 **Stable.** Asset wrappers and hex copy-to-clipboard passed. |
 
 ## 4. Detailed Defect Logs (Discovered Bugs)
 
 ### 🐛 Bug #1: Visual Layout Shift on Theory Website Module (ID: T278)
-* **Description:** The corporate values block causes a minor visual layout shift during standard DOM loading protocols, leading to a partial text overlap with adjacent components.
+* **Description:** The Corporate Values block causes a minor visual layout shift during standard DOM loading protocols, leading to a partial text overlap with adjacent components.
 * **Severity:** Minor (UI Layout Discrepancy)
 
 ### 🐛 Bug #2: Catalog Search Query Parsing Failure (ID: T297)
-* **Description:** Typing specific key definitions like `'API'` into the course search bar does not dynamically update the catalog view grid. The `'API & DB Testing'` course card remains hidden.
+* **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API & DB Testing' course card remains hidden.
 * **Severity:** Major (Functional Limitation in Content Discovery)
 
 ### 🐛 Bug #3: Hover State Overlay Exception on Team / Instructors Module (ID: T337)
-* **Description:** Hovering a cursor over Dmitry Kravchenko's profile card background photo does not render the darkened opacity overlay. Social sharing sub-elements are partially hidden.
+* **Description:** Hovering a cursor over a mentor profile card background photo does not render the darkened opacity overlay. Social sharing sub-elements remain partially hidden.
 * **Severity:** Trivial (Cosmetic / Usability Polish)
-
 ## 5. Conclusion & Recommendations
 
 While the overall platform architecture shows robust structural stability, the Quality Gate status is currently **REJECTED** pending the resolution of the Major search filtering restriction found in the Courses Catalog (ID: T297).
