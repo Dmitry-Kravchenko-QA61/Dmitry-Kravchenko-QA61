@@ -25,7 +25,7 @@ Welcome to my QA Portfolio! I am a detail-oriented Quality Assurance Engineer wi
 *   **Tools & Tech:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL, Chrome
 DevTools, HTML/CSS, Google Docs/Sheets.
 *   **Web Understanding:** Client-Server Architecture.
-*   **Environments:** Windows, Linux, Android.
+*   **Operating Systems:** Windows, Linux, Android.
 
 ---
 
