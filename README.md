@@ -52,7 +52,7 @@ Comprehensive functional verification covering navigation blocks, site search, c
 
 ### 🎮 Project 2: Mobile Game Testing (GameDev Artifacts)
 *   - 🎮 **[PixelCraft Studio Mobile Games Testing Internship Portfolio](PixelCraft-Studio-Games-Testing):** This folder contains my real test artifacts, including comprehensive manual checklists, test cases, and well-structured bug reports (**27 bug reports for Shadows of Silence** and **7 bug reports for Last Signal 2**).
-*   **Target:** Verify build stability, UI controls, interruptions, and performance limits for mobile applications.
+*   **Target:** Verify build stability, UI controls, interruptions, and performance limits for mobile games.
 
 ---
 
