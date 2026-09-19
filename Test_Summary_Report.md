@@ -36,7 +36,7 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 | **Theory Website Module** | T274 – T288 | 15 | 14 | 1 | 🔴 **T278 Failed:** Corporate Values block causes visual layout shift. |
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **T297 Failed (Critical):** Catalog search query parsing failure. |
 | **Bugs & Test Cases** | T306 – T322 | 17 | 17 | 0 | 🟢 **Stable.** All mock Jira form controls working as intended. |
-| **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **T337 Failed:** Hover state transparency overlay broken on mentor assets. |
+| **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **T337 Failed:** Hover state transparency overlay blocks social links. |
 | **User Profile & Settings** | T342 – T358 | 17 | 17 | 0 | 🟢 **Stable.** Asset wrappers and hex copy-to-clipboard passed. |
 
 ## 4. Detailed Defect Logs (Discovered Bugs)
@@ -51,7 +51,7 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 
 ### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: T337)
 * **Description:** Hovering a cursor over a mentor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the links.
-* **Severity:** Minor (Cosmetic / Usability Polish)
+* **Severity:** Minor (UI/UX Functionality Bug)
 ## 5. Conclusion & Recommendations
 
 While the overall platform architecture shows robust structural stability, the Quality Gate status is currently ❌ REJECTED (Fixes Required) pending the resolution of the Critical search filtering restriction found in the Courses Catalog (ID: T297).
