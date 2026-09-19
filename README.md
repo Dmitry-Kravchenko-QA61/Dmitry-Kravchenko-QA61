@@ -42,7 +42,7 @@ Comprehensive functional verification covering navigation blocks, site search, c
   * 📑 **Theory Website Module:** Validated educational text layouts, content navigation links, and cross-browser formatting (15 Tests: T274 - T288).
   * 🔍 **Courses Catalog:** Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars (17 Tests: T289 - T305).
   * 🐛 **Bugs & Test Cases:** Kanban board drag-and-drop, mock form fields validation, and error log simulators (17 Tests: T306 - T322).
-  * 👥 **Team & Instructors:** UI positioning and grid layout layout verification across desktop resolutions (19 Tests: T323 - T341).
+  * 👥 **Team & Instructors:** UI positioning and grid layout verification across desktop resolutions (19 Tests: T323 - T341).
   * 🏷️ **Brand Identity media page:** Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints (17 Tests: T342 - T358).
 *   **Deliverables:**
     *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the web application core functionality (5 modules).*
