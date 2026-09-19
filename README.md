@@ -19,7 +19,7 @@ Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Junior Q
 ## 🛠️ Tech Stack & Skills
 
 * 🧠 **Testing Types & Approaches:** Manual Testing, Black-Box/Grey-Box Testing, Smoke Testing, Regression Testing, Sanity Testing, Retesting, Interrupt Testing, UI/UX Verification.
-* 📱 **Target Platforms:** Web (Desktop, Mobile Web), Mobile (Android).
+* 📱 **Target Platforms:** Web (Desktop Browsers).
 * 📑 **Test Documentation:** Requirements Analysis, Test Plans, Decomposition, Test Cases, Checklists, Bug Reports, Test Design Techniques.
 * 🔄 **SDLC/STLC:** Agile Frameworks (Scrum, Kanban), Waterfall, Bug Life Cycle.
 * 🛠️ **Tools & Technologies:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL, Chrome DevTools, HTML/CSS, Google Docs/Sheets.
@@ -42,7 +42,7 @@ Comprehensive functional verification covering navigation blocks, site search, c
   * 📑 **Theory Website Module:** Validated educational text layouts, content navigation links, and cross-browser formatting (15 Tests: T274 - T288).
   * 🔍 **Courses Catalog:** Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars (17 Tests: T289 - T305).
   * 🐛 **Bugs & Test Cases:** Kanban board drag-and-drop, mock form fields validation, and error log simulators (17 Tests: T306 - T322).
-  * 👥 **Team & Instructors:** UI responsiveness, speed metrics, modal pop-ups for team bios, and active language switches (19 Tests: T323 - T341).
+  * 👥 **Team & Instructors:** UI positioning and grid layout layout verification across desktop resolutions (19 Tests: T323 - T341).
   * 🏷️ **Brand Identity media page:** Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints (17 Tests: T342 - T358).
 *   **Deliverables:**
     *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the web application core functionality (5 modules).*
