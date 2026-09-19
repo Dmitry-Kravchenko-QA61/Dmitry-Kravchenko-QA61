@@ -44,7 +44,7 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 # 4. Detailed Defect Logs (Discovered Bugs)
 
 ### 🐛 Bug #1: Visual Layout Shift on Theory Website Module (ID: T278)
-* **Description:** The corporate values block causes a severe visual layout shift during standard DOM loading protocols, overlapping adjacent text components.
+* * Description: The corporate values block causes a minor visual layout shift during standard DOM loading protocols, leading to a partial text overlap with adjacent components.
 * **Severity:** Minor (UI Layout Discrepancy)
 
 ### 🐛 Bug #2: Catalog Search Query Parsing Failure (ID: T297)
@@ -60,4 +60,4 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 While the overall platform architecture shows robust structural stability, the Quality Gate status is currently **REJECTED** pending the resolution of the Major search filtering restriction found in the Courses Catalog (ID: T297).
 
 * **Quality Gate Status:** ❌ REJECTED (Fixes Required)
-* **Next Steps:** Hotfix deployment is requested for the Courses Catalog module (T297) to restore search functionality. UI styling regressions on the Theory website module (T278) and Team / Instructors module (T337) can be safely tracked as minor backlog actions for the upcoming sprint.
+* **Next Steps:** Hotfix deployment is requested for the Courses Catalog module (T297) to restore search functionality. UI styling regressions on the Theory Website module (T278) and Team / Instructors module (T337) can be safely tracked as minor backlog actions for the upcoming sprint.
