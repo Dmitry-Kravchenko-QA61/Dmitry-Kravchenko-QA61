@@ -9,7 +9,7 @@ Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Quality 
 ## 🚀 About Me
 
 * **🎓 Education:** Graduated from IT STEP Academy with an International Diploma in Manual Software Testing & Systems Administration.
-* **⚡ Technical Excellence:** Achieved a 97% score on the Cisco international final exam (Cisco Certified IT Essentials).
+* **⚡ Technical Excellence:** Achieved a 97% score on the Cisco international final exam (Cisco IT Essentials).
 * **🕹️ GameDev Experience:** Participated in testing real-world mobile game projects developed by PixelCraft Studio:
   * *Shadows of Silence* (2D, live on Google Play Store).
   * *Last Signal 2* (3D indie game, currently in active testing).
