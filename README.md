@@ -39,13 +39,13 @@ Comprehensive functional verification covering navigation blocks, site search, c
 *   **Total Scope:** 85 Test Cases (IDs T274 - T358)
 *   **Pass Rate:** 96.47% (82 Passed, 3 Failed)
 *   **Core Modules Tested:**
-    * **About Us (Theory) Module:** Validated educational text layouts, content navigation links, and cross-browser formatting. *(15 Tests: T274 - T288)*
+    * **"Theory" website module:** Validated educational text layouts, content navigation links, and cross-browser formatting. *(15 Tests: T274 - T288)*
     * **Courses Catalog:** Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars. *(17 Tests: T289 - T305)*
     * **Bugs & Test Cases:** Kanban board drag-and-drop, mock form fields validation, and error log simulators. *(17 Tests: T306 - T322)*
     * **Team & Instructors:** UI responsiveness, speed metrics, modal pop-ups for team bios, and active language switches. *(19 Tests: T323 - T341)*
     * **Brand Identity:** Verified asset wrappers, typography consistency, and hex copy-to-clipboard functionality. *(17 Tests: T342 - T358)*
 *   **Deliverables:**
-    *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the About Us module* (Note: In the documentation architecture, this module is referenced under its initial technical specification title "Theory").
+    *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the "Theory" website module* (Note: In the documentation architecture, this module is referenced under its initial technical specification title "Theory").
     *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics*
     *   📊 [Download & View Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step test scenarios*
 
