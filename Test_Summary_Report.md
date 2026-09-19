@@ -44,7 +44,7 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 # 4. Detailed Defect Logs (Discovered Bugs)
 
 ### 🐛 Bug #1: Visual Layout Shift on Theory Website Module (ID: T278)
-* * Description: The corporate values block causes a minor visual layout shift during standard DOM loading protocols, leading to a partial text overlap with adjacent components.
+* **Description:** The corporate values block causes a minor visual layout shift during standard DOM loading protocols, leading to a partial text overlap with adjacent components.
 * **Severity:** Minor (UI Layout Discrepancy)
 
 ### 🐛 Bug #2: Catalog Search Query Parsing Failure (ID: T297)
