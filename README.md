@@ -2,7 +2,7 @@
 
 ### Junior QA Engineer | Passionate about GameDev Testing 🎮
 
-Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Quality Assurance Engineer with a solid foundation in manual web and mobile testing. Backed by a strong technical background in systems administration and networking, I bring a meticulous approach to defect troubleshooting, environment configuration, and cross-platform software quality assurance.
+Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Junior Quality Assurance Engineer with a solid foundation in manual web and mobile testing. Backed by a strong technical background in systems administration and networking, I bring a meticulous approach to defect troubleshooting, environment configuration, and cross-platform software quality assurance.
 
 ---
 
