@@ -37,7 +37,7 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **T297 Failed:** Search bar fails to filter specific API cards. |
 | **Bugs & Test Cases** | T306 – T322 | 17 | 17 | 0 | 🟢 Stable. All mock Jira form controls working as intended. |
 | **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **T337 Failed:** Transparency overlay broken on specific mentor assets. |
-| **Brand Identity** | T342 – T358 | 17 | 17 | 0 | 🟢 Stable. Asset wrappers and hex copy-to-clipboard passed. |
+| **User Profile & Settings** | T342 – T358 | 17 | 17 | 0 | 🟢 Stable. Asset wrappers and hex copy-to-clipboard passed. |
 
 ---
 
