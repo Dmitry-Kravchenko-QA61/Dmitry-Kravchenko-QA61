@@ -44,7 +44,7 @@ Comprehensive functional verification covering navigation blocks, site search, c
     * 🔍 **Courses Catalog:** Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars. *(17 Tests: T289 - T305)*
     * 🐛 **Bugs & Test Cases:** Kanban board drag-and-drop, mock form fields validation, and error log simulators. *(17 Tests: T306 - T322)*
     * 👥 **Team & Instructors:** UI responsiveness, speed metrics, modal pop-ups for team bios, and active language switches. *(19 Tests: T323 - T341)*
-    * 🔐 **User Profile & Settings:** Verified asset wrappers, typography consistency, and hex copy-to-clipboard functionality. *(17 Tests: T342 - T358)*
+    * 🔐 **User Profile & Settings:** Authentication constraints, personal data fields validation, and password recovery flows. *(17 Tests: T342 - T358)*
 *   **Deliverables:**
     *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the web application core functionality (5 modules).*
     *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics*
