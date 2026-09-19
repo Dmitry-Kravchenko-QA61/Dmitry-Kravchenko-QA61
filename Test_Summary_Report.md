@@ -13,11 +13,11 @@ The primary objective of this testing cycle was to verify layout stability, end-
 
 **In Scope:**
 
-* **Theory Website Module:** Core headings, mission blocks, localization, and "accordion" behavior.
-* **Courses Catalog:** Grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
-* **Bugs & Test Cases:** Mock Jira forms, drag-and-drop kanban columns, and state triggers.
-* **Team & Instructors:** Expert profiles, filter tabs, modal biographies, and responsive flexbox wrapping.
-* **Brand Identity media page:** Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints.
+* 📑 **Theory Website Module:** Core headings, mission blocks, localization, and "accordion" behavior.
+* 🔍 **Courses Catalog:** Grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
+* 🐛 **Bugs & Test Cases:** Mock Jira forms, drag-and-drop kanban columns, and state triggers.
+* 👥 **Team & Instructors:** Expert profiles, filter tabs, modal biographies, and responsive flexbox wrapping.
+* 🏷️ **Brand Identity media page:** Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints.
 
 
 ## 3. Test Design & Metrics Summary
