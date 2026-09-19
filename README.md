@@ -47,8 +47,8 @@ Comprehensive functional verification covering navigation blocks, site search, c
     * 🔐 **User Profile & Settings:** Authentication constraints, personal data fields validation, and password recovery flows. *(17 Tests: T342 - T358)*
 *   **Deliverables:**
     *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the web application core functionality (5 modules).*
-    *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics*
-    *   📊 [Download & View Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step test scenarios*
+    *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics.*
+    *   📊 [Download & View Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step test scenarios.*
 
 ### 🎮 Project 2: Mobile Game Testing (GameDev Artifacts)
 *   - 🎮 **[PixelCraft Studio Mobile Games Testing Internship Portfolio](PixelCraft-Studio-Games-Testing):** This folder contains my real test artifacts, including comprehensive manual checklists, test cases, and well-structured bug reports (**27 bug reports for Shadows of Silence** and **7 bug reports for Last Signal 2**).
