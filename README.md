@@ -18,13 +18,13 @@ Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Junior Q
 
 ## 🛠️ Tech Stack & Skills
 
-* **Testing Types & Approaches:** Manual Testing, Black-Box/Grey-Box Testing, Smoke Testing, Regression Testing, Sanity Testing, Retesting, Interrupt Testing, UI/UX Verification.
-* **Target Platforms:** Web (Desktop, Mobile Web), Mobile (Android).
-* **Test Documentation:** Requirements Analysis, Test Plans, Decomposition, Test Cases, Checklists, Bug Reports, Test Design Techniques.
-* **SDLC/STLC:** Agile Frameworks (Scrum, Kanban), Waterfall, Bug Life Cycle.
-* **Tools & Technologies:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL, Chrome DevTools, HTML/CSS, Google Docs/Sheets.
-* **Web Understanding:** Client-Server Architecture.
-* **Operating Systems:** Windows, Linux, Android.
+* 🧠 **Testing Types & Approaches:** Manual Testing, Black-Box/Grey-Box Testing, Smoke Testing, Regression Testing, Sanity Testing, Retesting, Interrupt Testing, UI/UX Verification.
+* 📱 **Target Platforms:** Web (Desktop, Mobile Web), Mobile (Android).
+* 📑 **Test Documentation:** Requirements Analysis, Test Plans, Decomposition, Test Cases, Checklists, Bug Reports, Test Design Techniques.
+* 🔄 **SDLC/STLC:** Agile Frameworks (Scrum, Kanban), Waterfall, Bug Life Cycle.
+* 🛠️ **Tools & Technologies:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL, Chrome DevTools, HTML/CSS, Google Docs/Sheets.
+* 🌐 **Web Understanding:** Client-Server Architecture.
+* 💻 **Operating Systems:** Windows, Linux, Android.
 
 ---
 
