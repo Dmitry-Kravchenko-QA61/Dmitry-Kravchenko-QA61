@@ -21,7 +21,8 @@ The primary objective of this testing cycle was to verify layout stability, end-
 
 ## 3. Test Design & Metrics Summary
 
-A total of **85 manual test cases** were executed. The test suite utilized core black-box techniques including **Equivalence Partitioning (EP)**, **Boundary Value Analysis (BVA)**, and **State Transition Testing** to validate UI controls and functional boundaries.
+A total of 85 manual test cases were executed. The test suite utilized core black-box techniques including equivalence partitioning (EP), boundary value analysis (BVA), and state transition testing to validate UI controls and functional boundaries.
+
 
 ### 📈 Execution Dashboard
 
