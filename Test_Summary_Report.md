@@ -16,7 +16,7 @@ The primary objective of this testing cycle was to verify layout stability, end-
 *   **Courses Catalog:** Grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
 *   **Bugs & Test Cases:** Mock Jira forms, drag-and-drop kanban columns, and state triggers.
 *   **Team & Instructors:** Expert profiles, filter tabs, modal biographies, and responsive flexbox wrapping.
-*   **User Profile & Settings:** Authentication constraints, personal data fields validation, and password recovery flows.set diagrams.
+*   **User Profile & Settings:** Authentication constraints, personal data fields validation, and password recovery flows.
 
 ---
 
