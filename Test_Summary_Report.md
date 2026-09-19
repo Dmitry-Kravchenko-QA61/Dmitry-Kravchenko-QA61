@@ -33,7 +33,7 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 
 | Module / Page | Test Case IDs | Total Tests | Passed | Failed | Status / Major Blockers Found |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **"Theory" website module ** | T274 – T288 | 15 | 14 | 1 | 🔴 **T278 Failed:** Corporate values block visual layout shift. |
+| **"Theory" website module** | T274 – T288 | 15 | 14 | 1 | 🔴 **T278 Failed:** Corporate values block visual layout shift. |
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **T297 Failed:** Search bar fails to filter specific API cards. |
 | **Bugs & Test Cases** | T306 – T322 | 17 | 17 | 0 | 🟢 Stable. All mock Jira form controls working as intended. |
 | **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **T337 Failed:** Transparency overlay broken on specific mentor assets. |
