@@ -13,7 +13,7 @@ The primary objective of this testing cycle was to verify layout stability, end-
 
 **In Scope:**
 
-* **Theory Website Module:** Core headings, mission blocks, localization, and accordion behavior.
+* **Theory Website Module:** Core headings, mission blocks, localization, and "accordion" behavior.
 * **Courses Catalog:** Grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
 * **Bugs & Test Cases:** Mock Jira forms, drag-and-drop kanban columns, and state triggers.
 * **Team & Instructors:** Expert profiles, filter tabs, modal biographies, and responsive flexbox wrapping.
@@ -49,7 +49,7 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 * **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API & DB Testing' course card remains hidden.
 * **Severity:** Major (Functional Limitation in Content Discovery)
 
-### 🐛 Bug #3: Hover State Overlay Exception on Team / Instructors Module (ID: T337)
+### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: T337)
 * **Description:** Hovering a cursor over a mentor profile card background photo does not render the darkened opacity overlay. Social sharing sub-elements remain partially hidden.
 * **Severity:** Trivial (Cosmetic / Usability Polish)
 ## 5. Conclusion & Recommendations
