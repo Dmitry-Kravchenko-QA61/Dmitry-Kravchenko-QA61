@@ -50,11 +50,11 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 * **Severity:** Critical (Core Functional Restriction in Content Discovery)
 
 ### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: T337)
-* **Description:** Hovering a cursor over a mentor profile card background photo does not render the darkened opacity overlay. Social sharing sub-elements remain partially hidden.
-* **Severity:** Trivial (Cosmetic / Usability Polish)
+* **Description:** Hovering a cursor over a mentor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the links.
+* **Severity:** Minor (Cosmetic / Usability Polish)
 ## 5. Conclusion & Recommendations
 
 While the overall platform architecture shows robust structural stability, the Quality Gate status is currently ❌ REJECTED (Fixes Required) pending the resolution of the Critical search filtering restriction found in the Courses Catalog (ID: T297).
 
 * **Quality Gate Status:** ❌ **REJECTED** (Fixes Required)
-* **Next Steps:** A hotfix deployment is requested for the Courses Catalog module (T297) to restore search functionality prior to release. UI styling regressions on the Theory Website module (T278) and Team / Instructors module (T337) can be safely tracked as minor backlog actions for the upcoming sprint.
+* **Next Steps:** A hotfix deployment is requested for the **Courses Catalog** module (T297) to restore search functionality prior to release. The UI styling and functionality regressions on the **Theory Website** module (T278) and **Team / Instructors** module (T337) must be moved to the active sprint backlog for immediate post-release or concurrent fixing, as T337 partially blocks user interaction with social links.
