@@ -50,8 +50,12 @@ Comprehensive functional verification covering navigation blocks, site search, c
     *   📊 [Download & View Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step test scenarios.*
 
 ### 🎮 Project 2: Mobile Game Testing (GameDev Artifacts)
-*   - 🎮 **[PixelCraft Studio Mobile Games Testing Internship Portfolio](PixelCraft-Studio-Games-Testing):** This folder contains my real test artifacts, including comprehensive manual checklists, test cases, and well-structured bug reports (**27 bug reports for Shadows of Silence** and **7 bug reports for Last Signal 2**).
-*   **Target:** Verify build stability, UI controls, interruptions, and performance limits for mobile games.
+Target: Verify build stability, UI controls, interruptions, and performance limits for mobile games.
+*   - 🎮 **[PixelCraft Studio Mobile Games Testing Internship Portfolio](PixelCraft-Studio-Games-Testing):** This sub-folder contains my real test artifacts delivered during commercial game verification (Black-box & Grey-box approaches).
+* **Bug Reports Filed:** 
+  * 🐛 **27 bug reports** for the 2D game *Shadows of Silence* (Live on Google Play Store).
+  * 🐛 **7 bug reports** for the 3D indie game *Last Signal 2* (Active testing phase).
+* **Core Artifacts:** Functional checklists, mobile-specific boundary test cases, and clean logs.
 
 ---
 
