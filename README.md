@@ -45,7 +45,7 @@ Comprehensive functional verification covering navigation blocks, site search, c
     * **Team & Instructors:** UI responsiveness, speed metrics, modal pop-ups for team bios, and active language switches. *(19 Tests: T323 - T341)*
     * **Brand Identity:** Verified asset wrappers, typography consistency, and hex copy-to-clipboard functionality. *(17 Tests: T342 - T358)*
 *   **Deliverables:**
-    *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the "Theory" website module* (Note: In the documentation architecture, this module is referenced under its initial technical specification title "Theory").
+    *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the "Theory" website module*
     *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics*
     *   📊 [Download & View Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step test scenarios*
 
