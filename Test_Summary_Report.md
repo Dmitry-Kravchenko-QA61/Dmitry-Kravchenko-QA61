@@ -31,10 +31,10 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 
 ### ⚙️ Module Distribution & Findings
 
-| Module / Page | Test Case IDs | Total Tests | Passed | Failed | Status / Major Blockers Found |
+| Module / Page | Test Case IDs | Total Tests | Passed | Failed | Status / Defects Found |
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **Theory Website Module** | T274 – T288 | 15 | 14 | 1 | 🔴 **T278 Failed:** Corporate Values block causes visual layout shift. |
-| **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **T297 Failed:** Catalog search query parsing failure. |
+| **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **T297 Failed (Critical):** Catalog search query parsing failure. |
 | **Bugs & Test Cases** | T306 – T322 | 17 | 17 | 0 | 🟢 **Stable.** All mock Jira form controls working as intended. |
 | **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **T337 Failed:** Hover state transparency overlay broken on mentor assets. |
 | **User Profile & Settings** | T342 – T358 | 17 | 17 | 0 | 🟢 **Stable.** Asset wrappers and hex copy-to-clipboard passed. |
