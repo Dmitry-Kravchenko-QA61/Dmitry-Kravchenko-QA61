@@ -34,7 +34,7 @@ Inside this profile, you can find examples of my test documentation and hands-on
 ### 💻 Project 1: Web Application Testing (Functional & UI Validation)
 Comprehensive functional verification covering navigation blocks, site search, catalog filters, and complex responsive layout elements.
 
-*   **Artifact Type:** Manual Test Suite & Test Summary Report
+*   **Artifacts Delivered:** Functional Test Cases (Manual), Test Checklist, and Test Summary Report.
 *   **Total Scope:** 85 Test Cases (IDs T274 - T358)
 *   **Pass Rate:** 96.47% (82 Passed, 3 Failed)
 *   **Core Modules Tested:**
