@@ -27,7 +27,7 @@ A total of **85 manual test cases** were executed. The test suite utilized core 
 
 | Total Executed | Passed | Failed | Blocked | Pass Rate |
 | :---: | :---: | :---: | :---: | :---: |
-| 85 | 82 | 3 | 0 | **96.47%** ⚠️ |
+| 85 | 82 | 3 | 0 | **96.4705%** ⚠️ |
 
 ### 🔍 Module Distribution & Findings
 
