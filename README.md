@@ -8,11 +8,11 @@ Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Quality 
 
 ## 🚀 About Me
 
-*   🎓 **Education:** Graduated from IT STEP Academy with an International Diploma in Manual Software Testing & Systems Administration.
-*   ⚡ **Technical Excellence:** Achieved a **97% score** on the Cisco international final exam (Cisco Certified IT Essentials).
-*   🕹️ **GameDev Experience:** Participated in testing real-world mobile game projects developed by PixelCraft Studio:
-    *   *Shadows of Silence* (2D, live on Google Play Store)
-    *   *Last Signal 2* (3D indie game, currently in active testing)
+* **🎓 Education:** Graduated from IT STEP Academy with an International Diploma in Manual Software Testing & Systems Administration.
+* **⚡ Technical Excellence:** Achieved a 97% score on the Cisco international final exam (Cisco Certified IT Essentials).
+* **🕹️ GameDev Experience:** Participated in testing real-world mobile game projects developed by PixelCraft Studio:
+  * *Shadows of Silence* (2D, live on Google Play Store).
+  * *Last Signal 2* (3D indie game, currently in active testing).
 
 ---
 
@@ -25,6 +25,7 @@ Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Quality 
 * **Tools & Technologies:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL, Chrome DevTools, HTML/CSS, Google Docs/Sheets.
 * **Web Understanding:** Client-Server Architecture.
 * **Operating Systems:** Windows, Linux, Android.
+
 ---
 
 ## 📁 Portfolio Projects & Artifacts
@@ -34,15 +35,15 @@ Inside this profile, you can find examples of my test documentation and hands-on
 ### 💻 Project 1: Web Application Testing (Functional & UI Validation)
 Comprehensive functional verification covering navigation blocks, site search, catalog filters, and complex responsive layout elements.
 
-*   **Artifacts Delivered:** Functional Test Cases (Manual), Test Checklist, and Test Summary Report.
-*   **Total Scope:** 85 Test Cases (IDs T274 - T358)
-*   **Pass Rate:** 96.47% (82 Passed, 3 Failed)
-*   **Core Modules Tested:**
-    * 📘 **Theory Website Module:** Validated educational text layouts, content navigation links, and cross-browser formatting. *(15 Tests: T274 - T288)*
-    * 🔍 **Courses Catalog:** Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars. *(17 Tests: T289 - T305)*
-    * 🐛 **Bugs & Test Cases:** Kanban board drag-and-drop, mock form fields validation, and error log simulators. *(17 Tests: T306 - T322)*
-    * 👥 **Team & Instructors:** UI responsiveness, speed metrics, modal pop-ups for team bios, and active language switches. *(19 Tests: T323 - T341)*
-    * 🔐 **User Profile & Settings:** Authentication constraints, personal data fields validation, and password recovery flows. *(17 Tests: T342 - T358)*
+* **Artifacts Delivered:** Functional Test Cases (Manual), Test Checklist, and Test Summary Report.
+* **Total Scope:** 85 Test Cases (IDs T274 - T358).
+* **Pass Rate:** 96.47% (82 Passed, 3 Failed).
+* **Core Modules Tested:**
+  * 📑 **Theory Website Module:** Validated educational text layouts, content navigation links, and cross-browser formatting (15 Tests: T274 - T288).
+  * 🔍 **Courses Catalog:** Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars (17 Tests: T289 - T305).
+  * 🪲 **Bugs & Test Cases:** Kanban board drag-and-drop, mock form fields validation, and error log simulators (17 Tests: T306 - T322).
+  * 👥 **Team & Instructors:** UI responsiveness, speed metrics, modal pop-ups for team bios, and active language switches (19 Tests: T323 - T341).
+  * 👤 **User Profile & Settings:** Authentication constraints, personal data fields validation, and password recovery flows (17 Tests: T342 - T358).
 *   **Deliverables:**
     *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the web application core functionality (5 modules).*
     *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics.*
