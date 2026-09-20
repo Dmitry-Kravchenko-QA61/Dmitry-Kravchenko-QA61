@@ -43,7 +43,7 @@ This repository contains the comprehensive test documentation and architecture v
 
 ### 🔗 Project Links
 
-*   💻 **Source Code Repository:** [Dmitry-Kravchenko-QA61 / Test_Summary_Report](https://github.com)
+*   💻 **Source Code Repository:** [Dmitry-Kravchenko-QA61 / Test_Summary_Report](site.rar)
 *   🌐 **Live Web Platform Application:** [QA Academy Live Web App](https://github.io) *(Note: If GitHub Pages is activated, this link maps your live web environment)*
 
 ---
