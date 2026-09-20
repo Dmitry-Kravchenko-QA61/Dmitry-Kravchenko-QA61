@@ -14,16 +14,16 @@
 The primary focus of this testing cycle was scoped strictly to 5 core modules of the web platform to verify layout stability, end-to-end navigation flows, and UI/UX layout positioning across desktop screen resolutions.
 
 ### In Scope:
-* **Theory Website Module:** Validation of core headings, mission blocks, localization, and accordion component behavior.
-* **Courses Catalog:** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
-* **Bugs & Test Cases Module:** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, and error log simulators.
-* **Team / Instructors:** Verification of expert profiles, filter tabs, modal biographies, and cross-browser desktop grid layout verification.
-* **Brand Identity Media Page:** Validation of Media Kit parameters, brand logo assets validation, technical spacing, hex color tokens, and vector file size constraints.
+* 📖 **Theory Website Module:** Validation of core headings, mission blocks, localization, and accordion component behavior.
+* 🔍 **Courses Catalog:** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
+* 🐛 **Bugs & Test Cases Module:** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, and error log simulators.
+* 👥 **Team / Instructors:** Verification of expert profiles, filter tabs, modal biographies, and cross-browser desktop grid layout verification.
+* 🏷️ **Brand Identity Media Page:** Validation of Media Kit parameters, brand logo assets validation, technical spacing, hex color tokens, and vector file size constraints.
 
 ### Out of Scope (Deferred to Next Sprint):
-* **Home Page / Landing Interface:** Main introduction layout validation and baseline entry nodes.
-* **About Us Page:** Corporate profile statistics grid verification and historical timeline layout blocks.
-* **User Registration & Authentication Hub:** Input form boundary conditions, field validation rules, error state triggers, and end-to-end data submission.
+* 🏠 **Home Page / Landing Interface:** Main introduction layout validation and baseline entry nodes.
+* 🏢 **About Us Page:** Corporate profile statistics grid verification and historical timeline layout blocks.
+* 🔐 **User Registration & Authentication Hub:** Input form boundary conditions, field validation rules, error state triggers, and end-to-end data submission.
 
 ---
 
