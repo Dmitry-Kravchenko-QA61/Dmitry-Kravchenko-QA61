@@ -26,7 +26,7 @@ Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Junior Q
 * 🌐 **Web Understanding:** Client-Server Architecture.
 * 💻 **Operating Systems:** Windows, Linux, Android.
 
-* ## 🌐 Project Under Test: QA Academy Platform
+* ## 🌐 Tested Project: QA Academy Platform
 
 This repository contains the comprehensive test documentation and architecture validation results for **QA Academy** (Academy Practicum) — a specialized multi-page educational web platform designed for QA engineering simulation. The system integrates highly interactive mock widgets, catalog searching, and boundary-condition test environments to simulate complex real-world client-server workflows.
 
