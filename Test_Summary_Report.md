@@ -20,8 +20,8 @@ The primary focus of this testing cycle was scoped strictly to **5 core modules*
 * 🏷️ **Brand Identity Media Page:** Validation of Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints.
 
 
-
 * **Out of Scope (Deferred to Next Sprint):**
+
 *   **Home Page / Landing Interface:** Main introduction layout validation and baseline entry nodes.
 *   **About Us Page:** Corporate profile statistics grid verification and historical timeline layout blocks.
 *   **User Registration & Test Cases Hub:** Input form boundary conditions, field validation rules, error state triggers, and end-to-end data submission.
