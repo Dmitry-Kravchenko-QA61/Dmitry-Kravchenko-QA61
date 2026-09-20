@@ -26,6 +26,26 @@ Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Junior Q
 * 🌐 **Web Understanding:** Client-Server Architecture.
 * 💻 **Operating Systems:** Windows, Linux, Android.
 
+* ## 🌐 Project Under Test: QA Academy Platform
+
+This repository contains the comprehensive test documentation and architecture validation results for **QA Academy** (Academy Practicum) — a specialized multi-page educational web platform designed for QA engineering simulation. The system integrates highly interactive mock widgets, catalog searching, and boundary-condition test environments to simulate complex real-world client-server workflows.
+
+### 📄 Tested Pages & Modules Overview
+
+*   **Home Page (`home.html`):** The primary landing interface featuring core value propositions, navigation nodes, and baseline platform introduction elements.
+*   **About Us (`aboutus.html`):** A dedicated corporate information page detailing the academy's profile, operational statistics, and structural overview grid.
+*   **Courses Catalog (`courses.html`):** An interactive data-driven module incorporating multi-attribute dynamic search filters, sidebar filtering parameters, and grid positioning.
+*   **Theory Website Module (`theory.html`):** Educational interface featuring complex text blocks, documentation trees, navigation links, and cross-browser text formatting limits.
+*   **Bugs & Test Cases Module (`bugs.html`):** A customized QA sandbox environment designed for practical simulation, featuring complex functional triggers and data-input states.
+*   **User Registration (`register.html`):** Input form module tested heavily for boundary conditions, field validation rules, error state triggers, and successful data submission.
+*   **Test Cases Hub (`testcases.html`):** A specialized analytical interface built to render step-by-step validation scenarios, structured test tables, and layout-heavy verification grids.
+*   **Interesting Read (`interesting.html`):** An integrated content directory serving as an educational resource center with layout-heavy text blocks and external-facing link schemas.
+
+### 🔗 Project Links
+
+*   💻 **Source Code Repository:** [Dmitry-Kravchenko-QA61 / Test_Summary_Report](https://github.com)
+*   🌐 **Live Web Platform Application:** [QA Academy Live Web App](https://github.io) *(Note: If GitHub Pages is activated, this link maps your live web environment)*
+
 ---
 
 ## 📁 Portfolio Projects & Artifacts
