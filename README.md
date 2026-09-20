@@ -52,10 +52,10 @@ This repository contains the comprehensive test documentation and architecture v
 Inside this profile, you can find examples of my test documentation and hands-on QA deliverables:
 
 ### 💻 Project 1: Web Application Testing (Functional & UI Validation)
-Comprehensive functional verification covering navigation blocks, site search, catalog filters, and desktop grid layout elements.
+Comprehensive functional and UI verification focused on the application's core architecture. While the platform consists of 8 pages in total, this testing cycle was scoped strictly to **5 core modules** to validate navigation blocks, site search, catalog filters, and desktop grid layout elements.
 
 * **Artifacts Delivered:** Functional Test Cases (Manual), Test Checklist, and Test Summary Report.
-* **Total Scope:** 85 Test Cases (IDs T274 - T358).
+* **Total Scope:** 85 Test Cases (IDs T274 - T358) covering 5 tested modules.
 * **Pass Rate:** 96.47% (82 Passed, 3 Failed).
 * **Core Modules Tested:**
   * 📑 **Theory Website Module:** Validated educational text layouts, content navigation links, and cross-browser formatting (15 Tests: T274 - T288).
@@ -65,8 +65,8 @@ Comprehensive functional verification covering navigation blocks, site search, c
   * 🏷️ **Brand Identity Media Page:** Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints (17 Tests: T342 - T358).
 *   **Deliverables:**
     *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the web application core functionality (5 modules).*
-    *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics.*
-    *   📊 [Download & View Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step test scenarios.*
+    *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics, and Quality Gate Evaluation.*
+    *   📊 [Download & View Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step manual test scenarios.*
 
 ### 🎮 Project 2: Mobile Game Testing (GameDev Artifacts)
 Target: Verify build stability, UI controls, interruptions, and performance limits for mobile games.
