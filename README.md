@@ -43,8 +43,7 @@ This repository contains the comprehensive test documentation and architecture v
 
 ### 🔗 Project Links
 
-*   💻 **Source Code Repository:** [Dmitry-Kravchenko-QA61 / Tested Pages & Modules](Сайт)
-*   🌐 **Live Web Platform Application:** [QA Academy Live Web App](file:///C:/Users/windo/AppData/Local/Temp/Rar$EXa34272.21958.rartemp/%D0%A1%D0%B0%D0%B9%D1%82/theory.html) *(Note: If GitHub Pages is activated, this link maps your live web environment)*
+*   💻 **Source Code Repository:** [Dmitry-Kravchenko-QA61 / Tested Pages & Modules](Site)
 
 ---
 
