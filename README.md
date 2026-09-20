@@ -43,7 +43,7 @@ This repository contains the comprehensive test documentation and architecture v
 
 ### 🔗 Project Links
 
-*   💻 **Source Code Repository:** [Dmitry-Kravchenko-QA61 / Test_Summary_Report](Site)
+*   💻 **Source Code Repository:** [Dmitry-Kravchenko-QA61 / Tested Pages & Modules](Site)
 
 ---
 
