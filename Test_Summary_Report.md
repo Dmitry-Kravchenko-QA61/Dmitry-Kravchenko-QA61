@@ -13,11 +13,16 @@ The primary focus of this testing cycle was scoped strictly to **5 core modules*
 
 **In Scope:**
 
-* 📑 **Theory Website Module:** Core headings, mission blocks, localization, and "accordion" behavior.
-* 🔍 **Courses Catalog:** Grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
-* 🐛 **Bugs & Test Cases:** Mock Jira forms, drag-and-drop Kanban columns, and state triggers.
-* 👥 **Team & Instructors:** Expert profiles, filter tabs, modal biographies, and cross-browser desktop grid layout verification.
-* 🏷️ **Brand Identity Media Page:** Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints.
+* 📑 **Theory Website Module:** Validation of core headings, mission blocks, localization, and "accordion" behavior.
+* 🔍 **Courses Catalog:** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
+* 🐛 **Bugs & Test Cases:** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, and error log simulators.
+* 👥 **Team & Instructors:** Verification of expert profiles, filter tabs, modal biographies, and cross-browser desktop grid layout verification.
+* 🏷️ **Brand Identity Media Page:** Validation of Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints.
+
+* **Out of Scope (Deferred to Next Sprint):**
+*   **Home Page / Landing Interface:** Main introduction layout validation and baseline entry nodes.
+*   **About Us Page:** Corporate profile statistics grid verification and historical timeline layout blocks.
+*   **User Registration & Test Cases Hub:** Input form boundary conditions, field validation rules, error state triggers, and end-to-end data submission.
 
 
 ## 3. Test Design & Metrics Summary
@@ -46,14 +51,34 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 ### 🐛 Bug #1: Visual Layout Shift on Theory Website Module (ID: T278)
 * **Description:** The Corporate Values block causes a minor visual layout shift during standard DOM rendering, leading to a partial text overlap with adjacent components.
 * **Severity:** Major (UI Layout Discrepancy)
+* **Steps to Reproduce:**
+    1. Navigate to the Theory Website Module page.
+    2. Scroll down to the "Corporate Values" section.
+    3. Observe the structural component alignment.
+*   **Actual Result:** Text blocks overlap with adjacent components during DOM rendering.
+*   **Expected Result:** Components are rendered with proper margins and zero padding overlaps.
 
 ### 🐛 Bug #2: Catalog Search Query Parsing Failure (ID: T297)
 * **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API & DB Testing' course card remains hidden, completely blocking users from finding matching content.
 * **Severity:** Critical (Core Functional Restriction in Content Discovery)
+* **Steps to Reproduce:**
+    1. Open the Courses Catalog page.
+    2. Click on the dynamic search bar input box.
+    3. Type the search query string "API".
+*   **Actual Result:** View grid does not update; "API & DB Testing" card remains completely hidden.
+*   **Expected Result:** Search query parses instantly and displays all matching course cards dynamically.
+
 
 ### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: T337)
 * **Description:** Hovering a cursor over a mentor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social media links.
 * **Severity:** Critical (UI/UX Functionality Bug)
+* **Steps to Reproduce:**
+    1. Open the Team / Instructors Module page.
+    2. Locate any mentor profile card grid node.
+    3. Hover the mouse cursor directly over the mentor's background photo.
+*   **Actual Result:** Darkened opacity overlay fails to trigger, leaving social links hidden and unclickable.
+*   **Expected Result:** Hover state instantly triggers opacity overlay and renders accessible social media links.
+
 ## 5. Conclusion & Recommendations
 
 While the overall platform architecture shows robust structural stability, the Quality Gate status is currently ❌ REJECTED (Fixes Required) pending the resolution of the Critical search filtering restriction found in the Courses Catalog (ID: T297).
