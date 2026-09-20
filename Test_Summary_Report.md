@@ -53,7 +53,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 
 ### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: T337)
 * **Description:** Hovering a cursor over a mentor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social media links.
-* **Severity:** Major (UI/UX Functionality Bug)
+* **Severity:** Critical (UI/UX Functionality Bug)
 ## 5. Conclusion & Recommendations
 
 While the overall platform architecture shows robust structural stability, the Quality Gate status is currently ❌ REJECTED (Fixes Required) pending the resolution of the Critical search filtering restriction found in the Courses Catalog (ID: T297).
