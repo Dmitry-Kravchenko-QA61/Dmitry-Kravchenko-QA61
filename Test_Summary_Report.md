@@ -94,6 +94,6 @@ While the overall platform architecture shows robust structural stability, the Q
 
 ### 📋 Next Steps & Action Plan
 
-1.  **Immediate Hotfix Deployment:** A targeted hotfix deployment is strictly requested for the **Courses Catalog (T297)** and **Team / Instructors (T337)** modules. Both defects introduce blocking behaviors that fail baseline deployment quality standards for the production environment and must be resolved before branch closure.
+1.  **Immediate Hotfix Deployment:** A targeted hotfix deployment is strictly requested for both the **Courses Catalog (T297)** and **Team / Instructors (T337)** modules. Both defects introduce blocking behaviors that fail baseline deployment quality standards for the production environment and must be resolved before branch closure.
 2.  **Sprint Backlog Deferral:** The UI styling regression on the **Theory Website Module (T278)** causes a visual layout shift but does not impact business logic boundaries. This issue can be safely deferred to the active sprint backlog for immediate post-release processing or concurrent maintenance.
 3.  **Regression Cycle Scheduling:** Once development delivers verified source patches for T297 and T337, a targeted manual retest and regression suite must be executed against the catalog search matrix and team card wrappers to validate full Quality Gate compliance.
