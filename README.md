@@ -2,7 +2,7 @@
 
 ### Junior QA Engineer | Passionate about GameDev Testing 🎮
 
-Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Junior Quality Assurance Engineer with a solid foundation in manual web and mobile testing. Backed by a strong technical background in systems administration and networking, I bring a meticulous approach to defect troubleshooting, environment configuration, and cross-platform software quality assurance.
+Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Junior Quality Assurance Engineer with a solid foundation in manual web application and mobile game testing. Backed by a strong technical background in systems administration and networking, I bring a meticulous approach to defect troubleshooting, environment configuration, and cross-platform software quality assurance.
 
 ---
 
@@ -33,7 +33,7 @@ Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Junior Q
 Inside this profile, you can find examples of my test documentation and hands-on QA deliverables:
 
 ### 💻 Project 1: Web Application Testing (Functional & UI Validation)
-Comprehensive functional verification covering navigation blocks, site search, catalog filters, and complex responsive layout elements.
+Comprehensive functional verification covering navigation blocks, site search, catalog filters, and desktop grid layout elements.
 
 * **Artifacts Delivered:** Functional Test Cases (Manual), Test Checklist, and Test Summary Report.
 * **Total Scope:** 85 Test Cases (IDs T274 - T358).
