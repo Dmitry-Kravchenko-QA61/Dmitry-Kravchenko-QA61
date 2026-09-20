@@ -17,7 +17,7 @@ The primary objective of this testing cycle was to verify layout stability, end-
 * 🔍 **Courses Catalog:** Grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
 * 🐛 **Bugs & Test Cases:** Mock Jira forms, drag-and-drop kanban columns, and state triggers.
 * 👥 **Team & Instructors:** Expert profiles, filter tabs, modal biographies, and cross-browser desktop grid layout verification.
-* 🏷️ **Brand Identity media page:** Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints.
+* 🏷️ **Brand Identity Media Page:** Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints.
 
 
 ## 3. Test Design & Metrics Summary
@@ -39,7 +39,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **T297 Failed (Critical):** Catalog search query parsing failure. |
 | **Bugs & Test Cases** | T306 – T322 | 17 | 17 | 0 | 🟢 **Stable.** All mock Jira form controls working as intended. |
 | **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **T337 Failed:** Hover state transparency overlay blocks social links. |
-| **Brand Identity media page** | T342 – T358 | 17 | 17 | 0 | 🟢 **Stable.** Asset wrappers and hex copy-to-clipboard passed. |
+| **Brand Identity Media Page** | T342 – T358 | 17 | 17 | 0 | 🟢 **Stable.** Asset wrappers and hex copy-to-clipboard passed. |
 
 ## 4. Detailed Defect Logs (Discovered Bugs)
 
