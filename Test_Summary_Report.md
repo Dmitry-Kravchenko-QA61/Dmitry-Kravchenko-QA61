@@ -15,7 +15,7 @@ The primary objective of this testing cycle was to verify layout stability, end-
 
 * 📑 **Theory Website Module:** Core headings, mission blocks, localization, and "accordion" behavior.
 * 🔍 **Courses Catalog:** Grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
-* 🐛 **Bugs & Test Cases:** Mock Jira forms, drag-and-drop kanban columns, and state triggers.
+* 🐛 **Bugs & Test Cases:** Mock Jira forms, drag-and-drop Kanban columns, and state triggers.
 * 👥 **Team & Instructors:** Expert profiles, filter tabs, modal biographies, and cross-browser desktop grid layout verification.
 * 🏷️ **Brand Identity Media Page:** Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints.
 
@@ -48,15 +48,15 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 * **Severity:** Minor (UI Layout Discrepancy)
 
 ### 🐛 Bug #2: Catalog Search Query Parsing Failure (ID: T297)
-* **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API & DB Testing' course card remains hidden, completely blocking users from finding matching content.
+* **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The `API & DB Testing` course card remains hidden, completely blocking users from finding matching content.
 * **Severity:** Critical (Core Functional Restriction in Content Discovery)
 
 ### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: T337)
-* **Description:** Hovering a cursor over a mentor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social links.
+* **Description:** Hovering a cursor over a mentor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social media links.
 * **Severity:** Major (UI/UX Functionality Bug)
 ## 5. Conclusion & Recommendations
 
 While the overall platform architecture shows robust structural stability, the Quality Gate status is currently ❌ REJECTED (Fixes Required) pending the resolution of the Critical search filtering restriction found in the Courses Catalog (ID: T297).
 
 * **Quality Gate Status:** ❌ **REJECTED** (Fixes Required)
-* **Next Steps:** A hotfix deployment is requested for the **Courses Catalog** module (T297) to restore search functionality prior to release. The UI styling and functionality regressions on the **Theory Website** module (T278) and **Team / Instructors** module (T337) must be moved to the active sprint backlog for immediate post-release or concurrent fixing, as T337 partially causes a slight delay in overlay rendering without breaking link integrity with social links.
+* **Next Steps:** A hotfix deployment is requested for the **Courses Catalog** module (T297) to restore search functionality prior to release. The UI styling and functionality regressions on the **Theory Website** module (T278) and **Team / Instructors** module (T337) must be moved to the active sprint backlog for immediate post-release or concurrent fixing, as T337 partially causes a slight delay in overlay rendering without breaking link integrity with social media links.
