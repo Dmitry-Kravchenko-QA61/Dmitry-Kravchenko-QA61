@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-* **Project Name:** QA Portfolio Validation Suite
+* **Project Name:** Academy Practicum — QA Portfolio Validation Suite
 * **Environment:** Web Application (QA-Staging environment)
 * **Testing Period:** September 2026
 * **QA Engineer:** Dmitry Kravchenko
