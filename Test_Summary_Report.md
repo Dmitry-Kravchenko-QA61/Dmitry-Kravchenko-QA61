@@ -9,7 +9,7 @@
 
 ## 2. Objective & Scope
 
-The primary objective of this testing cycle was to verify layout stability, end-to-end navigation flows, and UI/UX layout positioning across desktop screen resolutions. Additionally, the scope included validating functional boundary conditions for input forms, search queries, and data fields, as well as verifying complex interactive sandbox states and dynamic workflows of the web platform's core pages.
+The primary focus of this testing cycle was scoped strictly to **5 core modules** of the web platform to verify layout stability, end-to-end navigation flows, and UI/UX layout positioning across desktop screen resolutions.
 
 **In Scope:**
 
