@@ -87,9 +87,11 @@ While the overall platform architecture shows robust structural stability, the Q
 
 * **Quality Gate Status:** ❌ **REJECTED** (Fixes Required)
 * **Next Steps:** A hotfix deployment is requested for the **Courses Catalog** module (T297) to restore search functionality prior to release. The UI styling and functionality regressions on the **Theory Website** module (T278) and **Team / Instructors** module (T337) must be moved to the active sprint backlog for immediate post-release or concurrent fixing, as T337 completely blocks user interaction with social media links due to the broken hover state overlay, failing quality standards for the production environment.
-* *   **Critical Release Blockers (Hotfix Required):**
-    1.  **(T297):** Core functional restriction in dynamic course query parsing which completely breaks the search workflow.
-    2.  **(T337):** UI/UX functionality blocker that drops overlay visibility and entirely obstructs user interaction with social media nodes.
+
+### 🔴 Critical Release Blockers (Hotfix Required)
+
+1.  **(T297):** Core functional restriction in dynamic course query parsing which completely breaks the search workflow.
+2.  **(T337):** UI/UX functionality blocker that drops overlay visibility and entirely obstructs user interaction with social media nodes.
 
 ### 📋 Next Steps & Action Plan
 
