@@ -38,14 +38,14 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 | **Theory Website Module** | T274 – T288 | 15 | 14 | 1 | 🔴 **T278 Failed:** Corporate Values block causes visual layout shift. |
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **T297 Failed (Critical):** Catalog search query parsing failure. |
 | **Bugs & Test Cases** | T306 – T322 | 17 | 17 | 0 | 🟢 **Stable.** All mock Jira form controls working as intended. |
-| **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **T337 Failed:** Hover state transparency overlay blocks social links. |
+| **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **T337 Failed (Critical):** Hover state transparency overlay blocks social links. |
 | **Brand Identity Media Page** | T342 – T358 | 17 | 17 | 0 | 🟢 **Stable.** Asset wrappers and hex copy-to-clipboard passed. |
 
 ## 4. Detailed Defect Logs (Discovered Bugs)
 
 ### 🐛 Bug #1: Visual Layout Shift on Theory Website Module (ID: T278)
 * **Description:** The Corporate Values block causes a minor visual layout shift during standard DOM rendering, leading to a partial text overlap with adjacent components.
-* **Severity:** Minor (UI Layout Discrepancy)
+* **Severity:** Major (UI Layout Discrepancy)
 
 ### 🐛 Bug #2: Catalog Search Query Parsing Failure (ID: T297)
 * **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API & DB Testing' course card remains hidden, completely blocking users from finding matching content.
