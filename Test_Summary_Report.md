@@ -58,9 +58,9 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 *   **Description:** The Corporate Values block causes a minor visual layout shift during standard DOM rendering, leading to a partial text overlap with adjacent components.
 *   **Severity:** Minor (UI Layout Discrepancy / Non-blocking)
 *   **Steps to Reproduce:**
-    1. Navigate to the Theory Website Module page.
-    2. Scroll down to the "Corporate Values" section.
-    3. Observe the structural component alignment.
+1. Navigate to the Theory Website Module page.
+2. Scroll down to the "Corporate Values" section.
+3. Observe the structural component alignment.
 *   **Actual Result:** Text blocks overlap with adjacent components during DOM rendering.
 *   **Expected Result:** Components are rendered with proper margins and zero padding overlaps.
 
@@ -69,9 +69,9 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 *   **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API & DB Testing' course card remains hidden, completely blocking users from finding matching content.
 *   **Severity:** Critical (Core Functional Restriction in Content Discovery)
 *   **Steps to Reproduce:**
-    1. Open the Courses Catalog page.
-    2. Click on the dynamic search bar input box.
-    3. Type the search query string "API".
+1. Open the Courses Catalog page.
+2. Click on the dynamic search bar input box.
+3. Type the search query string "API".
 *   **Actual Result:** View grid does not update; "API & DB Testing" card remains completely hidden.
 *   **Expected Result:** Search query is parsed instantly, and all matching course cards are displayed dynamically.
 
@@ -80,9 +80,9 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 *   **Description:** Hovering a cursor over a mentor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain hidden and unclickable, preventing users from interacting with the social media links.
 *   **Severity:** Critical (UI/UX Functionality Blocker)
 *   **Steps to Reproduce:**
-    1. Open the Team / Instructors Module page.
-    2. Locate any mentor profile card grid node.
-    3. Hover the mouse cursor directly over the mentor's background photo.
+1. Open the Team / Instructors Module page.
+2. Locate any mentor profile card grid node.
+3. Hover the mouse cursor directly over the mentor's background photo.
 *   **Actual Result:** Darkened opacity overlay fails to trigger, leaving social links hidden and unclickable.
 *   **Expected Result:** Hover state instantly triggers opacity overlay and renders accessible social media links.
 
