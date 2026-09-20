@@ -85,3 +85,12 @@ While the overall platform architecture shows robust structural stability, the Q
 
 * **Quality Gate Status:** ❌ **REJECTED** (Fixes Required)
 * **Next Steps:** A hotfix deployment is requested for the **Courses Catalog** module (T297) to restore search functionality prior to release. The UI styling and functionality regressions on the **Theory Website** module (T278) and **Team / Instructors** module (T337) must be moved to the active sprint backlog for immediate post-release or concurrent fixing, as T337 completely blocks user interaction with social media links due to the broken hover state overlay, failing quality standards for the production environment.
+* *   **Critical Release Blockers (Hotfix Required):**
+    1.  **(T297):** Core functional restriction in dynamic course query parsing which completely breaks the search workflow.
+    2.  **(T337):** UI/UX functionality blocker that drops overlay visibility and entirely obstructs user interaction with social media nodes.
+
+### 📋 Next Steps & Action Plan
+
+1.  **Immediate Hotfix Deployment:** A targeted hotfix deployment is strictly requested for the **Courses Catalog (T297)** and **Team / Instructors (T337)** modules. Both defects introduce blocking behaviors that fail baseline deployment quality standards for the production environment and must be resolved before branch closure.
+2.  **Sprint Backlog Deferral:** The UI styling regression on the **Theory Website Module (T278)** causes a visual layout shift but does not impact business logic boundaries. This issue can be safely deferred to the active sprint backlog for immediate post-release processing or concurrent maintenance.
+3.  **Regression Cycle Scheduling:** Once development delivers verified source patches for T297 and T337, a targeted manual retest and regression suite must be executed against the catalog search matrix and team card wrappers to validate full Quality Gate compliance.
