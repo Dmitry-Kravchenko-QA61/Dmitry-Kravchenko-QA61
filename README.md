@@ -43,7 +43,8 @@ This repository contains the comprehensive test documentation and architecture v
 
 ### 🔗 Project Links
 
-*   💻 **Source Code Repository:** [Dmitry-Kravchenko-QA61 / Tested Pages & Modules](Site)
+*   💻 **Source Code Repository:** [Dmitry-Kravchenko-QA61 / Tested Pages & Modules](Сайт)
+*   🌐 **Live Web Platform Application:** [QA Academy Live Web App](https://github.io) *(Note: If GitHub Pages is activated, this link maps your live web environment)*
 
 ---
 
@@ -64,7 +65,7 @@ Comprehensive functional verification covering navigation blocks, site search, c
   * 👥 **Team & Instructors:** UI positioning and grid layout verification across desktop resolutions (19 Tests: T323 - T341).
   * 🏷️ **Brand Identity Media Page:** Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints (17 Tests: T342 - T358).
 *   **Deliverables:**
-    *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the web application core functionality (5 modules).*
+    *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the web application core functionality (8 modules).*
     *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics.*
     *   📊 [Download & View Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step test scenarios.*
 
