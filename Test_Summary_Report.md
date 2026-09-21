@@ -43,9 +43,9 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 
 During the test execution cycle, the QA team identified several logical discrepancies within the inherited test case documentation suite. To maintain metrics consistency across the active sprint, these cases were processed under the following strict parameters:
 
-* **Localization Constraints (Case T283):** The test step references changing localization from *"Russian to English"*. However, as documented in the system specifications, the platform is **fully localized in Ukrainian** with no native Russian UI support implemented. The test was executed and marked as *Passed* based on the successful validation of the active Ukrainian-to-English localization switch container behavior.
-* **Performance Metric Verification (Case T286):** Case T286 mandates that the page must fully load in *less than 2 seconds* via manual verification. Since microsecond network layer shifts cannot be verified accurately with the naked eye, the execution status was benchmarked using the Chrome DevTools Network performance profiler (DOMContentLoaded and Finish metrics) to ensure objective validation before marking the test as *Passed*.
-* **Trunctuated Step Description (Case T288):** The implementation step for Case T288 abruptly terminates with an ellipsis (*"Scroll to the bottom footer of the Theory page..."*). The execution pass criteria were successfully inferred from the expected result column (*"Footer shows correct current copyright year"*), and full visual verification of the dynamic year rendering was completed.
+*   **Localization Constraints (Case T283):** The test step references changing localization from "Russian to English". However, as documented in the system specifications, the platform is fully localized in Ukrainian with no native Russian UI support implemented. The test was executed and marked as Passed based on the successful validation of the active Ukrainian-to-English localization switch container behavior.
+*   **Performance Metric Verification (Case T286):** Case T286 mandates that the page must fully load in less than 2 seconds via manual verification. Since microsecond network layer shifts cannot be verified accurately with the naked eye, the execution status was benchmarked using the Chrome DevTools Network performance profiler (DOMContentLoaded and Finish metrics) to ensure objective validation before marking the test as Passed.
+*   **Truncated Step Description (Case T288):** The implementation step for Case T288 abruptly terminates with an ellipsis ("Scroll to the bottom footer of the Theory page..."). The execution pass criteria were successfully inferred from the expected result column ("Footer shows correct current copyright year"), and full visual verification of the dynamic year rendering was completed.
 
 ### Module Distribution & Findings
 
@@ -65,19 +65,19 @@ During the test execution cycle, the QA team identified several logical discrepa
 *   **Description:** The Corporate Values block causes a minor visual layout shift during standard DOM rendering, leading to a partial text overlap with adjacent components.
 *   **Severity:** Minor (UI Layout Discrepancy / Non-blocking).
 *   **Steps to Reproduce:**
-  1. Navigate to the "About Us" page (`aboutus.html`).
-  2. Scroll down to the Corporate Values section.
-  3. Observe the structural component alignment during page render.
+    1. Navigate to the "About Us" page (`aboutus.html`).
+    2. Scroll down to the Corporate Values section.
+    3. Observe the structural component alignment during page render.
 *   **Actual Result:** Text blocks overlap with adjacent components during DOM rendering.
 *   **Expected Result:** Components are rendered with proper margins and zero padding overlaps.
 
-### 🐛 Bug #2: Catalog Search Query Parsing Failure (ID: T297)
+### 🛑 Bug #2: Catalog Search Query Parsing Failure (ID: T297)
 *   **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API Testing' course card remains hidden, completely blocking users from finding matching content.
 *   **Severity:** Critical (Core Functional Restriction in Content Discovery).
 *   **Steps to Reproduce:**
-  1. Open the Courses Catalog page (`courses.html`).
-  2. Click on the dynamic search bar input box.
-  3. Type the search query string "API".
+    1. Open the Courses Catalog page (`courses.html`).
+    2. Click on the dynamic search bar input box.
+    3. Type the search query string "API".
 *   **Actual Result:** The view grid does not update; the 'API Testing' card remains completely hidden.
 *   **Expected Result:** Search results dynamically update to show 'API Testing' card.
 
@@ -85,10 +85,10 @@ During the test execution cycle, the QA team identified several logical discrepa
 *   **Description:** Hovering a cursor over a Team / Instructor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social media links.
 *   **Severity:** Minor (UI/UX Functionality Restriction).
 *   **Steps to Reproduce:**
-  1. Open the Theory page (`theory.html`).
-  2. Scroll down to the "Mentors of QA Learning Ecosystem" (Team / Instructors) section.
-  3. Locate the instructor profile card for Dmytro Kravchenko.
-  4. Hover the mouse cursor directly over the instructor's background photo.
+    1. Open the Theory page (`theory.html`).
+    2. Scroll down to the "Mentors of QA Learning Ecosystem" (Team / Instructors) section.
+    3. Locate the instructor profile card for Dmytro Kravchenko.
+    4. Hover the mouse cursor directly over the instructor's background photo.
 *   **Actual Result:** The darkened opacity overlay fails to trigger, leaving social links hidden and unclickable.
 *   **Expected Result:** The hover state instantly triggers the opacity overlay and renders accessible social media links.
 
