@@ -40,7 +40,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 
 | Module / Page | Test Case IDs | Total Tests | Passed | Failed | Status / Defects Found |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **About Us / Theory Website Module:** | `T274` – `T288` | 15 | 14 | 1 | 🔴 `T278` Failed (**Major**): Corporate Values block causes minor visual layout shift. |
+| **About Us / Theory Website Module** | `T274` – `T288` | 15 | 14 | 1 | 🔴 `T278` Failed (**Major**): Corporate Values block causes minor visual layout shift. |
 | **Courses Catalog** | `T289` – `T305` | 17 | 16 | 1 | 🔴 `T297` Failed (**Critical**): Catalog search query parsing failure. |
 | **Bugs & Test Cases Module** | `T306` – `T322` | 17 | 17 | 0 | 🟢 Stable. All mock Jira form controls working as intended. |
 | **Team / Instructors** | `T323` – `T341` | 19 | 18 | 1 | 🔴 `T337` Failed (**Critical**): Missing hover overlay leaves social links hidden. |
