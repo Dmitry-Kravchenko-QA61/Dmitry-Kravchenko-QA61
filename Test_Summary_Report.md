@@ -44,7 +44,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 | **About Us / Theory Website Module** | T274 – T288 | 15 | 14 | 1 | 🔴 **Bug #1 (Major):** Corporate Values block causes minor visual layout shift. |
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **Bug #2 (Critical):** Catalog search query parsing failure. |
 | **Bugs & Test Cases Module** | T306 – T322 | 17 | 17 | 0 | 🟢 Stable. All mock Jira form controls working as intended. |
-| **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **Bug #3 (Major):** Missing hover overlay leaves social links hidden. |
+| **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **Bug #3 (Minor):** Missing hover overlay leaves social links hidden. |
 | **Brand Identity Media Page** | T342 – T358 | 17 | 17 | 0 | 🟢 Stable. Asset wrappers and hex copy-to-clipboard passed. |
 
 ---
@@ -52,8 +52,9 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 ## 4. Detailed Defect Logs (Discovered Bugs)
 
 ### 🐛 Bug #1: Visual Layout Shift on About Us Page (ID: T278)
+
 * **Description:** The Corporate Values block causes a minor visual layout shift during standard DOM rendering, leading to a partial text overlap with adjacent components.
-* **Severity:** Major (UI Layout Discrepancy / Non-blocking).
+* **Severity:** Minor (UI Layout Discrepancy / Non-blocking)
 * **Steps to Reproduce:**
 1. Navigate to the "About Us" page.
 2. Scroll down to the Corporate Values section.
@@ -72,15 +73,15 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 * **Expected Result:** The search query is parsed instantly, and all matching course cards are displayed dynamically.
 
 ### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: T337)
-* **Description:** Hovering a cursor over a Team / Instructor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain hidden and unclickable, preventing users from interacting with the social media links.
-* **Severity:** Major (UI/UX Functionality Restriction).
+
+* **Description:** Hovering a cursor over a Team / Instructor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social media links.
+* **Severity:** Minor (UI/UX Functionality Restriction)
 * **Steps to Reproduce:**
 1. Open the Team / Instructors module page.
 2. Locate the instructor profile card for Dmytro Kravchenko.
 3. Hover the mouse cursor directly over the instructor's background photo.
 * **Actual Result:** The darkened opacity overlay fails to trigger, leaving social links hidden and unclickable.
 * **Expected Result:** The hover state instantly triggers the opacity overlay and renders accessible social media links.
-
 ---
 
 ## 5. Conclusion & Recommendations
