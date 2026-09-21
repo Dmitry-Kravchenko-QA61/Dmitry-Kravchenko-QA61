@@ -40,20 +40,20 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 ### ⚙️ Module Distribution & Findings
 
 | Module / Page | Test Case IDs | Total Tests | Passed | Failed | Status / Defects Found |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Theory Website Module** | T274 – T288 | 15 | 14 | 1 | 🔴 **T278 Failed:** Corporate Values block causes minor visual layout shift. |
-| **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **T297 Failed (Critical):** Catalog search query parsing failure. |
-| **Bugs & Test Cases Module** | T306 – T322 | 17 | 17 | 0 | 🟢 **Stable.** All mock Jira form controls working as intended. |
-| **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **T337 Failed (Critical):** Missing hover overlay leaves social links hidden. |
-| **Brand Identity Media Page** | T342 – T358 | 17 | 17 | 0 | 🟢 **Stable.** Asset wrappers and hex copy-to-clipboard passed. |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| **Theory Website Module** | `T274` – `T288` | 15 | 14 | 1 | 🔴 `T278` Failed (**Major**): Corporate Values block causes minor visual layout shift. |
+| **Courses Catalog** | `T289` – `T305` | 17 | 16 | 1 | 🔴 `T297` Failed (**Critical**): Catalog search query parsing failure. |
+| **Bugs & Test Cases Module** | `T306` – `T322` | 17 | 17 | 0 | 🟢 Stable. All mock Jira form controls working as intended. |
+| **Team / Instructors** | `T323` – `T341` | 19 | 18 | 1 | 🔴 `T337` Failed (**Critical**): Missing hover overlay leaves social links hidden. |
+| **Brand Identity Media Page** | `T342` – `T358` | 17 | 17 | 0 | 🟢 Stable. Asset wrappers and hex copy-to-clipboard passed. |
 
 ---
 
 ## 4. Detailed Defect Logs (Discovered Bugs)
 
-### 🐛 Bug #1: Visual Layout Shift on Theory Website Module (ID: T278)
+### 🐛 Bug #1: Visual Layout Shift on Theory Website Module (ID: `T278`)
 * **Description:** The Corporate Values block causes a minor visual layout shift during standard DOM rendering, leading to a partial text overlap with adjacent components.
-* **Severity:** Major (UI Layout Discrepancy)
+* **Severity:** Major (UI Layout Discrepancy / Non-blocking)
 * **Steps to Reproduce:**
 1. Navigate to the **Theory Website Module** page.
 2. Scroll down to the **Corporate Values** section.
@@ -61,19 +61,19 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 * **Actual Result:** Text blocks overlap with adjacent components during DOM rendering.
 * **Expected Result:** Components are rendered with proper margins and zero padding overlaps.
 
-### 🐛 Bug #2: Catalog Search Query Parsing Failure (ID: T297)
+### 🐛 Bug #2: Catalog Search Query Parsing Failure (ID: `T297`)
 * **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API & DB Testing' course card remains hidden, completely blocking users from finding matching content.
 * **Severity:** Critical (Core Functional Restriction in Content Discovery)
 * **Steps to Reproduce:**
 1. Open the **Courses Catalog** page.
 2. Click on the dynamic search bar input box.
 3. Type the search query string `"API"`.
-* **Actual Result:** The view grid does not update; the "API & DB Testing" card remains completely hidden.
+* **Actual Result:** The view grid does not update; the `"API & DB Testing"` card remains completely hidden.
 * **Expected Result:** The search query is parsed instantly, and all matching course cards are displayed dynamically.
 
-### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: T337)
+### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: `T337`)
 * **Description:** Hovering a cursor over a Team / Instructor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain hidden and unclickable, preventing users from interacting with the social media links.
-* **Severity:** Critical (Functionality Blocker)
+* **Severity:** Critical (UI/UX Functionality Restriction)
 * **Steps to Reproduce:**
 1. Open the **Team / Instructors** module page.
 2. Locate any instructor profile card node.
@@ -85,13 +85,13 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 
 ## 5. Conclusion & Recommendations
 
-While the overall platform architecture shows robust structural stability across most tested flows, the final Quality Gate status is currently **❌ REJECTED (Fixes Required)** pending the immediate resolution of the two critical release blockers identified in the **Courses Catalog (ID: T297)** and **Team / Instructors (ID: T337)** modules.
+While the overall platform architecture shows robust structural stability across most tested flows, the final Quality Gate status is currently **❌ REJECTED (Fixes Required)** pending the immediate resolution of the two critical release blockers identified in the **Courses Catalog** (ID: `T297`) and **Team / Instructors** (ID: `T337`) modules.
 
 ### 🚫 Critical Release Blockers (Hotfix Required)
-1. **(ID: T297):** Core functional restriction in dynamic course query parsing which completely breaks the search workflow.
-2. **(ID: T337):** UI/UX functionality blocker that prevents overlay interaction and entirely obstructs user access to social media nodes.
+1. **(ID: `T297`):** Core functional restriction in dynamic course query parsing which completely breaks the search workflow.
+2. **(ID: `T337`):** UI/UX functionality restriction that prevents overlay interaction and entirely obstructs user access to social media nodes.
 
 ### ➡️ Next Steps & Action Plan
-1. **Immediate Hotfix Deployment:** A targeted hotfix deployment is strictly requested for both the **Courses Catalog (ID: T297)** and **Team / Instructors (ID: T337)** modules. Both defects introduce blocking behaviors that fail to meet baseline deployment quality standards for the production environment and must be resolved before branch closure.
-2. **Sprint Backlog Deferral:** The UI styling regression on the **Theory Website Module** (tracked in bug **T278**) causes a visual layout shift but does not impact business logic boundaries. This issue can be safely deferred to the next sprint backlog for post-release processing or concurrent maintenance.
-3. **Regression Cycle Scheduling:** Once development delivers verified source patches for **T297** and **T337**, a targeted manual retest and regression suite must be executed against the catalog search matrix and team card wrappers to validate full Quality Gate compliance.
+1. **Immediate Hotfix Deployment:** A targeted hotfix deployment is strictly requested for both the **Courses Catalog** (ID: `T297`) and **Team / Instructors** (ID: `T337`) modules. Both defects introduce critical behaviors that fail to meet baseline deployment quality standards for the production environment and must be resolved before branch closure.
+2. **Sprint Backlog Deferral:** The UI styling regression on the **Theory Website Module** (tracked in bug `T278`) causes a visual layout shift but does not impact business logic boundaries. This issue can be safely deferred to the next sprint backlog for post-release processing or concurrent maintenance.
+3. **Regression Cycle Scheduling:** Once development delivers verified source patches for `T297` and `T337`, a targeted manual retest and full regression suite must be executed. This execution must cover the catalog search matrix, team card wrappers, and a sanity check on the deferred layout bug `T278` to validate full Quality Gate compliance without side-effects.
