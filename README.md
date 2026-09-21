@@ -30,6 +30,8 @@ Welcome to my QA Portfolio! I am a highly motivated and detail-oriented Junior Q
 
 This repository contains the comprehensive test documentation and architecture validation results for **QA Academy** (Academy Practicum) — a specialized multi-page educational web platform designed for QA engineering simulation. The system integrates highly interactive mock widgets, catalog searching, and boundary-condition test environments to simulate complex real-world client-server workflows.
 
+> 🌐 **Localization Note:** The target web application's user interface and content are fully localized in **Ukrainian**. However, to demonstrate alignment with global industry standards, all associated QA deliverables, test specifications, and defect logs are maintained strictly in **English**.
+
 ### 📄 Tested Pages & Modules Overview
 
 *   🖱️ **Home Page (`home.html`):** The primary landing interface featuring core value propositions, navigation nodes, and baseline platform introduction elements.
