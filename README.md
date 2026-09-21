@@ -54,10 +54,10 @@ This repository contains the comprehensive test documentation and architecture v
 Inside this profile, you can find examples of my test documentation and hands-on QA deliverables:
 
 ### 💻 Project 1: Web Application Testing (Functional & UI Validation)
-Comprehensive functional and UI verification focused on the application's core architecture. While the platform consists of 8 pages in total, this testing cycle was scoped strictly to **5 core modules** to validate navigation blocks, site search, catalog filters, and desktop grid layout elements.
+Comprehensive functional and UI verification focused on the application's core architecture. While the platform consists of 8 pages in total, this testing cycle was scoped strictly to **6 core modules** to validate navigation blocks, site search, catalog filters, and desktop grid layout elements.
 
 * **Artifacts Delivered:** Functional Test Cases (Manual), Test Checklist, and Test Summary Report.
-* **Total Scope:** 85 Test Cases (IDs T274 - T358) covering 5 tested modules.
+* **Total Scope:** 85 Test Cases (IDs T274 - T358) covering 6 tested modules.
 * **Pass Rate:** 96.47% (82 Passed, 3 Failed).
 * **Core Modules Tested:**
   * 📑 **About Us Page:** Validated corporate layouts, mission statement blocks, navigation links, and accordion component behavior (12 Tests: T274 - T285).
