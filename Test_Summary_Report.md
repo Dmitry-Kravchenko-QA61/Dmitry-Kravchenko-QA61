@@ -12,16 +12,19 @@
 The primary focus of this testing cycle was scoped strictly to core modules of the web platform to verify layout stability, end-to-end navigation flows, and UI/UX layout positioning across desktop screen resolutions.
 
 ### In Scope:
-* 📄 **About Us Page (aboutus.html):** Validation of main headings, mission blocks, corporate growth links, values layout, and accordion component behavior (**Tests T274 – T285**).
-* 📘 **Theory Website Module (theory.html):** Verification of layout elements, handbook document download link, and copyright year rendering (**Tests T286 – T288**).
-* 🔍 **Courses Catalog (courses.html):** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors (**Tests T289 – T305**).
-* 🛠️ **Bugs & Test Cases Module (bugs.html & testcases.html):** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, and error log simulators (**Tests T306 – T322**).
-* 👥 **Team / Instructors (team.html):** Verification of expert profiles, filter tabs, modal biographies, and cross-browser desktop grid layout verification (**Tests T323 – T341**).
-* 🏷️ **Brand Identity Media Page (brand.html):** Validation of Media Kit parameters, brand logo assets validation, technical spacing, hex color tokens, and vector file size constraints (**Tests T342 – T358**).
+1. 📄 **About Us Page (aboutus.html):** Validation of main headings, mission blocks, corporate growth links, values layout, and accordion component behavior (**Tests T274 – T285**).
+2. 📘 **Theory Website Module (theory.html):** Verification of layout elements, handbook document download link, and copyright year rendering (**Tests T286 – T288**).
+3. 🔍 **Courses Catalog (courses.html):** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors (**Tests T289 – T305**).
+4. 🛠️ **Bugs Sandbox Module (bugs.html):** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, and error log simulators (**Tests T306 – T315**).
+5. 👥 **Test Cases Hub Module (testcases.html):** Validation of test run execution status filter controls, analytical grid rendering, and report export triggers (**Tests T316 – T322**).
+6. 🤝 **Team / Instructors Module (theory.html):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions (**Tests T323 – T341**).
+7. 🏷️ **Brand Identity Media Page (brand.html):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints (**Tests T342 – T358**).
+
+*Примечание: Модули Bugs Sandbox и Test Cases Hub вынесены в отдельные пункты согласно физической структуре файлов репозитория (`bugs.html` и `testcases.html`), что обеспечивает прозрачное покрытие требований.*
 
 ### Out of Scope (Deferred to Next Sprint):
 * 🏠 **Home Page / Landing Interface (home.html):** Main introduction layout validation and baseline entry nodes.
-* 🔐 **User Registration & Authentication Hub (register.html):** Input form boundary conditions, field validation rules, error state triggers, and end-to-end data submission.
+* 🔐 **User Registration & Authentication Hub (register.html):** Dedicated registration input form boundary conditions, field validation rules, error state triggers, and end-to-end data submission.
 
 ## 3. Test Design & Metrics Summary
 
@@ -40,8 +43,9 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 | **About Us Page** | T274 – T285 | 12 | 11 | 1 | 🔴 **Bug #1 (Minor):** Corporate Values block causes minor visual layout shift. |
 | **Theory Website Module** | T286 – T288 | 3 | 3 | 0 | 🟢 Stable. Layout elements, download links, and footer render properly. |
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **Bug #2 (Critical):** Catalog search query parsing failure. |
-| **Bugs & Test Cases Module** | T306 – T322 | 17 | 17 | 0 | 🟢 Stable. Form controls, sandboxes, and grids working as intended. |
-| **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **Bug #3 (Minor):** Hover state transparency overlay blocks social links. |
+| **Bugs Sandbox Module** | T306 – T315 | 10 | 10 | 0 | 🟢 Stable. Kanban board drag-and-drop and mock form validations passed. |
+| **Test Cases Hub Module** | T316 – T322 | 7 | 7 | 0 | 🟢 Stable. Status filters and grid layouts rendering as intended. |
+| **Team / Instructors Module** | T323 – T341 | 19 | 18 | 1 | 🔴 **Bug #3 (Minor):** Hover state transparency overlay blocks social links. |
 | **Brand Identity Media Page** | T342 – T358 | 17 | 17 | 0 | 🟢 Stable. Asset wrappers and hex copy-to-clipboard passed. |
 
 ## 4. Detailed Defect Logs (Discovered Bugs)
@@ -73,7 +77,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 * **Description:** Hovering a cursor over a Team / Instructor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social media links.
 * **Severity:** Minor (UI/UX Functionality Restriction)
 * **Steps to Reproduce:**
-1. Open the Team / Instructors module page (`team.html`).
+1. Open the Theory & Team module page (`theory.html`).
 2. Locate the instructor profile card for Dmytro Kravchenko.
 3. Hover the mouse cursor directly over the instructor's background photo.
 * **Actual Result:** The darkened opacity overlay fails to trigger, leaving social links hidden and unclickable.
