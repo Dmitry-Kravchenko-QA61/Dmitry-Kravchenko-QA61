@@ -60,14 +60,14 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 
 ### 🐛 Bug #2: Catalog Search Query Parsing Failure (ID: T297)
 
-* **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API & DB Testing' course card remains hidden, completely blocking users from finding matching content.
+* **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API Testing' course card remains hidden, completely blocking users from finding matching content.
 * **Severity:** Critical (Core Functional Restriction in Content Discovery)
 * **Steps to Reproduce:**
 1. Open the Courses Catalog page.
 2. Click on the dynamic search bar input box.
 3. Type the search query string "API".
-* **Actual Result:** The view grid does not update; the "API & DB Testing" card remains completely hidden.
-* **Expected Result:** The search query is parsed instantly, and all matching course cards (such as "API & DB Testing") are displayed dynamically.
+* **Actual Result:** The view grid does not update; the expected course card remains completely hidden.
+* **Expected Result:** Search results dynamically update to show 'API Testing' card.
 
 ### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: T337)
 
