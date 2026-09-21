@@ -17,7 +17,7 @@ The primary focus of this testing cycle was scoped strictly to core modules of t
 *   **📖 Theory Website Module (theory.html):** Verification of layout elements, handbook document download link, and copyright year rendering **(Tests T286 – T288)**.
 *   **🔍 Courses Catalog (courses.html):** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors **(Tests T289 – T305)**.
 *   **🛠️ Bugs Sandbox Module (bugs.html):** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, test run execution status filter controls, analytical grid rendering, report export triggers, and error log simulators **(Tests T306 – T322)**.
-*   **👥 Team / Instructors Section (team.html):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the team section **(Tests T323 – T341)**.
+*   **👥 Team / Instructors Section (theory.html):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the team section **(Tests T323 – T341)**.
 *   **🔷 Brand Identity Media Page (brand.html):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints **(Tests T342 – T358)**.
 
 ### Out of Scope (Deferred to Next Sprint):
