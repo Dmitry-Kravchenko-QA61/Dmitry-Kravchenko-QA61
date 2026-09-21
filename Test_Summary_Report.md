@@ -53,7 +53,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 
 ### 🐛 Bug #1: Visual Layout Shift on Theory Website Module (ID: T278)
 * **Description:** The Corporate Values block causes a minor visual layout shift during standard DOM rendering, leading to a partial text overlap with adjacent components.
-* **Severity:** Minor (UI Layout Discrepancy / Non-blocking)
+* **Severity:** Major (UI Layout Discrepancy)
 * **Steps to Reproduce:**
 1. Navigate to the **Theory Website Module** page.
 2. Scroll down to the **Corporate Values** section.
