@@ -32,16 +32,16 @@ This repository contains the comprehensive test documentation and architecture v
 
 > 🌐 **Localization Note:** The target web application's user interface and content are fully localized in **Ukrainian**. However, to demonstrate alignment with global industry standards, all associated QA deliverables, test specifications, and defect logs are maintained strictly in **English**.
 
-### 📄 Tested Pages & Modules Overview
+### 📄 Tested Pages & Modules Overview🖱️
 
-*   🖱️ **Home Page (`home.html`):** The primary landing interface featuring core value propositions, navigation nodes, and baseline platform introduction elements.
-*   🔍 **About Us (`aboutus.html`):** A dedicated corporate information page detailing the academy's profile, operational statistics, and structural overview grid.
-*   📋 **Courses Catalog (`courses.html`):** An interactive data-driven module incorporating multi-attribute dynamic search filters, sidebar filtering parameters, and grid positioning.
-*   📝 **Theory Website Module (`theory.html`):** Educational interface featuring complex text blocks, documentation trees, navigation links, and cross-browser text formatting limits.
-*   🐛 **Bugs & Test Cases Module (`bugs.html`):** A customized QA sandbox environment designed for practical simulation, featuring complex functional triggers and data-input states.
-*   📋 **User Registration (`register.html`):** Input form module tested heavily for boundary conditions, field validation rules, error state triggers, and successful data submission.
-*   📝 **Test Cases Hub (`testcases.html`):** A specialized analytical interface built to render step-by-step validation scenarios, structured test tables, and layout-heavy verification grids.
-*   🔍 **Interesting Read (`interesting.html`):** An integrated content directory serving as an educational resource center with layout-heavy text blocks and external-facing link schemas.
+* 🏠 **Home Page (home.html):** The primary landing interface featuring core value propositions, navigation nodes, and baseline platform introduction elements.
+* 📑 **About Us Page (aboutus.html):** A dedicated corporate information page detailing the academy's profile, mission blocks, operational statistics, and structural overview grid.
+* 🔍 **Courses Catalog (courses.html):** An interactive data-driven module incorporating multi-attribute dynamic search filters, sidebar filtering parameters, and grid positioning.
+* 🪲 **Bugs & Test Cases Module (bugs.html):** A customized QA sandbox environment designed for practical simulation, featuring complex functional triggers and data-input states.
+* 👤 **User Registration (register.html):** Input form module tested heavily for boundary conditions, field validation rules, error state triggers, and successful data submission.
+* 📊 **Test Cases Hub (testcases.html):** A specialized analytical interface built to render step-by-step validation scenarios, structured test tables, and layout-heavy verification grids.
+* 📖 **Theory Website Module (theory.html):** Educational interface featuring complex text blocks, documentation trees, navigation links, and cross-browser text formatting limits.
+* 📖 **Interesting Read (interesting.html):** An integrated content directory serving as an educational resource center with layout-heavy text blocks and external-facing link schemas.
 
 ### 🔗 Project Links
 
@@ -61,13 +61,14 @@ Comprehensive functional and UI verification focused on the application's core a
 * **Pass Rate:** 96.47% (82 Passed, 3 Failed).
 * **Core Modules Tested:**
   * 📑 **About Us Page:** Validated corporate layouts, mission statement blocks, navigation links, and accordion component behavior (12 Tests: T274 - T285).
-  * 📖 **Theory Website Module:** Verified page loading speed metrics, corporate document download links, and dynamic footer copyright year notices (3 Tests: T286 - T288).
+  * 📖 **Theory Website Module:** Verified page loading speed metrics, educational document download links, and dynamic footer copyright notices directly on the theory page (3 Tests: T286 - T288).
   * 🔍 **Courses Catalog:** Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars (17 Tests: T289 - T305).
-  * 🐛 **Bugs & Test Cases:** Kanban board drag-and-drop, mock form fields validation, and error log simulators (17 Tests: T306 - T322).
+  * 🛠️ **Bugs & Test Cases:** Kanban board drag-and-drop, mock form fields validation, and error log simulators (17 Tests: T306 - T322).
   * 👥 **Team & Instructors:** UI positioning and grid layout verification across desktop resolutions (19 Tests: T323 - T341).
-  * 🏷️ **Brand Identity Media Page:** Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints (17 Tests: T342 - T358).
+  * 💎 **Brand Identity Media Page:** Media Kit parameters, brand logo assets validation, technical spacing, color hex tokens, and vector file size constraints (17 Tests: T342 - T358).
+
 *   **Deliverables:**
-    *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the web application core functionality (5 modules).*
+    *   📂 [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the web application core functionality (6 modules).*
     *   📂 [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics, and Quality Gate Evaluation.*
     *   📊 [Download & View Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step manual test scenarios.*
 
