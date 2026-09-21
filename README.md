@@ -40,7 +40,7 @@ This repository contains the comprehensive test documentation and architecture v
 * 🐛 **Bugs & Test Cases Module (bugs.html):** A customized QA sandbox environment designed for practical simulation, featuring complex functional triggers and data-input states.
 * 👤 **User Registration (register.html):** Input form module tested heavily for boundary conditions, field validation rules, error state triggers, and successful data submission.
 * 📊 **Test Cases Hub (testcases.html):** A specialized analytical interface built to render step-by-step validation scenarios, structured test tables, and layout-heavy verification grids.
-* 📖 **Theory Website Module (theory.html):** Educational interface featuring complex text blocks, documentation trees, navigation links, and cross-browser text formatting limits.
+* 🎓 **Theory Website Module (theory.html):** Educational interface featuring complex text blocks, documentation trees, navigation links, and cross-browser text formatting limits.
 * 📖 **Interesting Read (interesting.html):** An integrated content directory serving as an educational resource center with layout-heavy text blocks and external-facing link schemas.
 
 ### 🔗 Project Links
