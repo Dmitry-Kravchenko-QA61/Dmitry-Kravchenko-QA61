@@ -60,7 +60,7 @@ Comprehensive functional and UI verification focused on the application's core a
 * **Total Scope:** 85 Test Cases (IDs T274 - T358) covering 5 tested modules.
 * **Pass Rate:** 96.47% (82 Passed, 3 Failed).
 * **Core Modules Tested:**
-  * 📑 **Theory Website Module:** Validated educational text layouts, content navigation links, and cross-browser formatting (15 Tests: T274 - T288).
+  * 📑 **About Us / Theory Website Module:** Validated educational text layouts, content navigation links, and cross-browser formatting (15 Tests: T274 - T288).
   * 🔍 **Courses Catalog:** Search bar dynamic queries, currency tags, pagination, and multi-checkbox sidebars (17 Tests: T289 - T305).
   * 🐛 **Bugs & Test Cases:** Kanban board drag-and-drop, mock form fields validation, and error log simulators (17 Tests: T306 - T322).
   * 👥 **Team & Instructors:** UI positioning and grid layout verification across desktop resolutions (19 Tests: T323 - T341).
