@@ -73,7 +73,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 
 ### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: T337)
 * **Description:** Hovering a cursor over a Team / Instructor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain hidden and unclickable, preventing users from interacting with the social media links.
-* **Severity:** Critical (UI/UX Functionality Blocker)
+* **Severity:** Critical (Functionality Blocker)
 * **Steps to Reproduce:**
 1. Open the **Team / Instructors** module page.
 2. Locate any instructor profile card node.
