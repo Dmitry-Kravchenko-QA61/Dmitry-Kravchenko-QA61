@@ -12,13 +12,13 @@
 The primary focus of this testing cycle was scoped strictly to core modules of the web platform to verify layout stability, end-to-end navigation flows, and UI/UX layout positioning across desktop screen resolutions.
 
 ### In Scope:
-1. 📄 **About Us Page (aboutus.html):** Validation of main headings, mission blocks, corporate growth links, values layout, and accordion component behavior (**Tests T274 – T285**).
-2. 📘 **Theory Website Module (theory.html):** Verification of layout elements, handbook document download link, and copyright year rendering (**Tests T286 – T288**).
-3. 🔍 **Courses Catalog (courses.html):** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors (**Tests T289 – T305**).
-4. 🛠️ **Bugs Sandbox Module (bugs.html):** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, and error log simulators (**Tests T306 – T315**).
-5. 👥 **Test Cases Hub Module (testcases.html):** Validation of test run execution status filter controls, analytical grid rendering, and report export triggers (**Tests T316 – T322**).
-6. 🤝 **Team / Instructors Module (theory.html):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the team section (**Tests T323 – T341**).
-7. 🏷️ **Brand Identity Media Page (brand.html):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints (**Tests T342 – T358**).
+* 📄 **About Us Page (aboutus.html):** Validation of main headings, mission blocks, corporate growth links, values layout, and accordion component behavior (**Tests T274 – T285**).
+* 📘 **Theory Website Module (theory.html):** Verification of layout elements, handbook document download link, and copyright year rendering (**Tests T286 – T288**).
+* 🔍 **Courses Catalog (courses.html):** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors (**Tests T289 – T305**).
+* 🛠️ **Bugs Sandbox Module (bugs.html):** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, and error log simulators (**Tests T306 – T315**).
+* 👥 **Test Cases Hub Module (testcases.html):** Validation of test run execution status filter controls, analytical grid rendering, and report export triggers (**Tests T316 – T322**).
+* 🤝 **Team / Instructors Module (theory.html):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the team section (**Tests T323 – T341**).
+* 🏷️ **Brand Identity Media Page (brand.html):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints (**Tests T342 – T358**).
 
 ### Out of Scope (Deferred to Next Sprint):
 * 🏠 **Home Page / Landing Interface (home.html):** Main introduction layout validation and baseline entry nodes.
@@ -76,7 +76,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 * **Severity:** Minor (UI/UX Functionality Restriction)
 * **Steps to Reproduce:**
 1. Open the Theory page (`theory.html`).
-2. Scroll down to the "Mentors of QA Learning Ecosystem" (Team / Instructors) section flow.
+2. Scroll down to the "Mentors of QA Learning Ecosystem" (Team / Instructors) section.
 3. Locate the instructor profile card for Dmytro Kravchenko.
 4. Hover the mouse cursor directly over the instructor's background photo.
 * **Actual Result:** The darkened opacity overlay fails to trigger, leaving social links hidden and unclickable.
