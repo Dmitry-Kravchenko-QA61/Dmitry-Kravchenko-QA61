@@ -37,7 +37,7 @@ This repository contains the comprehensive test documentation and architecture v
 * 🏠 **Home Page (home.html):** The primary landing interface featuring core value propositions, navigation nodes, and baseline platform introduction elements.
 * 📑 **About Us Page (aboutus.html):** A dedicated corporate information page detailing the academy's profile, mission blocks, operational statistics, and structural overview grid.
 * 🔍 **Courses Catalog (courses.html):** An interactive data-driven module incorporating multi-attribute dynamic search filters, sidebar filtering parameters, and grid positioning.
-* 🪲 **Bugs & Test Cases Module (bugs.html):** A customized QA sandbox environment designed for practical simulation, featuring complex functional triggers and data-input states.
+* 🐛 **Bugs & Test Cases Module (bugs.html):** A customized QA sandbox environment designed for practical simulation, featuring complex functional triggers and data-input states.
 * 👤 **User Registration (register.html):** Input form module tested heavily for boundary conditions, field validation rules, error state triggers, and successful data submission.
 * 📊 **Test Cases Hub (testcases.html):** A specialized analytical interface built to render step-by-step validation scenarios, structured test tables, and layout-heavy verification grids.
 * 📖 **Theory Website Module (theory.html):** Educational interface featuring complex text blocks, documentation trees, navigation links, and cross-browser text formatting limits.
