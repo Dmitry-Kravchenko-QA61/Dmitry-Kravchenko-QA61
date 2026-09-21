@@ -19,7 +19,7 @@ The primary focus of this testing cycle was scoped strictly to core modules of t
 *   **🛠️ Bugs Sandbox Module (bugs.html):** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, and test run execution status filter controls **(Tests T306 – T315)**.
 *   **🗂️ Test Cases Hub Module (testcases.html):** Validation of analytical grid rendering, case execution history logs, report export triggers, and error log simulators **(Tests T316 – T322)**.
 *   **👥 Team / Instructors Section (theory.html):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the mentor block **(Tests T323 – T341)**.
-*   **🔷 Brand Identity Media Page (brand.html):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints **(Tests T342 – T358)**.
+*   **🔷 Brand Identity Media Page (External Environment / CDN):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints **(Tests T342 – T358)**.
 
 ### Out of Scope (Deferred to Next Sprint):
 
