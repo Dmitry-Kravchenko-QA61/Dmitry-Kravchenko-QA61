@@ -9,41 +9,40 @@
 
 ## 2. Objective & Scope
 
-The primary focus of this testing cycle was scoped strictly to 5 core modules of the web platform to verify layout stability, end-to-end navigation flows, and UI/UX layout positioning across desktop screen resolutions.
+The primary focus of this testing cycle was scoped strictly to core modules of the web platform to verify layout stability, end-to-end navigation flows, and UI/UX layout positioning across desktop screen resolutions.
 
-**In Scope:**
+### In Scope:
+* 📄 **About Us Page (aboutus.html):** Validation of main headings, mission blocks, corporate growth links, values layout, and accordion component behavior (**Tests T274 – T285**).
+* 📘 **Theory Website Module (theory.html):** Verification of layout elements, handbook document download link, and copyright year rendering (**Tests T286 – T288**).
+* 🔍 **Courses Catalog (courses.html):** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors (**Tests T289 – T305**).
+* 🛠️ **Bugs & Test Cases Module (bugs.html & testcases.html):** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, and error log simulators (**Tests T306 – T322**).
+* 👥 **Team / Instructors (team.html):** Verification of expert profiles, filter tabs, modal biographies, and cross-browser desktop grid layout verification (**Tests T323 – T341**).
+* 🏷️ **Brand Identity Media Page (brand.html):** Validation of Media Kit parameters, brand logo assets validation, technical spacing, hex color tokens, and vector file size constraints (**Tests T342 – T358**).
 
-* 📖 **About Us / Theory Website Module:** Validation of core headings, mission blocks, localization, and accordion component behavior (Tests T274 – T288).
-* 🔍 **Courses Catalog:** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors (Tests T289 – T305).
-* 🛠️ **Bugs & Test Cases Module:** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, and error log simulators (Tests T306 – T322).
-* 👥 **Team / Instructors:** Verification of expert profiles, filter tabs, modal biographies, and cross-browser desktop grid layout verification (Tests T323 – T341).
-* 💎 **Brand Identity Media Page:** Validation of Media Kit parameters, brand logo assets validation, technical spacing, hex color tokens, and vector file size constraints (Tests T342 – T358).
-
-**Out of Scope (Deferred to Next Sprint):**
-
-* 🏠 **Home Page / Landing Interface:** Main introduction layout validation and baseline entry nodes.
-* 📉 **About Us / Theory Website Module:** Corporate profile statistics grid verification and historical timeline layout blocks.
-* 🔐 **User Registration & Authentication Hub:** Input form boundary conditions, field validation rules, error state triggers, and end-to-end data submission.
+### Out of Scope (Deferred to Next Sprint):
+* 🏠 **Home Page / Landing Interface (home.html):** Main introduction layout validation and baseline entry nodes.
+* 🔐 **User Registration & Authentication Hub (register.html):** Input form boundary conditions, field validation rules, error state triggers, and end-to-end data submission.
 
 ## 3. Test Design & Metrics Summary
 
 A total of 85 manual test cases were executed. The test suite utilized core black-box techniques including equivalence partitioning (EP), boundary value analysis (BVA), and state transition testing to validate UI controls and functional boundaries.
 
-### 📊 Execution Dashboard
+### Execution Dashboard
 
 | Total Executed | Passed | Failed | Blocked | Pass Rate |
-| :--- | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: |
 | 85 | 82 | 3 | 0 | 96.47% |
 
-### 🧩 Module Distribution & Findings
+### Module Distribution & Findings
 
 | Module / Page | Test Case IDs | Total Tests | Passed | Failed | Status / Defects Found |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **About Us / Theory Website Module** | T274 – T288 | 15 | 14 | 1 | 🔴 **Bug #1 (Minor):** Corporate Values block causes minor visual layout shift. |
+| **About Us Page** | T274 – T285 | 12 | 11 | 1 | 🔴 **Bug #1 (Minor):** Corporate Values block causes minor visual layout shift. |
+| **Theory Website Module** | T286 – T288 | 3 | 3 | 0 | 🟢 Stable. Layout elements, download links, and footer render properly. |
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **Bug #2 (Critical):** Catalog search query parsing failure. |
-| **Bugs & Test Cases Module** | T306 – T322 | 17 | 17 | 0 | 🟢 **Stable.** All mock Jira form controls working as intended. |
+| **Bugs & Test Cases Module** | T306 – T322 | 17 | 17 | 0 | 🟢 Stable. Form controls, sandboxes, and grids working as intended. |
 | **Team / Instructors** | T323 – T341 | 19 | 18 | 1 | 🔴 **Bug #3 (Minor):** Hover state transparency overlay blocks social links. |
-| **Brand Identity Media Page** | T342 – T358 | 17 | 17 | 0 | 🟢 **Stable.** Asset wrappers and hex copy-to-clipboard passed. |
+| **Brand Identity Media Page** | T342 – T358 | 17 | 17 | 0 | 🟢 Stable. Asset wrappers and hex copy-to-clipboard passed. |
 
 ## 4. Detailed Defect Logs (Discovered Bugs)
 
@@ -52,7 +51,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 * **Description:** The Corporate Values block causes a minor visual layout shift during standard DOM rendering, leading to a partial text overlap with adjacent components.
 * **Severity:** Minor (UI Layout Discrepancy / Non-blocking)
 * **Steps to Reproduce:**
-1. Navigate to the "About Us" page.
+1. Navigate to the "About Us" page (`aboutus.html`).
 2. Scroll down to the Corporate Values section.
 3. Observe the structural component alignment during page render.
 * **Actual Result:** Text blocks overlap with adjacent components during DOM rendering.
@@ -63,7 +62,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 * **Description:** Typing specific search queries like 'API' into the course search bar does not dynamically update the catalog view grid. The 'API Testing' course card remains hidden, completely blocking users from finding matching content.
 * **Severity:** Critical (Core Functional Restriction in Content Discovery)
 * **Steps to Reproduce:**
-1. Open the Courses Catalog page.
+1. Open the Courses Catalog page (`courses.html`).
 2. Click on the dynamic search bar input box.
 3. Type the search query string "API".
 * **Actual Result:** The view grid does not update; the 'API Testing' card remains completely hidden.
@@ -74,7 +73,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 * **Description:** Hovering a cursor over a Team / Instructor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social media links.
 * **Severity:** Minor (UI/UX Functionality Restriction)
 * **Steps to Reproduce:**
-1. Open the Team / Instructors module page.
+1. Open the Team / Instructors module page (`team.html`).
 2. Locate the instructor profile card for Dmytro Kravchenko.
 3. Hover the mouse cursor directly over the instructor's background photo.
 * **Actual Result:** The darkened opacity overlay fails to trigger, leaving social links hidden and unclickable.
@@ -82,9 +81,9 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 
 ## 5. Conclusion & Recommendations
 
-While the overall platform architecture shows robust structural stability across most tested flows, the final Quality Gate status is currently ❌ **REJECTED (Fixes Required)** pending the immediate resolution of the single critical release blocker identified in the Courses Catalog.
+While the overall platform architecture shows robust structural stability across most tested flows, the final Quality Gate status is currently **❌ REJECTED (Fixes Required)** pending the immediate resolution of the single critical release blocker identified in the Courses Catalog.
 
-### 🚫 Critical Release Blocker (Hotfix Required)
+### 🛑 Critical Release Blocker (Hotfix Required)
 
 1. **Bug #2 (Test Case T297):** Core functional restriction in dynamic course query parsing which completely breaks the search workflow.
 
