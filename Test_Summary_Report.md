@@ -14,17 +14,16 @@
 The primary focus of this testing cycle was scoped strictly to 5 core modules of the web platform to verify layout stability, end-to-end navigation flows, and UI/UX layout positioning across desktop screen resolutions.
 
 ### In Scope:
-* 📖 **Theory Website Module:** Validation of core headings, mission blocks, localization, and accordion component behavior.
-* 🔍 **Courses Catalog:** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors.
+* 📑 **About Us / Theory Website Module:** Validation of core headings, mission blocks, localization, and accordion component behavior (Tests `T274`-`T288`).
+* 🔍 **Courses Catalog:** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors (Tests `T289`-`T305`).
 * 🐛 **Bugs & Test Cases Module:** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, and error log simulators.
 * 👥 **Team / Instructors:** Verification of expert profiles, filter tabs, modal biographies, and cross-browser desktop grid layout verification.
 * 🏷️ **Brand Identity Media Page:** Validation of Media Kit parameters, brand logo assets validation, technical spacing, hex color tokens, and vector file size constraints.
 
 ### Out of Scope (Deferred to Next Sprint):
 * 🏠 **Home Page / Landing Interface:** Main introduction layout validation and baseline entry nodes.
-* 🏢 **About Us Page:** Corporate profile statistics grid verification and historical timeline layout blocks.
+* 🏢 **About Us / Theory Website Module:** Corporate profile statistics grid verification and historical timeline layout blocks.
 * 🔐 **User Registration & Authentication Hub:** Input form boundary conditions, field validation rules, error state triggers, and end-to-end data submission.
-
 ---
 
 ## 3. Test Design & Metrics Summary
@@ -41,7 +40,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 
 | Module / Page | Test Case IDs | Total Tests | Passed | Failed | Status / Defects Found |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **Theory Website Module** | `T274` – `T288` | 15 | 14 | 1 | 🔴 `T278` Failed (**Major**): Corporate Values block causes minor visual layout shift. |
+| **About Us / Theory Website Module:** | `T274` – `T288` | 15 | 14 | 1 | 🔴 `T278` Failed (**Major**): Corporate Values block causes minor visual layout shift. |
 | **Courses Catalog** | `T289` – `T305` | 17 | 16 | 1 | 🔴 `T297` Failed (**Critical**): Catalog search query parsing failure. |
 | **Bugs & Test Cases Module** | `T306` – `T322` | 17 | 17 | 0 | 🟢 Stable. All mock Jira form controls working as intended. |
 | **Team / Instructors** | `T323` – `T341` | 19 | 18 | 1 | 🔴 `T337` Failed (**Critical**): Missing hover overlay leaves social links hidden. |
@@ -51,7 +50,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 
 ## 4. Detailed Defect Logs (Discovered Bugs)
 
-### 🐛 Bug #1: Visual Layout Shift on Theory Website Module (ID: `T278`)
+### 🐛 Bug #1: Visual Layout Shift on About Us / Theory Website Module (ID: `T278`)
 * **Description:** The Corporate Values block causes a minor visual layout shift during standard DOM rendering, leading to a partial text overlap with adjacent components.
 * **Severity:** Major (UI Layout Discrepancy / Non-blocking)
 * **Steps to Reproduce:**
