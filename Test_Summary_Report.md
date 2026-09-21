@@ -42,7 +42,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 *   **Passed (82):** Test cases executed successfully where the actual result matched the expected outcome.
 *   **Failed (3):** Critical deviations from requirements identified in **T278** (Bug #1), **T297** (Bug #2), and **T337** (Bug #3).
 *   **Blocked (0):** No test cases were blocked during this execution cycle.
-*   **Pass Rate Calculation:** `Passed / Total Executed` (`82 / 85 * 100% = 96.47%`).
+*   **Pass Rate Calculation:** `Passed / Total Executed` — `(82 / 85) * 100% = 96.47%`.
 
 ### 3.1. Testing Caveats & Legacy Documentation Anomalies
 
@@ -98,7 +98,7 @@ During the test execution cycle, the QA team identified several logical discrepa
 4. Hover the mouse cursor directly over the instructor's background photo.
 *   **Actual Result:** The darkened opacity overlay fails to trigger, leaving social links hidden and unclickable.
 *   **Expected Result:** The hover state instantly triggers the opacity overlay and renders accessible social media links.
-
+*   
 ## 5. Conclusion & Recommendations
 
 While the overall platform architecture shows robust structural stability across most tested flows, the final Quality Gate status is currently **❌ REJECTED (Fixes Required)** pending the immediate resolution of the single critical release blocker identified in the Courses Catalog.
