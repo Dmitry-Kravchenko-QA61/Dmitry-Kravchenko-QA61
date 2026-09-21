@@ -67,7 +67,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 * **Steps to Reproduce:**
 1. Open the **Courses Catalog** page.
 2. Click on the dynamic search bar input box.
-3. Type the search query string `"API"`.
+3. Type the search query string `"API & DB Testing"`.
 * **Actual Result:** The view grid does not update; the "API & DB Testing" card remains completely hidden.
 * **Expected Result:** The search query is parsed instantly, and all matching course cards are displayed dynamically.
 
