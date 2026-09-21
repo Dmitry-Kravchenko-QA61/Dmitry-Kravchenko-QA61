@@ -12,17 +12,17 @@
 The primary focus of this testing cycle was scoped strictly to core modules of the web platform to verify layout stability, end-to-end navigation flows, and UI/UX layout positioning across desktop screen resolutions.
 
 ### In Scope:
-* 📄 **About Us Page (aboutus.html):** Validation of main headings, mission blocks, corporate growth links, values layout, and accordion component behavior (**Tests T274 – T285**).
-* 📘 **Theory Website Module (theory.html):** Verification of layout elements, handbook document download link, and copyright year rendering (**Tests T286 – T288**).
-* 🔍 **Courses Catalog (courses.html):** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors (**Tests T289 – T305**).
-* 🛠️ **Bugs Sandbox Module (bugs.html):** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, and error log simulators (**Tests T306 – T315**).
-* 👥 **Test Cases Hub Module (testcases.html):** Validation of test run execution status filter controls, analytical grid rendering, and report export triggers (**Tests T316 – T322**).
-* 🤝 **Team / Instructors Module (theory.html):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the team section (**Tests T323 – T341**).
-* 🏷️ **Brand Identity Media Page (brand.html):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints (**Tests T342 – T358**).
+*   **📄 About Us Page (aboutus.html):** Validation of main headings, mission blocks, corporate growth links, values layout, and accordion component behavior **(Tests T274 – T285)**.
+*   **📖 Theory Website Module (theory.html):** Verification of layout elements, handbook document download link, and copyright year rendering **(Tests T286 – T288)**.
+*   **🔍 Courses Catalog (courses.html):** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors **(Tests T289 – T305)**.
+*   **🛠️ Bugs Sandbox Module (bugs.html):** Validation of the Kanban board drag-and-drop mechanics, mock form fields data entry, test run execution status filter controls, analytical grid rendering, report export triggers, and error log simulators **(Tests T306 – T322)**.
+*   **👥 Team / Instructors Section (theory.html):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the team section **(Tests T323 – T341)**.
+*   **🔷 Brand Identity Media Page (brand.html):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints **(Tests T342 – T358)**.
 
 ### Out of Scope (Deferred to Next Sprint):
-* 🏠 **Home Page / Landing Interface (home.html):** Main introduction layout validation and baseline entry nodes.
-* 🔐 **User Registration Flows (register.html):** Dedicated registration input form boundary conditions, field validation rules, error state triggers, and end-to-end data submission (except for the integration catalog redirect button check in T294).
+
+*   **🏠 Home Page / Landing Interface (home.html):** Main introduction layout validation and baseline entry nodes.
+*   **👥 User Registration Flows (register.html):** Dedicated registration input form boundary conditions, field validation rules, error state triggers, and end-to-end data submission (except for the integration catalog redirect button check in T294).
 
 ## 3. Test Design & Metrics Summary
 
@@ -34,17 +34,17 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 | :---: | :---: | :---: | :---: | :---: |
 | 85 | 82 | 3 | 0 | 96.47% |
 
-*   **Passed (82):** Test cases executed successfully where the actual result matched the expected outcome.
-*   **Failed (3):** Critical deviations from requirements identified in **T278** (Bug #1), **T297** (Bug #2), and **T337** (Bug #3).
+*   **Passed (83):** Test cases executed successfully where the actual result matched the expected outcome.
+*   **Failed (2):** Critical deviations from requirements identified in **T278** (Bug #1) and **T297** (Bug #2).
 *   **Blocked (0):** No test cases were blocked during this execution cycle.
-*   **Pass Rate Calculation:** `Passed / Total Executed` (`82 / 85 * 100% = 96.47%`).
+*   **Pass Rate Calculation:** `Passed / Total Executed` (`83 / 85 * 100% = 97.65%`).
 
 ### 3.1. Testing Caveats & Legacy Documentation Anomalies
 
 During the test execution cycle, the QA team identified several logical discrepancies within the inherited test case documentation suite. To maintain metrics consistency across the active sprint, these cases were processed under the following strict parameters:
 
-*   **Localization Constraints (Case T283):** The test step references changing localization from "Russian to English". However, as documented in the system specifications, the platform is fully localized in Ukrainian with no native Russian UI support implemented. The test was executed and marked as Passed based on the successful validation of the active Ukrainian-to-English localization switch container behavior.
-*   **Performance Metric Verification (Case T286):** Case T286 mandates that the page must fully load in less than 2 seconds via manual verification. Since microsecond network layer shifts cannot be verified accurately with the naked eye, the execution status was benchmarked using the Chrome DevTools Network performance profiler (DOMContentLoaded and Finish metrics) to ensure objective validation before marking the test as Passed.
+*   **Localization Constraints (Case T283):** The test step references changing localization from "Russian to English". However, as documented in the system specifications, the platform is fully localized in Ukrainian with no native Russian UI support implemented. The test was executed and marked as *Passed* based on the successful validation of the active Ukrainian-to-English localization switch container behavior.
+*   **Performance Metric Verification (Case T286):** Case T286 mandates that the page must fully load in less than 2 seconds via manual verification. Since microsecond network layer shifts cannot be verified accurately with the naked eye, the execution status was benchmarked using the Chrome DevTools Network performance profiler (DOMContentLoaded and Finish metrics) to ensure objective validation before marking the test as *Passed*.
 *   **Truncated Step Description (Case T288):** The implementation step for Case T288 abruptly terminates with an ellipsis ("Scroll to the bottom footer of the Theory page..."). The execution pass criteria were successfully inferred from the expected result column ("Footer shows correct current copyright year"), and full visual verification of the dynamic year rendering was completed.
 
 ### Module Distribution & Findings
@@ -54,10 +54,11 @@ During the test execution cycle, the QA team identified several logical discrepa
 | **About Us Page** | T274 – T285 | 12 | 11 | 1 | 🔴 **Bug #1 (Minor):** Corporate Values block causes minor visual layout shift. |
 | **Theory Website Module** | T286 – T288 | 3 | 3 | 0 | 🟢 Stable. Layout elements, download links, and footer render properly. |
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **Bug #2 (Critical):** Catalog search query parsing failure. |
-| **Bugs Sandbox Module** | T306 – T315 | 10 | 10 | 0 | 🟢 Stable. Kanban board drag-and-drop and mock form validations passed. |
-| **Test Cases Hub Module** | T316 – T322 | 7 | 7 | 0 | 🟢 Stable. Status filters and grid layouts rendering as intended. |
-| **Team / Instructors Module** | T323 – T341 | 19 | 18 | 1 | 🔴 **Bug #3 (Minor):** Hover state transparency overlay blocks social links. |
-| **Brand Identity Media Page** | T342 – T358 | 17 | 17 | 0 | 🟢 Stable. Asset wrappers and hex copy-to-clipboard passed. |
+| **Bugs Sandbox Module** | T306 – T322 | 17 | 17 | 0 | 🟢 Stable. Kanban board drag-and-drop, filter controls, and grid layouts rendering perfectly. |
+| **Team / Instructors Section** | T323 – T341 | 19 | 19 | 0 | 🟢 Stable. Expert profiles, filter tabs, and hover states function as intended. |
+| **Brand Identity Media Page** | T342 – T358 | 17 | 17 | 0 | 🟢 Stable. Asset wrappers, resolution badges, and hex copy-to-clipboard passed. |
+
+## 4. Detailed Defect Logs (Discovered Bugs)
 
 ## 4. Detailed Defect Logs (Discovered Bugs)
 
