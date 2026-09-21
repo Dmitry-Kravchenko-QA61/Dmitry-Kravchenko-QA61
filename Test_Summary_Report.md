@@ -66,7 +66,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 1. Open the Courses Catalog page.
 2. Click on the dynamic search bar input box.
 3. Type the search query string "API".
-* **Actual Result:** The view grid does not update; the expected course card remains completely hidden.
+* **Actual Result:** The view grid does not update; the 'API Testing' card remains completely hidden.
 * **Expected Result:** Search results dynamically update to show 'API Testing' card.
 
 ### 🐛 Bug #3: Hover State Overlay Bug on Team / Instructors Module (ID: T337)
