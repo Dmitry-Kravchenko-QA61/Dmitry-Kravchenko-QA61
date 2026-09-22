@@ -85,7 +85,6 @@ Distribution across executed modules:
 
 Traceability log for all logged defects:
 
-
 ### 🏷️ Defect ID: #BUG-01 (T278)
 * 📝 **Summary:** Visual Layout Shift and Text Overlap in Corporate Values Area
 * 📂 **Module:** `home.html` / Corporate Values Block
@@ -97,7 +96,6 @@ Traceability log for all logged defects:
   3. Inspect component alignment during DOM rendering.
 * 🎯 **Expected Result:** Corporate values cards render with proper padding and margins.
 * 💥 **Actual Result:** Value description text nodes (`.value-desc`) fail to position cleanly, causing partial overlap with adjacent card borders.
-
 
 ### 🏷️ Defect ID: #BUG-02 (T297)
 * 📝 **Summary:** Course Catalog Dynamic Search Filter Query Parsing Failure
@@ -111,7 +109,6 @@ Traceability log for all logged defects:
 * 🎯 **Expected Result:** Course catalog view updates dynamically to show 'API Testing'.
 * 💥 **Actual Result:** Grid fails to update dynamically upon query entry; unfiltered catalog view remains visible and matching card is not isolated.
 
-
 ### 🏷️ Defect ID: #BUG-03 (T337)
 * 📝 **Summary:** Hover State Transparency Overlay Inactive on Teacher Portrait
 * 📂 **Module:** `theory.html` / Instructor Card (Dmytro Kravchenko)
@@ -123,7 +120,6 @@ Traceability log for all logged defects:
   3. Hover mouse cursor over the instructor portrait picture.
 * 🎯 **Expected Result:** Portrait darkens with opacity transition revealing social links.
 * 💥 **Actual Result:** CSS `:hover` state fails to trigger opacity layer; social link icons remain invisible and inaccessible to click events.
-
 
 5. ⚖️ QUALITY ASSESSMENT & RELEASE RECOMMENDATION
 
