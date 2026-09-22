@@ -14,10 +14,10 @@ The primary focus of this testing cycle was scoped strictly to core modules of t
 ### In Scope:
 
 *   **📄 About Us Page (aboutus.html):** Validation of main headings, mission blocks, corporate growth links, values layout, and accordion component behavior **(Tests T274 – T285)**.
-*   **📖 Theory Website Module (theory.html):** Verification of layout elements, handbook document download link, and copyright year rendering **(Tests T286 – T288)**.
+*   **📖 Theory Website Module (theory.html - Shared Host):** Verification of layout elements, handbook document download link, and copyright year rendering **(Tests T286 – T288)**. *Note: This physical file also structurally hosts the Team / Instructors functional block.*
 *   **🔍 Courses Catalog (courses.html):** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors **(Tests T289 – T305)**.
 *   **🛠️ Bugs Sandbox Module (bugs.html):** Validation of the Kanban board drag-and-drop mechanics, mock bug tracking form fields, analytical grid rendering, case execution filtering, report export triggers, and error log simulators **(Tests T306 – T322)**.
-*   **👥 Team / Instructors Section (theory.html):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the mentor block **(Tests T323 – T341)**.
+*   **👥 Team / Instructors Section (theory.html):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the mentor block located on the theory page **(Tests T323 – T341)**.
 *   **🔷 Brand Identity Media Page (External Environment / CDN):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints **(Tests T342 – T358)**.
 
 ### Out of Scope (Deferred to Next Sprint):
@@ -51,7 +51,7 @@ During the test execution cycle, the QA team identified several logical discrepa
 *   **Localization Constraints (Case T283):** The test step references changing localization from "Russian to English". However, as documented in the system specifications, the platform is fully localized in Ukrainian with no native Russian UI support implemented. The test was executed and marked as Passed based on the successful validation of the active Ukrainian-to-English localization switch container behavior.
 *   **Performance Metric Verification (Case T286):** Case T286 mandates that the page must fully load in less than 2 seconds via manual verification. Since microsecond network layer shifts cannot be verified accurately with the naked eye, the execution status was benchmarked using the Chrome DevTools Network performance profiler (DOMContentLoaded and Finish metrics) to ensure objective validation before marking the test as Passed.
 *   **Truncated Step Description (Case T288):** The implementation step for Case T288 abruptly terminates with an ellipsis ("Scroll to the bottom footer of the Theory page..."). The execution pass criteria were successfully inferred from the expected result column ("Footer shows correct current copyright year"), and full visual verification of the dynamic year rendering was completed.
-*   **Environment Discrepancy & Repository File Absence (Brand Asset Scope):** Test cases T342–T358 reference the "Brand Identity media page". Review of the local deployment package confirmed that no physical file named `brand.html` exists within the repository. To ensure testing continuity, validation of these 17 cases was redirected and executed against the live external environment (Staging CDN asset directory) as implied by the test case preconditions.
+*   **🚨 Environment Discrepancy & Repository File Absence (Brand Asset Scope):** Test cases T342–T358 reference the "Brand Identity media page". Review of the local deployment package confirmed that no physical file named `brand.html` exists within the repository. To ensure testing continuity, validation of these 17 cases was redirected and executed against the live external environment (Staging CDN asset directory) as implied by the test case preconditions.
 
 ### 3.2. Module Distribution & Findings
 
