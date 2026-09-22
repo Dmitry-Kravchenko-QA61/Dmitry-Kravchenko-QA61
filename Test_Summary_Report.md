@@ -81,46 +81,52 @@ Distribution across executed modules:
 
 🔢 Total Tests: 12 + 3 + 17 + 17 + 19 + 17 = 85 Test Cases.
 
-4. 🐛 DETAILED DEFECT LOG (FAILED TEST CASES)
---------------------------------------------------------------------------------
+## 4. 🐛 DETAILED DEFECT LOG (FAILED TEST CASES)
+
 Traceability log for all logged defects:
 
---------------------------------------------------------------------------------
-🏷️ Defect ID:       #BUG-01 (T278)
-📝 Summary:         Visual Layout Shift and Text Overlap in Corporate Values Area
-📂 Module:          home.html / Corporate Values Block
-⚠️ Severity:        🟡 Minor
-📌 Priority:        🔹 Low
-🪜 Steps:           1️⃣ Navigate to home.html.
-                    2️⃣ Scroll down to the Corporate Values section.
-                    3️⃣ Inspect component alignment during DOM rendering.
-🎯 Expected Result: Corporate values cards render with proper padding and margins.
-💥 Actual Result:   Value description text nodes (.value-desc) fail to position 
-                    cleanly, causing partial overlap with adjacent card borders.
---------------------------------------------------------------------------------
-🏷️ Defect ID:       #BUG-02 (T297)
-📝 Summary:         Course Catalog Dynamic Search Filter Query Parsing Failure
-📂 Module:          courses.html / Search Input Bar
-⚠️ Severity:        🔴 Critical (Release Blocker)
-📌 Priority:        🔺 High
-🪜 Steps:           1️⃣ Open the Courses Catalog (courses.html).
-                    2️⃣ Focus on the dynamic search bar input field.
-                    3️⃣ Type search string 'API'.
-🎯 Expected Result: Course catalog view updates dynamically to show 'API Testing'.
-💥 Actual Result:   Grid fails to update dynamically upon query entry; unfiltered 
-                    catalog view remains visible and matching card is not isolated.
---------------------------------------------------------------------------------
-🏷️ Defect ID:       #BUG-03 (T337)
-📝 Summary:         Hover State Transparency Overlay Inactive on Teacher Portrait
-📂 Module:          theory.html / Instructor Card (Dmytro Kravchenko)
-⚠️ Severity:        🟡 Minor
-📌 Priority:        🔹 Low
-🪜 Steps:           1️⃣ Open the Team / Instructors section on theory.html.
-                    2️⃣ Locate the mentor card for Dmytro Kravchenko.
-                    3️⃣ Hover mouse cursor over the instructor portrait picture.
-🎯 Expected Result: Portrait darkens with opacity transition revealing social links.
-💥 Actual Result:   CSS :hover state fails to trigger opacity layer; social link 
-                    icons remain invisible and inaccessible to click events.
+---
+
+### 🏷️ Defect ID: #BUG-01 (T278)
+* 📝 **Summary:** Visual Layout Shift and Text Overlap in Corporate Values Area
+* 📂 **Module:** `home.html` / Corporate Values Block
+* ⚠️ **Severity:** 🟡 Minor
+* 📌 **Priority:** 🔹 Low
+* 🪜 **Steps to Reproduce:**
+  1. Navigate to `home.html`.
+  2. Scroll down to the Corporate Values section.
+  3. Inspect component alignment during DOM rendering.
+* 🎯 **Expected Result:** Corporate values cards render with proper padding and margins.
+* 💥 **Actual Result:** Value description text nodes (`.value-desc`) fail to position cleanly, causing partial overlap with adjacent card borders.
+
+---
+
+### 🏷️ Defect ID: #BUG-02 (T297)
+* 📝 **Summary:** Course Catalog Dynamic Search Filter Query Parsing Failure
+* 📂 **Module:** `courses.html` / Search Input Bar
+* ⚠️ **Severity:** 🔴 Critical (Release Blocker)
+* 📌 **Priority:** 🔺 High
+* 🪜 **Steps to Reproduce:**
+  1. Open the Courses Catalog (`courses.html`).
+  2. Focus on the dynamic search bar input field.
+  3. Type search string `'API'`.
+* 🎯 **Expected Result:** Course catalog view updates dynamically to show 'API Testing'.
+* 💥 **Actual Result:** Grid fails to update dynamically upon query entry; unfiltered catalog view remains visible and matching card is not isolated.
+
+---
+
+### 🏷️ Defect ID: #BUG-03 (T337)
+* 📝 **Summary:** Hover State Transparency Overlay Inactive on Teacher Portrait
+* 📂 **Module:** `theory.html` / Instructor Card (Dmytro Kravchenko)
+* ⚠️ **Severity:** 🟡 Minor
+* 📌 **Priority:** 🔹 Low
+* 🪜 **Steps to Reproduce:**
+  1. Open the Team / Instructors section on `theory.html`.
+  2. Locate the mentor card for Dmytro Kravchenko.
+  3. Hover mouse cursor over the instructor portrait picture.
+* 🎯 **Expected Result:** Portrait darkens with opacity transition revealing social links.
+* 💥 **Actual Result:** CSS `:hover` state fails to trigger opacity layer; social link icons remain invisible and inaccessible to click events.
+
 --------------------------------------------------------------------------------
 
 5. ⚖️ QUALITY ASSESSMENT & RELEASE RECOMMENDATION
