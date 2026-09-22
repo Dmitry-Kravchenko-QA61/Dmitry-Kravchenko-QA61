@@ -16,8 +16,8 @@ The primary focus of this testing cycle was scoped strictly to core modules of t
 * 📖 **Theory Website Module (theory.html):** Verification of layout elements, handbook document download link, and copyright year rendering **(Tests T286 – T288)**.
 * 🔍 **Courses Catalog (courses.html):** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors **(Tests T289 – T305)**.
 * 🛠 **Bugs & Test Cases Module (bugs.html):** Validation of the Kanban board drag-and-drop mechanics, mock bug tracking form fields, analytical grid rendering, case execution filtering, report export triggers, and error log simulators **(Tests T306 – T322)**.
-* 👥 **Team / Instructors Section (theory.html - Shared Host):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the mentor block **(Tests T323 – T337)**. *Note: Validated on the 'Team / Instructors' view panel embedded within the main theory page layout.*
-* 🔷 **Brand Identity Media Page (External Environment / CDN):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints **(Tests T338 – T358)**.
+* 👥 **Team / Instructors Section (theory.html - Shared Host):** Verification of expert profiles, filter tabs, modal biographies, teacher portrait hover states, skeleton loaders, and section counters **(Tests T323 – T341)**. *Note: Validated within the main theory page layout which structurally hosts this block.*
+* 🔷 **Brand Identity Media Page (External Environment / CDN):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints **(Tests T342 – T358)**.
 
 ### Out of Scope (Deferred to Next Sprint):
 * 🏠 **Home Page / Landing Interface (home.html):** Main introduction layout validation and baseline entry nodes (deferred due to pending design system revisions).
@@ -44,12 +44,12 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 
 ### 3.1. Testing Caveats & Legacy Documentation Anomalies
 
-During the test execution cycle, the QA team identified several logical discrepancies within the inherited test case documentation suite. To maintain metrics consistency across the active sprint, these cases were processed under the following strict parameters:
+During the test execution cycle, the QA team identified several logical discrepancies within the inherited test case documentation suite. To maintain metrics consistency across the active sprint, these cases were processed under the following parameters:
 
-* 🌐 **Localization Constraints (Case T283):** The test step references changing localization from "Russian to English". However, as documented in the system specifications, the platform is fully localized in Ukrainian with no native Russian UI support implemented. Because the test criteria itself is legacy and mismatching active requirements, this case has been flagged for separate documentation refactoring. It was functionally validated and marked as Passed based on the active Ukrainian-to-English localization switch container behavior.
+* 🌐 **Localization Constraints (Case T283):** The test step references changing localization from "Russian to English". However, as documented in the system specifications, the platform is fully localized in Ukrainian with no native Russian UI support implemented. To verify the underlying technical framework stability, the execution was marked as Passed based on the successful validation of the active Ukrainian-to-English localization switch container behavior. *Recommendation: Submit Case T283 for documentation refactoring to align with active system architecture.*
 * ⚡ **Performance Metric Verification (Case T286):** Case T286 mandates that the page must fully load in less than 2 seconds via manual verification. Since microsecond network layer shifts cannot be verified accurately with the naked eye, the execution status was benchmarked using the Chrome DevTools Network performance profiler (DOMContentLoaded and Finish metrics) to ensure objective validation before marking the test as Passed.
 * 🔍 **Truncated Step Description (Case T288):** The implementation step for Case T288 abruptly terminates with an ellipsis ("Scroll to the bottom footer of the Theory page..."). The execution pass criteria were successfully inferred from the expected result column ("Footer shows correct current copyright year"), and full visual verification of the dynamic year rendering was completed.
-* 📂 **Environment Discrepancy & Repository File Absence (Brand Asset Scope):** Test cases T338–T358 reference the "Brand Identity media page". Review of the local deployment package confirmed that no physical file named brand.html exists within the repository. To ensure testing continuity, validation of these 21 cases was redirected and executed against the live external environment (Staging CDN asset directory) as implied by the test case preconditions.
+* 📂 **Environment Discrepancy & Repository File Absence (Brand Asset Scope):** Test cases T342–T358 reference the "Brand Identity media page". Review of the local deployment package confirmed that no physical file named brand.html exists within the repository. To ensure testing continuity, validation of these 17 cases was redirected and executed against the live external environment (Staging CDN asset directory) as implied by the test case preconditions. Cases T338–T341 were verified directly within the functional layout of the Team / Instructors section.
 
 ### 3.2. Module Distribution & Findings
 
@@ -59,8 +59,8 @@ During the test execution cycle, the QA team identified several logical discrepa
 | **Theory Website Module** | T286 – T288 | 3 | 3 | 0 | ⚫ **Stable.** Layout elements, download links, and footer render properly. |
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **Bug #2 (Critical):** Catalog search query parsing failure (ID: T297). |
 | **Bugs & Test Cases Module** | T306 – T322 | 17 | 17 | 0 | ⚫ **Stable.** Kanban board drag-and-drop, form inputs, test grid filters, and report export controls passed. |
-| **Team / Instructors Section** | T323 – T337 | 15 | 14 | 1 | 🔴 **Bug #3 (Minor):** Hover state transparency overlay blocks social links (ID: T337). |
-| **Brand Identity Media Page** | T338 – T358 | 21 | 21 | 0 | ⚫ **Stable.** Asset wrappers, resolution badges, and hex copy-to-clipboard passed via external CDN deployment. |
+| **Team / Instructors Section** | T323 – T341 | 19 | 18 | 1 | 🔴 **Bug #3 (Minor):** Hover state transparency overlay blocks social links (ID: T337). |
+| **Brand Identity Media Page** | T342 – T358 | 17 | 17 | 0 | ⚫ **Stable.** Asset wrappers, resolution badges, and hex copy-to-clipboard passed via external CDN deployment. |
 
 ---
 
@@ -92,8 +92,8 @@ During the test execution cycle, the QA team identified several logical discrepa
 * **Steps to Reproduce:**
   1. Open the main theory page and navigate directly to the **Team / Instructors view panel**.
   2. Scroll down to the "Mentors of QA Learning Ecosystem" (Team / Instructors) section.
-  3. Locate the instructor profile card for Dmytro Kravchenko.
-  4. Hover the mouse cursor directly over the instructor's background photo.
+  3. Locate the instructor profile cards grid layout.
+  4. Hover the mouse cursor directly over an instructor's background photo portrait.
 * **Actual Result:** The darkened opacity overlay fails to trigger, leaving social links hidden and unclickable.
 * **Expected Result:** The hover state instantly triggers the opacity overlay and renders accessible social media links.
 
