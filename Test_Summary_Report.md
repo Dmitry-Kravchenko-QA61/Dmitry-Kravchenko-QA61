@@ -90,7 +90,7 @@ During the test execution cycle, the QA team identified several logical discrepa
 * **Description:** Hovering a cursor over a Team / Instructor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social media links.
 * **Severity:** Minor (UI/UX Functionality Restriction).
 * **Steps to Reproduce:**
-  1. Open the main theory page and navigate directly to the **Team / Instructors view panel**.
+  1. Open the dedicated **Team / Instructors** view page.
   2. Scroll down to the "Mentors of QA Learning Ecosystem" (Team / Instructors) section.
   3. Locate the instructor profile cards grid layout.
   4. Hover the mouse cursor directly over an instructor's background photo portrait.
