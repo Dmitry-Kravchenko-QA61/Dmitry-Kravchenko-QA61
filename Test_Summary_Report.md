@@ -1,16 +1,13 @@
-📊 TEST SUMMARY REPORT (TSR) 📋
-================================================================================
-📁 Project Name:         Academy Practicum - Web Project QA
-🖥️ System Under Test:    Web Application (QA-Staging Environment)
-🧩 Modules Covered:      🏠 Home / About Us (home.html), 📖 Theory Handbooks (theory.html),
-                         🔍 Courses Catalog (courses.html), 🛠️ Interactive Sandbox 
-                         (interesting.html), 👥 Instructors Directory (theory.html),
-                         💎 Brand Identity Media Kit (brand assets)
-⏱️ Execution Period:     September 2026
-📅 Report Date:          September 22, 2026
-👤 Prepared By:          Dmitry Kravchenko (QA Engineer)
-🔄 Execution Status:     ✅ COMPLETED
-🚫 Release Gate:         ⛔ REJECTED (Quality Gate Failed due to open Blocker defect)
+# 📊 TEST SUMMARY REPORT (TSR) 📋
+
+* 📁 **Project Name:** Academy Practicum - Web Project QA
+* 🖥️ **System Under Test:** Web Application (QA-Staging Environment)
+* 🧩 **Modules Covered:** 🏠 Home / About Us (`home.html`), 📖 Theory Handbooks (`theory.html`), 🔍 Courses Catalog (`courses.html`), 🛠️ Interactive Sandbox (`interesting.html`), 👥 Instructors Directory (`theory.html`), 💎 Brand Identity Media Kit (brand assets)
+* ⏱️ **Execution Period:** September 2026
+* 📅 **Report Date:** September 22, 2026
+* 👤 **Prepared By:** Dmitry Kravchenko (QA Engineer)
+* 🔄 **Execution Status:** ✅ COMPLETED
+* 🚫 **Release Gate:** ⛔ REJECTED (Quality Gate Failed due to open Blocker defect)
 ================================================================================
 
 1. 🎯 PROJECT OVERVIEW & SCOPE
