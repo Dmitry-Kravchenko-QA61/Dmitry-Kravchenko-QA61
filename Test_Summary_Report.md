@@ -17,8 +17,8 @@ The primary focus of this testing cycle was scoped strictly to core modules of t
 * 📖 **Theory Website Module (theory.html):** Verification of layout elements, handbook document download link, and copyright year rendering **(Tests T286 – T288)**. *Note: This physical file also structurally hosts the Team / Instructors functional block.*
 * 🔍 **Courses Catalog (courses.html):** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors **(Tests T289 – T305)**.
 * 🛠️ **Bugs & Test Cases Module (bugs.html):** Validation of the Kanban board drag-and-drop mechanics, mock bug tracking form fields, analytical grid rendering, case execution filtering, report export triggers, and error log simulators **(Tests T306 – T322)**.
-* 👥 **Team / Instructors Section (theory.html - Shared Host):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the mentor block **(Tests T323 – T341)**. *Note: Validated on the 'Team / Instructors' view panel embedded within the main theory page layout.*
-* ♦️ **Brand Identity Media Page (External Environment / CDN):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints **(Tests T342 – T358)**.
+* 👥 **Team / Instructors Section (theory.html - Shared Host):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the mentor block **(Tests T323 – T337)**. *Note: Validated on the 'Team / Instructors' view panel embedded within the main theory page layout.*
+* ♦️ **Brand Identity Media Page (External Environment / CDN):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints **(Tests T338 – T358)**.
 
 ### Out of Scope (Deferred to Next Sprint):
 
@@ -95,7 +95,7 @@ During the test execution cycle, the QA team identified several logical discrepa
 * **Description:** Hovering a cursor over a Team / Instructor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social media links.
 * **Severity:** Minor (UI/UX Functionality Restriction).
 * **Steps to Reproduce:**
-  1. Open the Theory page (`theory.html`).
+  1. Open the main theory page and navigate to the **Team / Instructors view panel**.
   2. Scroll down to the "Mentors of QA Learning Ecosystem" (Team / Instructors) section.
   3. Locate the instructor profile card for Dmytro Kravchenko.
   4. Hover the mouse cursor directly over the instructor's background photo.
