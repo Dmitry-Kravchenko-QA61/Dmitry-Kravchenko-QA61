@@ -34,7 +34,7 @@ navigation workflows, and core functionality across 6 platform modules:
 * 📑 Test cases repository documentation view (testcases.html).
 
 2. 📈 TEST METRICS & EXECUTION SUMMARY
---------------------------------------------------------------------------------
+
 Execution metrics breakdown:
 
 * 🔢 Total Test Cases Executed : 85   (100.0%)
