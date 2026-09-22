@@ -86,15 +86,14 @@ During the test execution cycle, the QA team identified several logical discrepa
 * **Actual Result:** The view grid does not update; the 'API Testing' card remains completely hidden.
 * **Expected Result:** Search results dynamically update to show 'API Testing' card.
 
-### 🐜 Bug #3: Hover State Overlay Bug on Team / Instructors Section (ID: T337)
-* **Description:** Hovering a cursor over a Team / Instructor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social media links.
+### 🐜 Bug #3: Hover State Overlay Bug on Dmytro Kravchenko Portrait (ID: T337)
+* **Description:** Hovering a cursor over the picture asset of Dmytro Kravchenko does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social media links.
 * **Severity:** Minor (UI/UX Functionality Restriction).
 * **Steps to Reproduce:**
   1. Open the dedicated **Team / Instructors** view page.
-  2. Scroll down to the "Mentors of QA Learning Ecosystem" (Team / Instructors) section.
-  3. Locate the instructor profile cards grid layout.
-  4. Hover the mouse cursor directly over an instructor's background photo portrait.
-* **Actual Result:** The darkened opacity overlay fails to trigger, leaving social links hidden and unclickable.
+  2. Locate the instructor profile card for Dmytro Kravchenko.
+  3. Hover the mouse cursor directly over Dmytro's background photo portrait.
+* **Actual Result:** The darkened opacity overlay fails to trigger on this specific portrait; social links remain hidden and unclickable.
 * **Expected Result:** The hover state instantly triggers the opacity overlay and renders accessible social media links.
 
 ## 5. Conclusion & Recommendations
