@@ -57,11 +57,11 @@ During the test execution cycle, the QA team identified several logical discrepa
 
 | Module / Page | Test Case IDs | Total Tests | Passed | Failed | Status / Defects Found |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **About Us Page** | T274 – T285 | 12 | 11 | 1 | 🔴 **Bug #1 (Minor):** Corporate Values block causes minor visual layout shift. |
+| **About Us Page** | T274 – T285 | 12 | 11 | 1 | 🔴 **Bug #1 (Minor):** Corporate Values block causes minor visual layout shift (ID: T278). |
 | **Theory Website Module** | T286 – T288 | 3 | 3 | 0 | 🟢 Stable. Layout elements, download links, and footer render properly. |
-| **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **Bug #2 (Critical):** Catalog search query parsing failure. |
+| **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **Bug #2 (Critical):** Catalog search query parsing failure (ID: T297). |
 | **Bugs Sandbox Module** | T306 – T322 | 17 | 17 | 0 | 🟢 Stable. Kanban board drag-and-drop, form inputs, test grid filters, and report export controls passed. |
-| **Team / Instructors Section** | T323 – T341 | 19 | 18 | 1 | 🔴 **Bug #3 (Minor):** Hover state transparency overlay blocks social links. |
+| **Team / Instructors Section** | T323 – T341 | 19 | 18 | 1 | 🔴 **Bug #3 (Minor):** Hover state transparency overlay blocks social links (ID: T337). |
 | **Brand Identity Media Page** | T342 – T358 | 17 | 17 | 0 | 🟢 Stable. Asset wrappers, resolution badges, and hex copy-to-clipboard passed via external CDN deployment. |
 
 ---
