@@ -16,8 +16,8 @@ The primary focus of this testing cycle was scoped strictly to core modules of t
 *   **📄 About Us Page (aboutus.html):** Validation of main headings, mission blocks, corporate growth links, values layout, and accordion component behavior **(Tests T274 – T285)**.
 *   **📖 Theory Website Module (theory.html - Shared Host):** Verification of layout elements, handbook document download link, and copyright year rendering **(Tests T286 – T288)**. *Note: This physical file also structurally hosts the Team / Instructors functional block.*
 *   **🔍 Courses Catalog (courses.html):** Verification of grid layouts, search accuracy, dynamic sidebar filtering, and sorting behaviors **(Tests T289 – T305)**.
-*   **🛠️ Bugs Sandbox Module (bugs.html):** Validation of the Kanban board drag-and-drop mechanics, mock bug tracking form fields, analytical grid rendering, case execution filtering, report export triggers, and error log simulators **(Tests T306 – T322)**.
-*   **👥 Team / Instructors Section (theory.html):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the mentor block located on the theory page **(Tests T323 – T341)**.
+*   **🛠️ Bugs & Test Cases Module (bugs.html):** Validation of the Kanban board drag-and-drop mechanics, mock bug tracking form fields, analytical grid rendering, case execution filtering, report export triggers, and error log simulators **(Tests T306 – T322)**.
+*   **👥 Team / Instructors Section (theory.html - Shared Host):** Verification of expert profiles, filter tabs, modal biographies, and hover state interactions inside the mentor block **(Tests T323 – T341)**. *Note: Validated on the 'Team / Instructors' view panel embedded within the main theory page layout.*
 *   **🔷 Brand Identity Media Page (External Environment / CDN):** Validation of Media Kit parameters, brand logo assets, hex color tokens, and file size constraints **(Tests T342 – T358)**.
 
 ### Out of Scope (Deferred to Next Sprint):
@@ -42,7 +42,7 @@ A total of 85 manual test cases were executed. The test suite utilized core blac
 *   **Passed (82):** Test cases executed successfully where the actual result matched the expected outcome.
 *   **Failed (3):** Critical deviations from requirements identified in **T278** (Bug #1), **T297** (Bug #2), and **T337** (Bug #3).
 *   **Blocked (0):** No test cases were blocked during this execution cycle.
-*   **Pass Rate Calculation:** `Passed / Total Executed` — `(82 / 85) * 100% = 96.47%`.
+*   **Pass Rate Calculation:** `Passed / Total Executed` — `(82/85) * 100% = 96.47%`.
 
 ### 3.1. Testing Caveats & Legacy Documentation Anomalies
 
@@ -51,7 +51,7 @@ During the test execution cycle, the QA team identified several logical discrepa
 *   **Localization Constraints (Case T283):** The test step references changing localization from "Russian to English". However, as documented in the system specifications, the platform is fully localized in Ukrainian with no native Russian UI support implemented. The test was executed and marked as Passed based on the successful validation of the active Ukrainian-to-English localization switch container behavior.
 *   **Performance Metric Verification (Case T286):** Case T286 mandates that the page must fully load in less than 2 seconds via manual verification. Since microsecond network layer shifts cannot be verified accurately with the naked eye, the execution status was benchmarked using the Chrome DevTools Network performance profiler (DOMContentLoaded and Finish metrics) to ensure objective validation before marking the test as Passed.
 *   **Truncated Step Description (Case T288):** The implementation step for Case T288 abruptly terminates with an ellipsis ("Scroll to the bottom footer of the Theory page..."). The execution pass criteria were successfully inferred from the expected result column ("Footer shows correct current copyright year"), and full visual verification of the dynamic year rendering was completed.
-*   **🚨 Environment Discrepancy & Repository File Absence (Brand Asset Scope):** Test cases T342–T358 reference the "Brand Identity media page". Review of the local deployment package confirmed that no physical file named `brand.html` exists within the repository. To ensure testing continuity, validation of these 17 cases was redirected and executed against the live external environment (Staging CDN asset directory) as implied by the test case preconditions.
+*   **Environment Discrepancy & Repository File Absence (Brand Asset Scope):** Test cases T342–T358 reference the "Brand Identity media page". Review of the local deployment package confirmed that no physical file named `brand.html` exists within the repository. To ensure testing continuity, validation of these 17 cases was redirected and executed against the live external environment (Staging CDN asset directory) as implied by the test case preconditions.
 
 ### 3.2. Module Distribution & Findings
 
@@ -60,7 +60,7 @@ During the test execution cycle, the QA team identified several logical discrepa
 | **About Us Page** | T274 – T285 | 12 | 11 | 1 | 🔴 **Bug #1 (Minor):** Corporate Values block causes minor visual layout shift (ID: T278). |
 | **Theory Website Module** | T286 – T288 | 3 | 3 | 0 | 🟢 Stable. Layout elements, download links, and footer render properly. |
 | **Courses Catalog** | T289 – T305 | 17 | 16 | 1 | 🔴 **Bug #2 (Critical):** Catalog search query parsing failure (ID: T297). |
-| **Bugs Sandbox Module** | T306 – T322 | 17 | 17 | 0 | 🟢 Stable. Kanban board drag-and-drop, form inputs, test grid filters, and report export controls passed. |
+| **Bugs & Test Cases Module** | T306 – T322 | 17 | 17 | 0 | 🟢 Stable. Kanban board drag-and-drop, form inputs, test grid filters, and report export controls passed. |
 | **Team / Instructors Section** | T323 – T341 | 19 | 18 | 1 | 🔴 **Bug #3 (Minor):** Hover state transparency overlay blocks social links (ID: T337). |
 | **Brand Identity Media Page** | T342 – T358 | 17 | 17 | 0 | 🟢 Stable. Asset wrappers, resolution badges, and hex copy-to-clipboard passed via external CDN deployment. |
 
@@ -92,13 +92,13 @@ During the test execution cycle, the QA team identified several logical discrepa
 *   **Description:** Hovering a cursor over a Team / Instructor profile card background photo does not render the darkened opacity overlay correctly. As a result, the social sharing sub-elements remain partially hidden and unclickable, preventing users from interacting with the social media links.
 *   **Severity:** Minor (UI/UX Functionality Restriction).
 *   **Steps to Reproduce:**
-1. Open the Theory page (`theory.html`).
+1. Open the Theory page (`theory.html` - Shared Host environment).
 2. Scroll down to the "Mentors of QA Learning Ecosystem" (Team / Instructors) section.
 3. Locate the instructor profile card for Dmytro Kravchenko.
 4. Hover the mouse cursor directly over the instructor's background photo.
 *   **Actual Result:** The darkened opacity overlay fails to trigger, leaving social links hidden and unclickable.
 *   **Expected Result:** The hover state instantly triggers the opacity overlay and renders accessible social media links.
-*   
+   
 ## 5. Conclusion & Recommendations
 
 While the overall platform architecture shows robust structural stability across most tested flows, the final Quality Gate status is currently **❌ REJECTED (Fixes Required)** pending the immediate resolution of the single critical release blocker identified in the Courses Catalog.
