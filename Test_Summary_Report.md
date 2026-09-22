@@ -85,7 +85,6 @@ Distribution across executed modules:
 
 Traceability log for all logged defects:
 
----
 
 ### 🏷️ Defect ID: #BUG-01 (T278)
 * 📝 **Summary:** Visual Layout Shift and Text Overlap in Corporate Values Area
