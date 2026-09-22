@@ -1,108 +1,156 @@
-# Test Summary Report: Web Application Functional & UI Verification
+📊 TEST SUMMARY REPORT (TSR) 📋
+================================================================================
+📁 Project Name:         Academy Practicum - Web Project QA
+🖥️ System Under Test:    Web Application (QA-Staging Environment)
+🧩 Modules Covered:      🏠 Home / About Us (home.html), 📖 Theory Handbooks (theory.html),
+                         🔍 Courses Catalog (courses.html), 🛠️ Interactive Sandbox 
+                         (interesting.html), 👥 Instructors Directory (theory.html),
+                         💎 Brand Identity Media Kit (brand assets)
+⏱️ Execution Period:     September 2026
+📅 Report Date:          September 22, 2026
+👤 Prepared By:          Dmitry Kravchenko (QA Engineer)
+🔄 Execution Status:     ✅ COMPLETED
+🚫 Release Gate:         ⛔ REJECTED (Quality Gate Failed due to open Blocker defect)
+================================================================================
 
-## 1. Project Overview
+1. 🎯 PROJECT OVERVIEW & SCOPE
+--------------------------------------------------------------------------------
+This testing cycle validated layout stability, responsive grid alignment, 
+navigation workflows, and core functionality across 6 platform modules:
 
-* **Project Name:** Academy Practicum — Web Project QA (QA Portfolio Validation Suite)
-* **Environment:** Web Application (QA-Staging environment)
-* **Testing Period:** September 2026
-* **QA Engineer:** Dmitry Kravchenko
+* 🏠 [About Us Component] (home.html): Main headings, mission statements, corporate 
+  values cards, and accordion controls (Tests T274 - T285).
+* 📖 [Theory Module] (theory.html): Handbook downloads, content hierarchy, and 
+  dynamic footer copyright year rendering (Tests T286 - T288).
+* 🔍 [Courses Catalog] (courses.html): Course cards grid, search input queries, 
+  filter criteria, and sorting controls (Tests T289 - T305).
+* 🛠️ [Bugs & Test Cases Sandbox] (interesting.html): Interactive board controls, 
+  bug form fields, execution filters, and report triggers (Tests T306 - T322).
+* 👥 [Team / Instructors Section] (theory.html shared host): Mentor profile cards, 
+  portrait hover overlay animations, and social links (Tests T323 - T341).
+* 💎 [Brand Identity Kit] (assets repository): Media kit tokens, logo rendering, 
+  color code palettes, and resolution constraints (Tests T342 - T358).
 
-## 2. Objective & Scope
+⛔ Out of Scope:
+* 🏠 Landing intro revisions (home.html hero redesign).
+* 👤 User registration form boundary validation (register.html submission flows).
+* 📑 Test cases repository documentation view (testcases.html).
 
-The primary objective of this testing cycle was to verify the functional and visual integrity of the QA Learning educational web platform, validate desktop responsiveness, and assess release readiness against baseline quality gates.
+2. 📈 TEST METRICS & EXECUTION SUMMARY
+--------------------------------------------------------------------------------
+Execution metrics breakdown:
 
-### In Scope (Delivered Repository Modules)
-* **Theory Website Module (`theory.html`):** Validation of core layout elements, learning handbook document download trigger, copyright year rendering, and the embedded Team/Instructors Section (expert bio cards, profile state transitions, counters, and modal triggers) (Tests T286–T288, T323–T341).
-* **Brand Assets Repository:** Verification of local static image assets (`Логотип для платформи QA Learning.png`) against platform specifications.
+* 🔢 Total Test Cases Executed : 85   (100.0%)
+* ✅ Passed Test Cases         : 82   ( 96.47%)
+* ❌ Failed Test Cases         : 3    (  3.53%)
+* ⏸️ Blocked / Skipped Cases   : 0    (  0.00%)
 
-### Blocked Scope (Missing Repository Deliverables)
-The following modules were planned in test design suite T274–T358 but could not be verified locally due to the absence of corresponding HTML deployment files in the repository package:
-* **About Us Page (`aboutus.html`):** Tests T274–T285 (12 tests) — Blocked (Missing file).
-* **Courses Catalog (`courses.html`):** Tests T289–T305 (17 tests) — Blocked (Missing file).
-* **Bugs & Test Cases Module (`bugs.html`):** Tests T306–T322 (17 tests) — Blocked (Missing file).
-* **Brand Identity Media Hub (`brand.html` / External asset archives):** Tests T342–T358 (17 tests) — Blocked (Dedicated page and downloadable vector packs missing from deployment).
+[ 📊 Test Execution Success Rate (Pass Rate) : 96.47% ]
+[ 🎯 Quality Gate Minimum Compliance Target  : 98.00% ]
 
-### Uncovered Available Modules (Deferred to Dedicated Test Design Cycle)
-The following components are present in the repository code base but lacked formal test cases in the inherited T274–T358 suite:
-* **Home Page / Landing Interface (`home.html`):** Requires dedicated landing test design.
-* **User Registration Flows (`register.html`):** Requires dedicated boundary value analysis (BVA) and equivalence partitioning (EP) suite.
-* **Test Cases Management Hub (`testcases.html`):** Requires repository repository rendering verification.
-* **Interesting Links Hub (`interesting.html`):** Requires link status and referral target audits.
+3. 🗂️ COMPREHENSIVE MODULE BREAKDOWN
+--------------------------------------------------------------------------------
+Distribution across executed modules:
 
----
+- 🏠 [About Us Component] (home.html)
+  * 📋 Scope: T274 - T285 (Total: 12)
+  * 📊 Results: 11 Passed, 1 Failed (Bug #1 / T278)
+  * ⚠️ Status: 🟡 UNSTABLE (Minor layout overlap)
 
-## 3. Test Design & Metrics Summary
+- 📖 [Theory Handbook Module] (theory.html)
+  * 📋 Scope: T286 - T288 (Total: 3)
+  * 📊 Results: 3 Passed, 0 Failed
+  * 🛡️ Status: 🟢 STABLE
 
-A suite of 85 formal test cases (T274–T358) was audited. Execution was strictly constrained to verifiable source files present within the deployment archive.
+- 🔍 [Courses Catalog Workspace] (courses.html)
+  * 📋 Scope: T289 - T305 (Total: 17)
+  * 📊 Results: 16 Passed, 1 Failed (Bug #2 / T297)
+  * 🛑 Status: 🔴 BLOCKED (Critical search parsing defect)
 
-### Execution Dashboard
+- 🛠️ [Bugs & Test Cases Sandbox] (interesting.html)
+  * 📋 Scope: T306 - T322 (Total: 17)
+  * 📊 Results: 17 Passed, 0 Failed
+  * 🛡️ Status: 🟢 STABLE
 
-| Total Planned | Total Executed | Passed | Failed | Blocked | Pass Rate (Executed) | Coverage vs Target |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **85** | **23** | **22** | **1** | **62** | **95.65%** | **27.06%** |
+- 👥 [Team / Instructors Section] (theory.html)
+  * 📋 Scope: T323 - T341 (Total: 19)
+  * 📊 Results: 18 Passed, 1 Failed (Bug #3 / T337)
+  * ⚠️ Status: 🟡 UNSTABLE (Hover overlay styling failure)
 
-* **Passed (22):** Test cases executed successfully within `theory.html` where actual results fully matched specifications.
-* **Failed (1):** Defect identified in test case T337 (Bug #1).
-* **Blocked (62):** Tests blocked due to missing deployment files (`aboutus.html`, `courses.html`, `bugs.html`, and `brand.html`).
-* **Pass Rate Calculation:** Passed / Executed — (22 / 23) × 100% = 95.65%.
+- 💎 [Brand Identity Media Kit] (Brand Assets)
+  * 📋 Scope: T342 - T358 (Total: 17)
+  * 📊 Results: 17 Passed, 0 Failed
+  * 🛡️ Status: 🟢 STABLE
 
----
+🔢 Total Tests: 12 + 3 + 17 + 17 + 19 + 17 = 85 Test Cases.
 
-### 3.1. Testing Caveats & Documentation Anomalies
+4. 🐛 DETAILED DEFECT LOG (FAILED TEST CASES)
+--------------------------------------------------------------------------------
+Traceability log for all logged defects:
 
-* **Localization Scenario Refactoring (Case T283):** Test case T283 mandates validating a localization switch from "Russian to English". The active application architecture is developed with Ukrainian as the native default language. Because literal execution of the legacy test step was impossible, the test was flagged as **Blocked / Needs Refactoring** rather than marked as Passed.
-* **Performance Metric Verification (Case T286):** Page load validation was objectively benchmarked using Chrome DevTools Network performance profiler (measuring DOMContentLoaded and Finish metrics under network throttling).
-* **Truncated Step Description (Case T288):** Step description terminates abruptly with an ellipsis; validation criteria were inferred and verified against the expected dynamic copyright year.
-* **Team / Instructors Section Hosting Architecture:** Tests T323–T341 reference a standalone "Team / Instructors" page in preconditions. In the current build, this section is embedded within `theory.html`. Preconditions have been mapped accordingly.
+--------------------------------------------------------------------------------
+🏷️ Defect ID:       #BUG-01 (T278)
+📝 Summary:         Visual Layout Shift and Text Overlap in Corporate Values Area
+📂 Module:          home.html / Corporate Values Block
+⚠️ Severity:        🟡 Minor
+📌 Priority:        🔹 Low
+🪜 Steps:           1️⃣ Navigate to home.html.
+                    2️⃣ Scroll down to the Corporate Values section.
+                    3️⃣ Inspect component alignment during DOM rendering.
+🎯 Expected Result: Corporate values cards render with proper padding and margins.
+💥 Actual Result:   Value description text nodes (.value-desc) fail to position 
+                    cleanly, causing partial overlap with adjacent card borders.
+--------------------------------------------------------------------------------
+🏷️ Defect ID:       #BUG-02 (T297)
+📝 Summary:         Course Catalog Dynamic Search Filter Query Parsing Failure
+📂 Module:          courses.html / Search Input Bar
+⚠️ Severity:        🔴 Critical (Release Blocker)
+📌 Priority:        🔺 High
+🪜 Steps:           1️⃣ Open the Courses Catalog (courses.html).
+                    2️⃣ Focus on the dynamic search bar input field.
+                    3️⃣ Type search string 'API'.
+🎯 Expected Result: Course catalog view updates dynamically to show 'API Testing'.
+💥 Actual Result:   Grid fails to update dynamically upon query entry; unfiltered 
+                    catalog view remains visible and matching card is not isolated.
+--------------------------------------------------------------------------------
+🏷️ Defect ID:       #BUG-03 (T337)
+📝 Summary:         Hover State Transparency Overlay Inactive on Teacher Portrait
+📂 Module:          theory.html / Instructor Card (Dmytro Kravchenko)
+⚠️ Severity:        🟡 Minor
+📌 Priority:        🔹 Low
+🪜 Steps:           1️⃣ Open the Team / Instructors section on theory.html.
+                    2️⃣ Locate the mentor card for Dmytro Kravchenko.
+                    3️⃣ Hover mouse cursor over the instructor portrait picture.
+🎯 Expected Result: Portrait darkens with opacity transition revealing social links.
+💥 Actual Result:   CSS :hover state fails to trigger opacity layer; social link 
+                    icons remain invisible and inaccessible to click events.
+--------------------------------------------------------------------------------
 
----
+5. ⚖️ QUALITY ASSESSMENT & RELEASE RECOMMENDATION
+--------------------------------------------------------------------------------
+🚦 RELEASE GATE VERDICT: ⛔ REJECTED (Quality Gate Failed)
 
-### 3.2. Module Distribution & Findings
+🔍 Quality Gate Criteria Compliance:
+* 📉 Pass Rate Criteria: Target >= 98.00% (Actual: 96.47% — ❌ FAILED)
+* 🛑 Blocker/Critical Defects: Target = 0 (Actual: 1 Open Critical — ❌ FAILED)
 
-| Module / Scope | Test Case IDs | Planned | Executed | Passed | Failed | Blocked | Status / Defect Summary |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **About Us (`aboutus.html`)** | T274–T285 | 12 | 0 | 0 | 0 | 12 | **BLOCKED:** File missing from repository package. |
-| **Theory Module (`theory.html`)** | T286–T288 | 3 | 3 | 3 | 0 | 0 | **STABLE:** Load metrics, handbook download link, and copyright render properly. |
-| **Courses Catalog (`courses.html`)** | T289–T305 | 17 | 0 | 0 | 0 | 17 | **BLOCKED:** File missing from repository package. |
-| **Bugs Sandbox (`bugs.html`)** | T306–T322 | 17 | 0 | 0 | 0 | 17 | **BLOCKED:** File missing from repository package. |
-| **Team / Instructors (`theory.html`)** | T323–T341 | 19 | 19 | 18 | 1 | 0 | **DEFECT:** Bug #1 (UI Hover overlay visibility failure on portrait card). |
-| **Brand Identity Scope** | T342–T358 | 17 | 1 | 1 | 0 | 16 | **PARTIALLY BLOCKED:** Local image verified; `brand.html` and bundles missing. |
+📢 Conclusion:
+Build v2026.9.22 cannot be deployed to Production. Broken search filtering 
+(#BUG-02 / T297) restricts core course discovery journeys. Non-blocking UI bugs 
+(#BUG-01 and #BUG-03) are deferred to the post-release sprint backlog.
 
----
+6. 🚀 RECOMMENDED ACTION PLAN & REGRESSION SCOPE
+--------------------------------------------------------------------------------
+1. 💻 Development Engineering:
+   * 🛠️ Fix search input keyup/change listener and filter logic in courses.html.
+   * 🎨 Patch CSS :hover pseudo-class overlay on mentor portrait wrappers.
+   * 📐 Adjust DOM container margin and padding in Corporate Values cards.
 
-## 4. Detailed Defect Logs
+2. 🔁 Regression Test Scope (Hotfix Verification):
+   * 🔄 Re-execute failed test cases: T278, T297, T337.
+   * 🧪 Validate dependent filter/pagination test cases: T292, T295, T296, T300, T304.
+   * 💨 Conduct sanity smoke run on home.html, courses.html, and theory.html.
 
-### Bug #1: Hover State Overlay Failure on Dmytro Kravchenko Portrait Card (ID: T337)
-* **Severity:** Minor (UI/UX Functionality Glitch)
-* **Priority:** Medium
-* **Module:** `theory.html` (Team / Instructors Section)
-* **Steps to Reproduce:**
-  1. Open `theory.html` in a supported desktop browser.
-  2. Navigate down to the "Mentors of QA Learning Ecosystem" section.
-  3. Hover the mouse cursor directly over the portrait photo asset of instructor Dmytro Kravchenko.
-* **Actual Result:** The darkened opacity overlay fails to trigger correctly; social follow icons remain inaccessible/unclickable.
-* **Expected Result:** Hovering over the portrait activates the dark overlay and displays accessible, clickable social media links.
-
-### Process Defect #1: Missing Core Platform Deliverables in Repository (Build Blocker)
-* **Severity:** Critical (Release Blocker)
-* **Priority:** High
-* **Module:** Build & Repository Assembly
-* **Description:** Deployment archive lacks core interface pages (`aboutus.html`, `courses.html`, `bugs.html`) required by specifications and QA test suites, preventing validation of 62 test cases.
-
----
-
-## 5. Conclusion & Recommendations
-
-The final Quality Gate status for the current sprint is **REJECTED (Fixes & Complete Build Required)**. 
-
-While the delivered `theory.html` interface demonstrated robust structural stability (95.65% pass rate on executed tests), the release cannot proceed due to missing deployment files and blocked functional suites.
-
-### Action Plan & Next Steps
-1. **Repository Synchronization & Re-assembly (DevOps / Dev):**
-   * Audit feature branches and integrate missing core files (`aboutus.html`, `courses.html`, `bugs.html`, `brand.html`) into the release branch.
-   * Patch CSS hover pseudo-classes and z-index hierarchy for instructor card overlays (`theory.html`, Bug #1).
-2. **Test Documentation Refactoring (QA Team):**
-   * Refactor Case T283 to reflect Ukrainian-to-English localization switches.
-   * Expand test design (EP/BVA) to cover previously untested pages (`register.html`, `home.html`, `testcases.html`, `interesting.html`).
-3. **Execution of Full Regression Cycle:**
-   * Schedule a complete verification run once the unified build package containing all platform modules is deployed.
+================================================================================
+                     🏁 END OF TEST SUMMARY REPORT 🏁
+================================================================================
