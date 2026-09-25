@@ -1,12 +1,12 @@
 # 📊 TEST SUMMARY REPORT (TSR)
 
-**📁 Project Name:** Academy Practicum - Web Project QA
-**🖥️ System Under Test:** Web Application (QA-Staging Environment)
-**⏱️ Execution Period:** September 2026
-**📅 Report Date:** September 22, 2026
-**👤 Prepared By:** Dmitry Kravchenko (QA Engineer)
-**🔄 Execution Status:** ✅ COMPLETED
-**🚫 Release Gate:** ⛔ **REJECTED** (Quality Gate Failed due to open Blocker defect)
+** 📁 Project Name:** Academy Practicum - Web Project QA
+** 🖥️ System Under Test:** Web Application (QA-Staging Environment)
+** ⏱️ Execution Period:** September 2026
+** 📅 Report Date:** September 22, 2026
+** 👤 Prepared By:** Dmitry Kravchenko (QA Engineer)
+** 🔄 Execution Status:** ✅ COMPLETED
+** 🚫 Release Gate:** ⛔ **REJECTED** (Quality Gate Failed due to open Blocker defect)
 
 ---
 
