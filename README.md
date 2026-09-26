@@ -76,6 +76,6 @@ Target: Verify build stability, UI controls, interruptions, and performance limi
 
 ## 📬 How to reach me
 
-*   **Telegram:** [@dmitrykravchenko27](https://t.me)
+*   **Telegram:** [@dmitrykravchenko27](https://t.me/dmitrykravchenko27)
 *   **Email:** [windowlightbox@gmail.com](mailto:windowlightbox@gmail.com)
 *   **Location:** Kharkiv, Ukraine (Open to remote work)
