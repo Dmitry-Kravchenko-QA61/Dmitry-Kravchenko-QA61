@@ -29,7 +29,7 @@ This project contains comprehensive functional verification and UI architecture 
 > **🌐 Localization Note:** The target web application's user interface and content are fully localized in Ukrainian. However, to demonstrate alignment with global industry standards, all associated QA deliverables, test specifications, and defect logs are maintained strictly in English.
 
 **📄 Platform Architecture & Pages Overview**
-The educational platform consists of 8 interconnected web pages[cite: 31]:
+The educational platform consists of 8 interconnected web pages:
 1.  🏠 **Home Page (`home.html`):** The primary landing interface featuring core value propositions, platform stats, and primary navigation nodes.
 2.  📑 **About Us Page (`aboutus.html`):** Dedicated institutional page detailing mission statements, corporate timeline, and the mentor board directory (Team & Instructors).
 3.  🔍 **Courses Catalog (`courses.html`):** Data-driven module incorporating multi-attribute search, category and level filters, pricing tags, and card grid layouts.
