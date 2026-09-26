@@ -56,8 +56,6 @@ While the platform consists of 8 pages in total, this testing cycle was focused 
      
 #### 📂 Project 1 Deliverables & Artifacts
 
-### 🔗 Project Links
-
 *   **Deliverables:**
     * 💻 **Application Source Files:** [Dmitry-Kravchenko-QA61 / Tested Pages & Modules](Site)
     * 📋 **Test Strategy & Planning:** [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the web application core functionality (6 modules).*
