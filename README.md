@@ -1,7 +1,7 @@
 # Hi there, I'm Dmitry Kravchenko! 👋
-## Junior QA Engineer | Passionate about GameDev Testing 🎮
+## Junior QA Engineer | Passionate about Software Quality 💻
 
-Welcome to my QA Portfolio! I am a detail-oriented Junior Quality Assurance Engineer with a solid foundation in manual web application and mobile game testing. Backed by a strong technical background in systems administration and networking, I bring a meticulous approach to defect troubleshooting, environment configuration, and cross-platform software quality assurance.
+Welcome to my QA Portfolio! I am a detail-oriented Junior Quality Assurance Engineer with a solid foundation in manual web application and mobile application testing. Backed by a strong technical background in systems administration and networking, I bring a meticulous approach to defect troubleshooting, environment configuration, and cross-platform software quality assurance.
 
 ### 🚀 About Me
 *   🎓 **Education:** Graduated from IT STEP Academy with an International Diploma in Manual Software Testing & Systems Administration.
