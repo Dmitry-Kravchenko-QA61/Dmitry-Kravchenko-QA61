@@ -1,54 +1,51 @@
 # Hi there, I'm Dmitry Kravchenko! 👋
-## Junior QA Engineer | Passionate about Software Quality 💻
+**Junior QA Engineer | Passionate about Software Quality 💻**
 
 Welcome to my QA Portfolio! I am a detail-oriented Junior Quality Assurance Engineer with a solid foundation in manual testing of web and mobile applications. Backed by a strong technical background in systems administration and networking, I bring a meticulous approach to defect troubleshooting, environment configuration, and cross-platform software quality assurance.
 
-### 🚀 About Me
+## 🚀 About Me
 *   🎓 **Education:** Graduated from IT STEP Academy with an International Diploma in Manual Software Testing & Systems Administration.
 *   ⚡ **Technical Excellence:** Achieved a 97% score on the Cisco international final exam (Cisco IT Essentials).
 *   🕹️ **GameDev Experience:** Participated in testing real-world mobile game projects developed by PixelCraft Studio:
     *   *Shadows of Silence* (2D, live on Google Play Store).
     *   *Last Signal 2* (3D indie game, currently in active testing).
 
-### 🛠️ Tech Stack & Skills
-*   🧠 **Testing Types & Approaches:** Manual Testing, Black-Box/Grey-Box Testing, Smoke Testing, Regression Testing, Sanity Testing, Retesting, Interrupt Testing, UI/UX Verification.
+## 🛠️ Tech Stack & Skills
+*   🧠 **Testing Types & Approaches:** Manual Testing, Black-Box/Grey-Box Testing, Smoke, Regression, Integration Testing, UI/UX Verification.
 *   📱 **Target Platforms:** Web (Desktop Browsers), Mobile (Android).
-*   📑 **Test Documentation:** Requirements Analysis, Test Plans, Decomposition, Test Cases, Checklists, Bug Reports, Test Design Techniques.
+*   📑 **Test Documentation:** Requirements Analysis, Test Plans, Decomposition, Test Cases, Bug Reports, Test Design Techniques.
 *   🔄 **SDLC/STLC:** Agile Frameworks (Scrum, Kanban), Waterfall, Bug Life Cycle.
-*   🛠️ **Tools & Technologies:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL, Chrome DevTools, HTML/CSS, Google Docs/Sheets.
-*   🌐 **Web Understanding:** Client-Server Architecture.
+*   🛠️ **Tools & Technologies:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL, Chrome DevTools, HTML/CSS.
+*   🌐 **Web Understanding:** Client-Server Architecture, API, Relational Databases.
 *   💻 **Operating Systems:** Windows, Linux, Android.
 
----
+## 📁 Portfolio Projects & Artifacts
 
-### 📁 Portfolio Projects & Artifacts
+### 💻 Project 1: Web Application Testing (QA Academy Platform)
+This project contains comprehensive functional, integration, and UI architecture validation for QA Academy — a specialized multi-page educational web platform. The system integrates data-driven course catalogs, dynamic bug trackers, and backend database connectivity.
 
-#### 💻 Project 1: Web Application Testing (QA Academy Platform)
-This project contains comprehensive functional verification and UI architecture validation for QA Academy (Academy Practicum) — a specialized multi-page educational web platform designed for QA engineering simulation. The system integrates interactive mock widgets, course catalogs, form validation sandboxes, and boundary-condition test environments.
+> 🌐 **Localization Note:** The target web application's user interface and content are fully localized in Ukrainian. However, to demonstrate alignment with global industry standards, all associated QA deliverables, test specifications, and defect logs are maintained strictly in English.
 
-> **🌐 Localization Note:** The target web application's user interface and content are fully localized in Ukrainian. However, to demonstrate alignment with global industry standards, all associated QA deliverables, test specifications, and defect logs are maintained strictly in English.
-
-**📄 Platform Architecture & Pages Overview**
+#### 📄 Platform Architecture & Pages Overview
 The educational platform consists of 8 interconnected web pages:
-1.  🏠 **Home Page (`home.html`):** The primary landing interface featuring core value propositions, platform stats, and primary navigation nodes.
-2.  📑 **About Us Page (`aboutus.html`):** Dedicated institutional page detailing mission statements, corporate timeline, and the mentor board directory (Team & Instructors).
-3.  🔍 **Courses Catalog (`courses.html`):** Data-driven module incorporating multi-attribute search, category and level filters, pricing tags, and card grid layouts.
-4.  🐛 **Bugs & Sandbox Module (`bugs.html`):** QA training workspace featuring an interactive mock Kanban board, bug reporting form fields, and simulated error triggers.
-5.  👤 **User Registration (`register.html`):** Data input interface covering account creation, password rules, edge cases, and boundary value constraints.
-6.  📊 **Test Cases Hub (`testcases.html`):** Structured repository interface rendering test case matrices, verification tables, and run execution histories.
-7.  🎓 **Theory & Media Module (`theory.html`):** Knowledge base containing technical testing handbooks, download links, and corporate assets (Brand Identity & Media Kit guidelines).
-8.  📖 **Interesting Read (`interesting.html`):** Curated directory of articles, QA career guides, and external-facing resource schemas.
+*   🏠 **Home Page (`home.html`):** The primary landing interface featuring core value propositions and platform stats.
+*   📑 **About Us Page (`aboutus.html`):** Dedicated institutional page detailing mission statements and the mentor board directory.
+*   🔍 **Courses Catalog (`courses.html`):** Data-driven module incorporating multi-attribute search and database-linked category filters.
+*   🐛 **Bug Tracker Module (`bugs.html`):** Interactive workspace featuring a Kanban board and backend-integrated bug reporting form fields.
+*   👤 **User Registration (`register.html`):** Data input interface covering account creation and password rules validation.
+*   📊 **Test Cases Hub (`testcases.html`):** Structured repository interface rendering verification tables.
+*   🎓 **Theory & Media Module (`theory.html`):** Knowledge base containing technical handbooks and corporate assets.
+*   📖 **Interesting Read (`interesting.html`):** Curated directory of articles and career guides.
 
-**🧪 Scope & Modules Tested (85 Test Cases)**
-While the platform consists of 8 pages in total, this testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) covering 6 dedicated functional areas and sub-modules:
-*   📄 **Corporate Overview (`aboutus.html`):** Header elements, mission statements, corporate history anchors, FAQ accordion states, and language switching (12 Tests: T274 – T285).
-*   📖 **Handbook & Core Theory (`theory.html`):** Page load metrics, document download link verification, and dynamic copyright year handling (3 Tests: T286 – T288).
-*   🔍 **Course Search & Filtration (`courses.html`):** Course search bar input validation, category/level checkboxes, sorting, and price formatting (17 Tests: T289 – T305).
-*   🛠️ **Bug Tracker & Sandbox (`bugs.html`):** Kanban board drag-and-drop mechanics, form field validation, and server error simulation triggers (17 Tests: T306 – T322).
-*   👥 **Team & Mentors Directory (`aboutus.html` sub-module):** Mentor profile bio cards, social media external links, modal popups, and desktop grid alignment (19 Tests: T323 – T341).
-*   💎 **Brand Identity & Media Kit (`theory.html` sub-module):** Asset downloads, vector/PNG guidelines, hex color tokens, and logo safety zones (17 Tests: T342 – T358).
-
-**📊 Execution Metrics & Quality Gate**
+#### 🧪 Scope & Modules Tested (85 Test Cases)
+This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) covering 6 dedicated functional areas and sub-modules:
+*   📄 **Corporate Overview (`aboutus.html`):** Header elements, mission statements, and FAQ accordion states (12 Tests: T274 – T285).
+*   📖 **Handbook & Core Theory (`theory.html`):** Page load metrics and document download links (3 Tests: T286 – T288).
+*   🔍 **Course Search & Filtration (`courses.html`):** Search bar input validation, filters, sorting, and database integration (17 Tests: T289 – T305).
+*   🛠️ **Bug Tracker (`bugs.html`):** Kanban board mechanics, form field validation, and backend submission triggers (17 Tests: T306 – T322).
+*   👥 **Team & Mentors Directory (`aboutus.html` sub-module):** Mentor profile bio cards and desktop grid alignment (19 Tests: T323 – T341).
+*   💎 **Brand Identity & Media Kit (`theory.html` sub-module):** Asset downloads and rendering guidelines (17 Tests: T342 – T358).
+#### 📊 Execution Metrics & Quality Gate
 *   **Total Test Cases Executed:** 85 (IDs T274 – T358)
 *   **Passed:** 82 (96.47%)
 *   **Failed:** 3 (3.53% — Defect reports logged: T278, T297, T337)
