@@ -58,6 +58,7 @@ This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) c
     * 📋 **Test Strategy & Planning:** [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the web application core functionality (6 modules).*
     * 📊 **Metrics & Analysis:** [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics, and Quality Gate Evaluation.*
     * 📑 **Manual Test Scenarios:** [Download & View Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step manual test scenarios.*
+    * 📊 **Metrics & Analysis:** [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics, and Quality Gate Evaluation.*
 
 ### 🎮 Project 2: Mobile Game Testing (GameDev Artifacts)
 
