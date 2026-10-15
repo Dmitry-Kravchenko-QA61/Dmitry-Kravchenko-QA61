@@ -11,18 +11,18 @@ Welcome to my QA Portfolio! I am a detail-oriented Junior Quality Assurance Engi
     *   *Last Signal 2* (3D indie game, currently in active testing).
 
 ## 🛠️ Tech Stack & Skills
-*   🧠 **Testing Types & Approaches:** Manual Testing, Black-Box/Grey-Box Testing, Smoke, Regression, Integration Testing, UI/UX Verification.
+*   🧠 **Testing Types & Approaches:** Manual Testing, Black-Box/Grey-Box Testing, Smoke, Regression, Sanity, Retesting, Integration Testing, API Testing, Database Testing, Interrupt Testing, UI/UX Verification.
 *   📱 **Target Platforms:** Web (Desktop Browsers), Mobile (Android).
-*   📑 **Test Documentation:** Requirements Analysis, Test Plans, Decomposition, Test Cases, Bug Reports, Test Design Techniques.
+*   📑 **Test Documentation:** Requirements Analysis, Test Plans, Decomposition, Test Cases, Checklists, Bug Reports, Test Design Techniques.
 *   🔄 **SDLC/STLC:** Agile Frameworks (Scrum, Kanban), Waterfall, Bug Life Cycle.
-*   🛠️ **Tools & Technologies:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL, Chrome DevTools, HTML/CSS.
+*   🛠️ **Tools & Technologies:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL, Chrome DevTools, HTML/CSS, Google Docs/Sheets.
 *   🌐 **Web Understanding:** Client-Server Architecture, API, Relational Databases.
 *   💻 **Operating Systems:** Windows, Linux, Android.
 
 ## 📁 Portfolio Projects & Artifacts
 
-### 💻 Project 1: Web Application Testing (QA Academy Platform)
-This project contains comprehensive functional, integration, and UI architecture validation for QA Academy — a specialized multi-page educational web platform. The system integrates data-driven course catalogs, dynamic bug trackers, and backend database connectivity.
+### 💻 Project 1: Web Application Testing (QA Learning Platform)
+This project contains comprehensive functional, integration, and UI architecture validation for QA Learning Platform — a specialized multi-page educational web platform. The system integrates data-driven course catalogs, dynamic bug trackers, and backend database connectivity.
 
 > 🌐 **Localization Note:** The target web application's user interface and content are fully localized in Ukrainian. However, to demonstrate alignment with global industry standards, all associated QA deliverables, test specifications, and defect logs are maintained strictly in English.
 
@@ -38,18 +38,21 @@ The educational platform consists of 8 interconnected web pages:
 *   📖 **Interesting Read (`interesting.html`):** Curated directory of articles and career guides.
 
 #### 🧪 Scope & Modules Tested (85 Test Cases)
-This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) covering 6 dedicated functional areas and sub-modules:
+This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) covering 7 dedicated functional areas and sub-modules:
 *   📄 **Corporate Overview (`aboutus.html`):** Header elements, mission statements, and FAQ accordion states (12 Tests: T274 – T285).
-*   📖 **Handbook & Core Theory (`theory.html`):** Page load metrics and document download links (3 Tests: T286 – T288).
+*   📖 **Handbook & Core Theory (`theory.html`):** Handbook downloads, page load speed, and dynamic copyright year handling (3 Tests: T286 – T288).
 *   🔍 **Course Search & Filtration (`courses.html`):** Search bar input validation, filters, sorting, and database integration (17 Tests: T289 – T305).
-*   🛠️ **Bug Tracker (`bugs.html`):** Kanban board mechanics, form field validation, and backend submission triggers (17 Tests: T306 – T322).
+*   🛠️ **Bug Tracker & Sandbox (`bugs.html`):** Kanban board mechanics, form field validation, and backend submission triggers (17 Tests: T306 – T322).
 *   👥 **Team & Mentors Directory (`aboutus.html` sub-module):** Mentor profile bio cards and desktop grid alignment (19 Tests: T323 – T341).
-*   💎 **Brand Identity & Media Kit (`theory.html` sub-module):** Asset downloads and rendering guidelines (17 Tests: T342 – T358).
+*   💎 **Brand Identity & Media Kit (`theory.html` sub-module):** Asset downloads and rendering guidelines (11 Tests: T342 – T352).
+*   🔐 **User Registration & Database (`register.html` / SQL):** Form field validation, input boundary constraints, client-server data exchange, and relational SQL database integrity (SELECT, INSERT, JOIN, WHERE) (6 Tests: T353 – T358).
+
 #### 📊 Execution Metrics & Quality Gate
 *   **Total Test Cases Executed:** 85 (IDs T274 – T358)
 *   **Passed:** 82 (96.47%)
-*   **Failed:** 3 (3.53% — Defect reports logged: T278, T297, T337)
-*   **Deferred Scope:** Remaining pages (`home.html`, `register.html`, `testcases.html`, `interesting.html`) are scheduled for subsequent regression and end-to-end testing cycles.
+*   **Failed:** 3 (3.53% — Defect reports logged: #BUG-01 (T278), #BUG-02 (T297), #BUG-03 (T337))
+*   🛑 **Release Verdict:** ⛔ **REJECTED** (Quality Gate Failed due to open Critical defect #BUG-02 in search API)
+*   **Deferred Scope:** Remaining pages (`home.html`, `testcases.html`, `interesting.html`) are scheduled for subsequent regression and end-to-end testing cycles.
      
 #### 📂 Project 1 Deliverables & Artifacts
 
