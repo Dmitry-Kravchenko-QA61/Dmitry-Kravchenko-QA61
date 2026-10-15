@@ -65,9 +65,9 @@ Traceability log for all logged defects:
 *   ⚠️ **Severity:** 🟡 Minor
 *   📌 **Priority:** 🔹 Low
 *   📋 **Steps to Reproduce:**
-    1. Navigate to `aboutus.html`.
-    2. Scroll down to the Corporate Values section.
-    3. Inspect component alignment during DOM rendering.
+1. Navigate to `aboutus.html`.
+2. Scroll down to the Corporate Values section.
+3. Inspect component alignment during DOM rendering.
 *   🎯 **Expected Result:** Corporate values cards render with proper padding and margins.
 *   💥 **Actual Result:** Value description text nodes (`.value-desc`) fail to position cleanly, causing partial overlap with adjacent card borders.
 
@@ -77,9 +77,9 @@ Traceability log for all logged defects:
 *   ⚠️ **Severity:** 🔴 Critical (Release Blocker)
 *   📌 **Priority:** 🔺 High
 *   📋 **Steps to Reproduce:**
-    1. Open the Courses Catalog (`courses.html`).
-    2. Focus on the dynamic search bar input field.
-    3. Type search string 'API'.
+1. Open the Courses Catalog (`courses.html`).
+2. Focus on the dynamic search bar input field.
+3. Type search string 'API'.
 *   🎯 **Expected Result:** Database query executes successfully and course catalog view updates dynamically to show 'API Testing'.
 *   💥 **Actual Result:** Grid fails to update dynamically upon query entry; unfiltered catalog view remains visible and API response returns a 400 Bad Request error.
 
@@ -89,9 +89,9 @@ Traceability log for all logged defects:
 *   ⚠️ **Severity:** 🟡 Minor
 *   📌 **Priority:** 🔹 Low
 *   📋 **Steps to Reproduce:**
-    1. Open the Team / Instructors section on `aboutus.html`.
-    2. Locate the mentor card for Dmitry Kravchenko.
-    3. Hover mouse cursor over the instructor portrait picture.
+1. Open the Team / Instructors section on `aboutus.html`.
+2. Locate the mentor card for Dmitry Kravchenko.
+3. Hover mouse cursor over the instructor portrait picture.
 *   🎯 **Expected Result:** Portrait darkens with opacity transition revealing social links.
 *   💥 **Actual Result:** CSS `:hover` state fails to trigger opacity layer; social link icons remain invisible and inaccessible to click events.
 
