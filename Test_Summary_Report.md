@@ -1,7 +1,7 @@
 # 📊 TEST SUMMARY REPORT (TSR)
 
-*   **💼 Project Name:** Academy Practicum - Web Project QA (Full-Stack)
-*   **🖥️ System Under Test:** Web Application & Backend API (QA-Staging Environment)
+*   **💼 Project Name:** QA Learning Platform (Full-Stack QA Practicum)
+*   **🖥️ System Under Test:** QA Learning Web Platform & Backend API (QA-Staging Environment)
 *   **⏱️ Execution Period:** September 2026
 *   **📅 Report Date:** September 22, 2026
 *   **👤 Prepared By:** Dmitry Kravchenko (QA Engineer)
@@ -11,19 +11,19 @@
 ---
 
 ## 1. 🎯 PROJECT OVERVIEW & SCOPE
-This testing cycle validated UI architecture, client-server data exchange, relational database integrity (via SQL), and core functionality across 6 platform modules:
+This testing cycle validated UI architecture, client-server data exchange, relational database integrity (via SQL), and core functionality across 7 modules of the QA Learning educational web platform:
 
-*   🏠 **[About Us Component]** (`aboutus.html`): Main headings, corporate values cards, and accordion controls (Tests T274 - T285).
-*   📖 **[Theory Module]** (`theory.html`): Handbook downloads, content hierarchy, and dynamic server-side rendering (Tests T286 - T288).
-*   🔍 **[Courses Catalog]** (`courses.html`): Course cards grid, backend API search queries, database filter criteria, and sorting (Tests T289 - T305).
-*   🛠️ **[Bugs & Test Cases Sandbox]** (`bugs.html`): Interactive board controls, form field validation, and database submission triggers (Tests T306 - T322).
-*   👥 **[Team / Instructors Section]** (`aboutus.html` sub-module): Mentor profile cards, database-driven bio rendering, and social links (Tests T323 - T341).
-*   💎 **[Brand Identity Kit]** (`theory.html` sub-module): Media kit tokens, logo rendering, and resolution constraints (Tests T342 - T358).
+*   🏠 **Corporate Overview** (`aboutus.html`): Main headings, corporate values cards, and accordion controls (Tests T274 – T285).
+*   📖 **Handbook & Core Theory** (`theory.html`): Handbook downloads, page load speed, and dynamic copyright year handling (Tests T286 – T288).
+*   🔍 **Course Search & Filtration** (`courses.html`): Course cards grid, backend API search queries, database filter criteria, and sorting (Tests T289 – T305).
+*   🛠️ **Bug Tracker & Sandbox** (`bugs.html`): Interactive board controls, form field validation, and database submission triggers (Tests T306 – T322).
+*   👥 **Team & Mentors Directory** (`aboutus.html` sub-module): Mentor profile bio cards, database-driven bio rendering, and social links (Tests T323 – T341).
+*   💎 **Brand Identity & Media Kit** (`theory.html` sub-module): Media kit tokens, logo rendering, and resolution constraints (Tests T342 – T352).
+*   🔐 **User Registration & Database** (`register.html` / SQL): Form boundary validation, password hashing, and relational SQL database integrity (SELECT, INSERT, JOIN, WHERE) (Tests T353 – T358).
 
 ⛔ **Out of Scope:**
 *   Landing intro revisions (`home.html` hero redesign).
 *   Career guides and external resource schemas (`interesting.html`).
-*   User registration form boundary validation (`register.html` submission flows).
 *   Test cases repository documentation view (`testcases.html`).
 
 ---
@@ -45,13 +45,14 @@ Distribution across executed modules:
 
 | Module | Scope | Total Tests | Results | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| 🏠 **About Us Component** | T274 - T285 | 12 | 11 Passed, 1 Failed (#BUG-01) | 🟡 UNSTABLE |
-| 📖 **Theory Handbook** | T286 - T288 | 3 | 3 Passed, 0 Failed | 🟢 STABLE |
-| 🔍 **Courses Catalog** | T289 - T305 | 17 | 16 Passed, 1 Failed (#BUG-02) | 🔴 FAILED |
-| 🛠️ **Bugs Sandbox** | T306 - T322 | 17 | 17 Passed, 0 Failed | 🟢 STABLE |
-| 👥 **Team / Instructors** | T323 - T341 | 19 | 18 Passed, 1 Failed (#BUG-03) | 🟡 UNSTABLE |
-| 💎 **Brand Identity Kit** | T342 - T358 | 17 | 17 Passed, 0 Failed | 🟢 STABLE |
-| **Total Scope** | **T274 - T358** | **85** | **82 Passed, 3 Failed** | |
+| 🏠 **Corporate Overview** | T274 – T285 | 12 | 11 Passed, 1 Failed (#BUG-01) | 🟡 UNSTABLE |
+| 📖 **Handbook & Core Theory** | T286 – T288 | 3 | 3 Passed, 0 Failed | 🟢 STABLE |
+| 🔍 **Course Search & Filtration** | T289 – T305 | 17 | 16 Passed, 1 Failed (#BUG-02) | 🔴 FAILED |
+| 🛠️ **Bug Tracker & Sandbox** | T306 – T322 | 17 | 17 Passed, 0 Failed | 🟢 STABLE |
+| 👥 **Team & Mentors Directory** | T323 – T341 | 19 | 18 Passed, 1 Failed (#BUG-03) | 🟡 UNSTABLE |
+| 💎 **Brand Identity & Media Kit** | T342 – T352 | 11 | 11 Passed, 0 Failed | 🟢 STABLE |
+| 🔐 **User Registration & Database** | T353 – T358 | 6 | 6 Passed, 0 Failed | 🟢 STABLE |
+| **Total Scope** | **T274 – T358** | **85** | **82 Passed, 3 Failed** | ⛔ REJECTED |
 
 ---
 
@@ -104,7 +105,7 @@ Traceability log for all logged defects:
 *   🛑 **Blocker/Critical Defects:** Target = 0 (Actual: 1 Open Critical — ❌ FAILED)
 
 📢 **Conclusion:**
-Build v2026.9.22 cannot be deployed to Production. Broken search filtering API response (#BUG-02 / T297) restricts core course discovery journeys. Non-blocking UI bugs (#BUG-01 and #BUG-03) are deferred to the sprint backlog.
+Build v2026.9.22 of QA Learning Platform cannot be deployed to Production. Broken search filtering API response (#BUG-02 / T297) restricts core course discovery journeys. Non-blocking UI bugs (#BUG-01 and #BUG-03) are deferred to the sprint backlog.
 
 ---
 
@@ -118,7 +119,7 @@ Build v2026.9.22 cannot be deployed to Production. Broken search filtering API r
 🔁 **Regression Test Scope (Hotfix Verification):**
 *   🔄 Re-execute failed test cases: T278, T297, T337.
 *   🧪 Validate dependent backend filter/pagination API tests: T292, T295, T296, T300, T304.
-*   💨 Conduct sanity smoke run on DB connections for `aboutus.html` and `courses.html`.
+*   💨 Conduct sanity smoke run on DB connections for `register.html` and `courses.html`.
 
 ***
 🏁 **END OF TEST SUMMARY REPORT** 🏁
