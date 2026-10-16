@@ -6,7 +6,7 @@
 *   **📅 Report Date:** September 22, 2026
 *   **👤 Prepared By:** Dmitry Kravchenko (QA Engineer)
 *   **🔄 Execution Status:** ✅ COMPLETED
-*   **🚫 Release Gate:** ⛔ REJECTED (Quality Gate Failed due to open Blocker defect)
+*   **🚫 Release Gate:** ⛔ REJECTED (Quality Gate Failed due to open Critical / Release Blocker defect)
 
 ---
 
