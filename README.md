@@ -57,7 +57,7 @@ This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) c
 #### 📂 Project 1 Deliverables & Artifacts
 
 *   **Deliverables:**
-    * 💻 **Application Source Files:** [Dmitry-Kravchenko-QA61 / Tested Pages & Modules](Tested Pages & Modules)
+    * 💻 **Application Source Files:** [Dmitry-Kravchenko-QA61 / Tested Pages & Modules](Tested_Pages_&_Modules)
     * 📋 **Test Strategy & Planning:** [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the full-stack web application core functionality (7 modules).*
     * 📑 **Manual Test Scenarios:** [Download & View 85 Raw Test Cases (Excel)](85_Web_Application_Test_Cases) 📑 *Step-by-step manual test scenarios.*
     * 📊 **Metrics & Analysis:** [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Analysis & Test Metrics, and Quality Gate Evaluation.*
