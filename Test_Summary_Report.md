@@ -1,6 +1,6 @@
 # 📊 TEST SUMMARY REPORT (TSR)
 
-*   **💼 Project Name:** QA Learning Platform (Full-Stack QA Practicum)
+*   **💼 Project Name:** QA Learning Web Platform (Full-Stack QA Practicum)
 *   **🖥️ System Under Test:** QA Learning Web Platform & Backend API (QA-Staging Environment)
 *   **⏱️ Execution Period:** September 2026
 *   **📅 Report Date:** September 22, 2026
@@ -105,7 +105,7 @@ Traceability log for all logged defects:
 *   🛑 **Blocker/Critical Defects:** Target = 0 (Actual: 1 Open Critical — ❌ FAILED)
 
 📢 **Conclusion:**
-Build v2026.9.22 of QA Learning Platform cannot be deployed to Production. Broken search filtering API response (#BUG-02 / T297) restricts core course discovery journeys. Non-blocking UI bugs (#BUG-01 and #BUG-03) are deferred to the sprint backlog.
+Build v2026.9.22 of QA Learning Web Platform cannot be deployed to Production. Broken search filtering API response (#BUG-02 / T297) restricts core course discovery journeys. Non-blocking UI bugs (#BUG-01 and #BUG-03) are deferred to the sprint backlog.
 
 ---
 
