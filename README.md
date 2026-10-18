@@ -22,7 +22,7 @@ Welcome to my QA Portfolio! I am a detail-oriented Junior Quality Assurance Engi
 ## 📁 Portfolio Projects & Artifacts
 
 ### 💻 Project 1: Web Application Testing (QA Learning Web Platform)
-This project contains comprehensive functional, integration, and UI architecture validation for QA Learning Platform — a specialized multi-page educational web platform. The system integrates data-driven course catalogs, dynamic bug trackers, and backend database connectivity.
+This project contains comprehensive functional, integration, and UI architecture validation for QA Learning Web Platform — a specialized multi-page educational web platform. The system integrates data-driven course catalogs, dynamic bug trackers, and backend database connectivity.
 
 > 🌐 **Localization Note:** The target web application's user interface and content are fully localized in Ukrainian. However, to demonstrate alignment with global industry standards, all associated QA deliverables, test specifications, and defect logs are maintained strictly in English.
 
