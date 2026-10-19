@@ -11,7 +11,7 @@
 ---
 
 ## 1. 🎯 PROJECT OVERVIEW & SCOPE
-This testing cycle validated UI architecture, client-server data exchange, relational database integrity (via SQL), and core functionality across 7 modules of the QA Learning educational web platform:
+This testing cycle validated UI architecture, client-server data exchange, relational database integrity (via SQL), and core functionality across 7 modules of the QA Learning Web Platform:
 
 *   🏠 **Corporate Overview** (`aboutus.html`): Main headings, corporate values cards, and accordion controls (Tests T274 – T285).
 *   📖 **Handbook & Core Theory** (`theory.html`): Handbook downloads, page load speed, and dynamic copyright year handling (Tests T286 – T288).
