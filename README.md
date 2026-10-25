@@ -55,7 +55,6 @@ This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) c
 *   **Deferred Scope:** Remaining pages (`home.html`, `testcases.html`, `interesting.html`) are scheduled for subsequent regression and end-to-end testing cycles.
      
 #### 📂 Project 1 Deliverables & Artifacts
-
     * 💻 **Application Source Files:** [Dmitry-Kravchenko-QA61 / Tested Pages & Modules](Tested_Pages_&_Modules)
     * 📋 **Test Strategy & Planning:** [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the full-stack web application core functionality (7 modules).*
     * ✅ **High-Level Verification Checklist:** [Download 25-Point Checklist (Excel)](QA_Learning_Platform_Checklist) 📑 High-level functional checklist covering 25 core test scenarios across 7 modules.
