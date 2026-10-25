@@ -54,7 +54,7 @@ This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) c
 *   🛑 **Release Verdict:** ⛔ **REJECTED** (Quality Gate Failed due to open Critical defect #BUG-02 in search API)
 *   **Deferred Scope:** Remaining pages (`home.html`, `testcases.html`, `interesting.html`) are scheduled for subsequent regression and end-to-end testing cycles.
      
-#### 📂 Project 1 Deliverables & Artifacts (Documentation & Test Suite Folders)
+#### 📂 Project 1 Deliverables & Artifacts (Documentation & Test Suite Files)
 
 *   **Deliverables:**
     * 💻 **Application Source Files:** [Dmitry-Kravchenko-QA61 / Tested Pages & Modules](Tested_Pages_&_Modules)
