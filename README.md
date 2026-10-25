@@ -39,7 +39,7 @@ The educational platform consists of 8 interconnected web pages:
 
 #### 🧪 Scope & Modules Tested (85 Test Cases)
 This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) covering 7 dedicated functional areas and sub-modules:
-*   📄 **Corporate Overview (`aboutus.html`):** Header elements, mission statement, and FAQ accordion states (12 Tests: T274 – T285).
+*   📄 **Corporate Overview (`aboutus.html`):** Header elements, company mission statement, and FAQ accordion states (12 Tests: T274 – T285).
 *   📖 **Handbook & Core Theory (`theory.html`):** Handbook downloads, page load speed, and dynamic copyright year handling (3 Tests: T286 – T288).
 *   🔍 **Course Search & Filtration (`courses.html`):** Search bar input validation, filters, sorting, and database integration (17 Tests: T289 – T305).
 *   🛠️ **Bug Tracker & Sandbox (`bugs.html`):** Kanban board mechanics, form field validation, and backend submission triggers (17 Tests: T306 – T322).
