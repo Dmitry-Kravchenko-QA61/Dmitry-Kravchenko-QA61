@@ -29,7 +29,7 @@ This project contains comprehensive functional, integration, and UI architecture
 #### 📄 Platform Architecture & Pages Overview
 The educational platform consists of 8 interconnected web pages:
 *   🏠 **Home Page (`home.html`):** The primary landing interface featuring core value propositions and platform stats.
-*   📑 **About Us Page (`aboutus.html`):** Dedicated institutional page detailing mission statement and the mentor board directory.
+*   📑 **About Us Page (`aboutus.html`):** Dedicated institutional page detailing the platform's mission statement and the mentor board directory.
 *   🔍 **Courses Catalog (`courses.html`):** Data-driven module incorporating multi-attribute search and database-linked category filters.
 *   🐛 **Bug Tracker Module (`bugs.html`):** Interactive workspace featuring a Kanban board and backend-integrated bug reporting form fields.
 *   👤 **User Registration (`register.html`):** Data input interface covering account creation and password rules validation.
