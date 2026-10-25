@@ -29,7 +29,7 @@ This project contains comprehensive functional, integration, and UI architecture
 #### 📄 Platform Architecture & Pages Overview
 The educational platform consists of 8 interconnected web pages:
 *   🏠 **Home Page (`home.html`):** The primary landing interface featuring core value propositions and platform stats.
-*   📑 **About Us Page (`aboutus.html`):** Dedicated institutional page detailing mission statements and the mentor board directory.
+*   📑 **About Us Page (`aboutus.html`):** Dedicated institutional page detailing mission statement and the mentor board directory.
 *   🔍 **Courses Catalog (`courses.html`):** Data-driven module incorporating multi-attribute search and database-linked category filters.
 *   🐛 **Bug Tracker Module (`bugs.html`):** Interactive workspace featuring a Kanban board and backend-integrated bug reporting form fields.
 *   👤 **User Registration (`register.html`):** Data input interface covering account creation and password rules validation.
@@ -39,7 +39,7 @@ The educational platform consists of 8 interconnected web pages:
 
 #### 🧪 Scope & Modules Tested (85 Test Cases)
 This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) covering 7 dedicated functional areas and sub-modules:
-*   📄 **Corporate Overview (`aboutus.html`):** Header elements, mission statements, and FAQ accordion states (12 Tests: T274 – T285).
+*   📄 **Corporate Overview (`aboutus.html`):** Header elements, mission statement, and FAQ accordion states (12 Tests: T274 – T285).
 *   📖 **Handbook & Core Theory (`theory.html`):** Handbook downloads, page load speed, and dynamic copyright year handling (3 Tests: T286 – T288).
 *   🔍 **Course Search & Filtration (`courses.html`):** Search bar input validation, filters, sorting, and database integration (17 Tests: T289 – T305).
 *   🛠️ **Bug Tracker & Sandbox (`bugs.html`):** Kanban board mechanics, form field validation, and backend submission triggers (17 Tests: T306 – T322).
