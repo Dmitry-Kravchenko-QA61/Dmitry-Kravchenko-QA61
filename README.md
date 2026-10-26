@@ -69,7 +69,7 @@ Target: Verify build stability, UI controls, interruptions, and performance limi
 
 * 🎮 **Portfolio Folder:** **[PixelCraft Studio Mobile Games Testing Internship Portfolio](PixelCraft-Studio-Games-Testing):** This sub-folder contains my real test artifacts delivered during commercial game verification (Black-box & Grey-box approaches).
 * **Bug Reports Filed:** 
-  * 🐛 **18 bug reports** for the 2D game *Shadows of Silence* (Live on Google Play Store).
+  * 🐛 **17 bug reports** for the 2D game *Shadows of Silence* (Live on Google Play Store).
   * 🐛 **5 bug reports** for the 3D indie game *Last Signal 2* (Active testing phase).
 * **Core Artifacts:** Functional checklists, mobile-specific boundary test cases, interruption testing matrix, and device logs.
 
