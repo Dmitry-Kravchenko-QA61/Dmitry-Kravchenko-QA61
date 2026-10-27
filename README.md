@@ -15,7 +15,7 @@ Welcome to my QA Portfolio! I am a detail-oriented Junior Quality Assurance Engi
 *   📱 **Target Platforms:** Web (Desktop Browsers), Mobile (Android).
 *   📑 **Test Documentation:** Requirements Analysis, Test Plans, Decomposition, Test Cases, Checklists, Bug Reports, Test Design Techniques.
 *   🔄 **SDLC/STLC:** Agile Frameworks (Scrum, Kanban), Waterfall, Bug Life Cycle.
-*   🛠️ **Tools & Technologies:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL, Chrome DevTools, HTML/CSS, Google Docs/Sheets.
+*   🛠️ **Tools & Technologies:** Jira, TestRail, Git/GitHub, Unix Terminal, VS Code, SQL, Chrome DevTools, Android Studio (Logcat), ADB, HTML/CSS, Google Docs/Sheets.
 *   🌐 **Web Understanding:** Client-Server Architecture, API, Relational Databases.
 *   💻 **Operating Systems:** Windows, Linux, Android.
 
@@ -49,9 +49,9 @@ This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) c
 
 #### 📊 Execution Metrics & Quality Gate
 *   **Total Test Cases Executed:** 85 (IDs T274 – T358)
-*   **Passed:** 82 (96.47%)
-*   **Failed:** 3 (3.53% — Defect reports logged: #BUG-01 (T278), #BUG-02 (T297), #BUG-03 (T337))
-*   🛑 **Release Verdict:** ⛔ **REJECTED** (Quality Gate Failed due to open Critical defect #BUG-02 in search API)
+*   **Passed:** 82 (96.5%)
+*   **Failed:** 3 (3.5%) — Defect reports logged: BUG-01 (T278), BUG-02 (T297), BUG-03 (T337)
+*   🛑 **Release Verdict:** ⛔ **REJECTED** (Quality Gate Failed due to open Critical defect BUG-02 in search API)
 *   **Deferred Scope:** Remaining pages (`home.html`, `testcases.html`, `interesting.html`) are scheduled for subsequent regression and end-to-end testing cycles.
      
 #### 📂 Project 1 Deliverables & Artifacts (Documentation & Test Suite Files)
