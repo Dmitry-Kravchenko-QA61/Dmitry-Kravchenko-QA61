@@ -68,9 +68,9 @@ This testing cycle validated UI/UX architecture, client-server data exchange, re
 * ⚠️ **Severity:** High
 * 📌 **Priority:** High
 * 📋 **Steps to Reproduce:**
-  1. Open Chrome/Firefox and navigate to `aboutus.html`.
-  2. Scroll down to the Corporate Values cards section.
-  3. Inspect DOM container rendering at 1280px and 1366px viewports.
+1. Open Chrome/Firefox and navigate to `aboutus.html`.
+2. Scroll down to the Corporate Values cards section.
+3. Inspect DOM container rendering at 1280px and 1366px viewports.
 * 🎯 **Expected Result:** Cards render with consistent internal padding and margins without overlapping borders.
 * 💥 **Actual Result:** Text nodes inside `.value-desc` overflow container boundaries, overlapping adjacent card borders and violating WCAG spacing criteria.
 * 🛠️ **Engineering Action:** Frontend team assigned to adjust CSS Flexbox wrapping (`flex-wrap: wrap`) and card margins.
@@ -81,9 +81,9 @@ This testing cycle validated UI/UX architecture, client-server data exchange, re
 * ⚠️ **Severity:** Critical (Release Blocker)
 * 📌 **Priority:** Highest
 * 📋 **Steps to Reproduce:**
-  1. Navigate to the Courses Catalog (`courses.html`).
-  2. Focus on the dynamic search bar input field.
-  3. Enter search string `'API'`.
+1. Navigate to the Courses Catalog (`courses.html`).
+2. Focus on the dynamic search bar input field.
+3. Enter search string `'API'`.
 * 🎯 **Expected Result:** API returns HTTP 200 OK with filtered results, dynamically displaying the 'API Testing' course card.
 * 💥 **Actual Result:** Client-side regex parser triggers an unhandled exception resulting in HTTP 400 Bad Request response from `/api/v1/courses/search`. Catalog view freezes in loading state without displaying an error message.
 * 🛠️ **Engineering Action:** Backend engineering hotfix required to sanitize query inputs and normalize uppercase string parsing.
@@ -94,8 +94,8 @@ This testing cycle validated UI/UX architecture, client-server data exchange, re
 * ⚠️ **Severity:** Medium
 * 📌 **Priority:** Medium
 * 📋 **Steps to Reproduce:**
-  1. Navigate to the Team / Instructors section on `aboutus.html`.
-  2. Hover cursor over the portrait card of Dmitry Kravchenko.
+1. Navigate to the Team / Instructors section on `aboutus.html`.
+2. Hover cursor over the portrait card of Dmitry Kravchenko.
 * 🎯 **Expected Result:** Card darkens with an animated opacity overlay (`opacity: 0.85`), revealing clickable LinkedIn and GitHub social link shortcuts.
 * 💥 **Actual Result:** CSS `:hover` pseudo-class fails to trigger; social icons remain completely hidden and inaccessible to click events.
 * 🛠️ **Engineering Action:** Add missing CSS transition rule and verify `z-index` stacking context on mentor card elements.
