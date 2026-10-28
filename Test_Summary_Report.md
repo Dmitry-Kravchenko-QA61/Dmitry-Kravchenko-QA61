@@ -125,7 +125,7 @@ Target Build RC-1.0.4 cannot be deployed to Production. Broken search API parsin
 
 🔁 **QA Regression Scope (Hotfix Verification):**
 * 🔄 Re-execute failed manual test cases: `T278`, `T297`, `T337`.
-* 💨 Execute full 25-point smoke checklist (`QA_Learning_Platform_25_Point_Checklist.xlsx`) to confirm 100% availability.
+* 💨 Execute full 25-point smoke checklist (`QA_Learning_Platform_Checklist.xlsx`) to confirm 100% availability.
 * 🧪 Perform targeted regression across catalog filtering and pagination scenarios: `T289`–`T305`.
 * ⚖️ Re-evaluate Quality Gate criteria on Release Candidate RC-1.0.5.
 
