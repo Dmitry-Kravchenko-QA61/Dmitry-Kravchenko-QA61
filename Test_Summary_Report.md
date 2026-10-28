@@ -1,125 +1,133 @@
 # 📊 TEST SUMMARY REPORT (TSR)
 
-*   **💼 Project Name:** QA Learning Web Platform (Full-Stack QA Practicum)
-*   **🖥️ System Under Test:** QA Learning Web Platform & Backend API (QA-Staging Environment)
-*   **⏱️ Execution Period:** September 2026
-*   **📅 Report Date:** September 22, 2026
-*   **👤 Prepared By:** Dmitry Kravchenko (QA Engineer)
-*   **🔄 Execution Status:** ✅ COMPLETED
-*   **🚫 Release Gate:** ⛔ REJECTED (Quality Gate Failed due to open Critical / Release Blocker defect)
+* **💼 Project Name:** QA Learning Web Platform (Full-Stack QA Practicum)
+* **🖥️ System Under Test:** QA Learning Web Platform & Backend API (QA Staging Environment)
+* **📄 Document Identifier:** `TSR-QALEARN-2026-V1.0`
+* **📋 Master Test Plan Ref:** `TP-QALEARN-2026-V1.0`
+* **⏱️ Execution Period:** September 2026
+* **📅 Report Date:** September 22, 2026
+* **👤 Prepared By:** Dmitry Kravchenko (Junior QA Engineer)
+* **🔄 Execution Status:** ✅ COMPLETED (100% Scope Executed)
+* **🚫 Release Quality Gate:** ⛔ REJECTED (Quality Gate Failed — Release Blocked)
 
 ---
 
 ## 1. 🎯 PROJECT OVERVIEW & SCOPE
-This testing cycle validated UI architecture, client-server data exchange, relational database integrity (via SQL), and core functionality across 7 modules of the QA Learning Web Platform:
+This testing cycle validated UI/UX architecture, client-server data exchange, relational SQL database integrity, and core functionality across 7 modules of the desktop version of the QA Learning Web Platform (1280px–1920px viewports):
 
-*   🏠 **Corporate Overview** (`aboutus.html`): Main headings, corporate values cards, and accordion controls (Tests T274 – T285).
-*   📖 **Handbook & Core Theory** (`theory.html`): Handbook downloads, page load speed, and dynamic copyright year handling (Tests T286 – T288).
-*   🔍 **Course Search & Filtration** (`courses.html`): Course cards grid, backend API search queries, database filter criteria, and sorting (Tests T289 – T305).
-*   🛠️ **Bug Tracker & Sandbox** (`bugs.html`): Interactive board controls, form field validation, and database submission triggers (Tests T306 – T322).
-*   👥 **Team & Mentors Directory** (`aboutus.html` sub-module): Mentor profile bio cards, database-driven bio rendering, and social links (Tests T323 – T341).
-*   💎 **Brand Identity & Media Kit** (`theory.html` sub-module): Media kit tokens, logo rendering, and resolution constraints (Tests T342 – T352).
-*   🔐 **User Registration & Database** (`register.html` / SQL): Form boundary validation, password hashing, and relational SQL database integrity (SELECT, INSERT, JOIN, WHERE) (Tests T353 – T358).
+* 🏠 **Corporate Overview** (`aboutus.html`): Main headings, corporate values cards DOM structure, FAQ accordion controls, language switcher toggle (Tests T274 – T285).
+* 📖 **Handbook & Core Theory** (`theory.html`): Handbook PDF download integrity (HTTP 200 OK), page load speed (<1.2s), dynamic copyright year script (Tests T286 – T288).
+* 🔍 **Course Search & Filtration** (`courses.html`): Catalog grid rendering, dynamic search bar query parsing, category/level filter logic, ascending price sorting (Tests T289 – T305).
+* 🛠️ **Bug Tracker & Sandbox** (`bugs.html`): Kanban board drag-and-drop defect cards, form field client-side validation, mock test summary export, simulated 500 error handling (Tests T306 – T322).
+* 👥 **Team & Mentors Directory** (`aboutus.html` sub-module): Mentor profile cards, detailed bio modal dialog with Escape key dismiss, desktop grid alignment (Tests T323 – T341).
+* 💎 **Brand Identity & Media Kit** (`theory.html` sub-module): High-resolution brand bundle download (ZIP archive), Hex color tokens display, typography guidelines (Tests T342 – T352).
+* 🔐 **User Registration & Database** (`register.html` / SQL): Form boundary validation (BVA), password complexity enforcement, BCrypt password hashing, and relational SQL database integrity (SELECT, INSERT, JOIN, WHERE, UNIQUE constraint) (Tests T353 – T358).
 
 ⛔ **Out of Scope:**
-*   Landing intro revisions (`home.html` hero redesign).
-*   Career guides and external resource schemas (`interesting.html`).
-*   Test cases repository documentation view (`testcases.html`).
+* Deferred web pages (`home.html` hero redesign, `testcases.html`, `interesting.html`).
+* Mobile and tablet viewports (<1280px).
+* Load, stress, and penetration testing.
 
 ---
 
 ## 2. 📈 TEST METRICS & EXECUTION SUMMARY
-Execution metrics breakdown:
 
-*   🔢 **Total Test Cases Executed:** 85 (100.0%)
-*   ✅ **Passed Test Cases:** 82 (96.5%)
-*   ❌ **Failed Test Cases:** 3 (3.5%)
-*   ⏸️ **Blocked / Skipped Cases:** 0 (0.00%)
-*   📊 **Test Execution Success Rate (Pass Rate):** 96.5%
-*   🎯 **Quality Gate Minimum Compliance Target:** 98.00%
+| Metric Parameter | Target Threshold | Actual Result | Variance | Status |
+| :--- | :---: | :---: | :---: | :---: |
+| **Total Test Cases Executed** | 85 (100% Scope) | **85** | 0 | ✅ Completed |
+| **Passed Test Cases** | >= 83 | **82** | -1 | ⚠️ Review |
+| **Failed Test Cases** | <= 2 | **3** | +1 | ❌ Exceeded |
+| **Overall Test Suite Pass Rate** | >= 98.00% | **96.47% (96.5%)** | -1.53% | ❌ Failed |
+| **Blocker / Critical Defects Open** | Exactly 0 | **1 Open (`BUG-02`)** | +1 | ❌ Blocker |
+| **High Severity Defects Open** | <= 1 (Triaged) | **1 Open (`BUG-01`)** | 0 | ⚠️ Triaged |
+| **Medium Severity Defects Open** | <= 2 | **1 Open (`BUG-03`)** | 0 | ✅ Acceptable |
+| **Smoke Checklist Execution** | 100.0% Passed | **88.0% (22/25 Passed)** | -12.0% | ❌ Failed |
 
 ---
 
 ## 3. 🗂️ COMPREHENSIVE MODULE BREAKDOWN
-Distribution across executed modules:
 
-| Module | Scope | Total Tests | Results | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| 🏠 **Corporate Overview** | T274 – T285 | 12 | 11 Passed, 1 Failed (BUG-01) | 🟡 UNSTABLE |
-| 📖 **Handbook & Core Theory** | T286 – T288 | 3 | 3 Passed, 0 Failed | 🟢 STABLE |
-| 🔍 **Course Search & Filtration** | T289 – T305 | 17 | 16 Passed, 1 Failed (BUG-02) | 🔴 FAILED |
-| 🛠️ **Bug Tracker & Sandbox** | T306 – T322 | 17 | 17 Passed, 0 Failed | 🟢 STABLE |
-| 👥 **Team & Mentors Directory** | T323 – T341 | 19 | 18 Passed, 1 Failed (BUG-03) | 🟡 UNSTABLE |
-| 💎 **Brand Identity & Media Kit** | T342 – T352 | 11 | 11 Passed, 0 Failed | 🟢 STABLE |
-| 🔐 **User Registration & Database** | T353 – T358 | 6 | 6 Passed, 0 Failed | 🟢 STABLE |
-| **Total Scope** | **T274 – T358** | **85** | **82 Passed, 3 Failed** | ⛔ REJECTED |
+| Module / Functional Area | Scope | Total Tests | Passed | Failed | Pass Rate | Defects Logged | Status |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 🏠 **Corporate Overview** | T274 – T285 | 12 | 11 | 1 | 91.7% | `BUG-01` (T278) | 🟡 UNSTABLE |
+| 📖 **Handbook & Core Theory** | T286 – T288 | 3 | 3 | 0 | 100.0% | None | 🟢 STABLE |
+| 🔍 **Course Search & Filtration** | T289 – T305 | 17 | 16 | 1 | 94.1% | `BUG-02` (T297) | 🔴 FAILED |
+| 🛠️ **Bug Tracker & Sandbox** | T306 – T322 | 17 | 17 | 0 | 100.0% | None | 🟢 STABLE |
+| 👥 **Team & Mentors Directory** | T323 – T341 | 19 | 18 | 1 | 94.7% | `BUG-03` (T337) | 🟡 UNSTABLE |
+| 💎 **Brand Identity & Media Kit** | T342 – T352 | 11 | 11 | 0 | 100.0% | None | 🟢 STABLE |
+| 🔐 **User Registration & Database** | T353 – T358 | 6 | 6 | 0 | 100.0% | None | 🟢 STABLE |
+| **Total Scope** | **T274 – T358** | **85** | **82** | **3** | **96.5%** | **3 Defects** | ⛔ **REJECTED** |
 
 ---
 
 ## 4. 🐛 DETAILED DEFECT LOG (FAILED TEST CASES)
-Traceability log for all logged defects:
 
-### 🏷️ Defect ID: BUG-01 (T278)
-*   📝 **Summary:** Visual Layout Shift and Text Overlap in Corporate Values Area
-*   📂 **Module:** `aboutus.html` / Corporate Values Block
-*   ⚠️ **Severity:** 🟡 Minor
-*   📌 **Priority:** 🔺 High (Test Scope Priority) / 🔹 Low (Sprint Backlog Fix)
-*   📋 **Steps to Reproduce:**
-    1. Navigate to `aboutus.html`.
-    2. Scroll down to the Corporate Values section.
-    3. Inspect component alignment during DOM rendering.
-*   🎯 **Expected Result:** Corporate values cards render with proper padding and margins.
-*   💥 **Actual Result:** Value description text nodes (`.value-desc`) fail to position cleanly, causing partial overlap with adjacent card borders.
+### 🏷️ Defect ID: BUG-01 (T278 / CHK-02)
+* 📝 **Summary:** Visual Layout Shift and Text Overlap in Corporate Values Area
+* 📂 **Module:** Corporate Overview (`aboutus.html`)
+* ⚠️ **Severity:** High
+* 📌 **Priority:** High
+* 📋 **Steps to Reproduce:**
+  1. Open Chrome/Firefox and navigate to `aboutus.html`.
+  2. Scroll down to the Corporate Values cards section.
+  3. Inspect DOM container rendering at 1280px and 1366px viewports.
+* 🎯 **Expected Result:** Cards render with consistent internal padding and margins without overlapping borders.
+* 💥 **Actual Result:** Text nodes inside `.value-desc` overflow container boundaries, overlapping adjacent card borders and violating WCAG spacing criteria.
+* 🛠️ **Engineering Action:** Frontend team assigned to adjust CSS Flexbox wrapping (`flex-wrap: wrap`) and card margins.
 
-### 🏷️ Defect ID: BUG-02 (T297)
-*   📝 **Summary:** Course Catalog Dynamic Search Filter Query Parsing Failure
-*   📂 **Module:** `courses.html` / Search Input Bar
-*   ⚠️ **Severity:** 🔴 Critical (Release Blocker)
-*   📌 **Priority:** 🔺 High
-*   📋 **Steps to Reproduce:**
-    1. Open the Courses Catalog (`courses.html`).
-    2. Focus on the dynamic search bar input field.
-    3. Type search string 'API'.
-*   🎯 **Expected Result:** Database query executes successfully and course catalog view updates dynamically to show 'API Testing'.
-*   💥 **Actual Result:** Grid fails to update dynamically upon query entry; unfiltered catalog view remains visible and API response returns a 400 Bad Request error.
+### 🏷️ Defect ID: BUG-02 (T297 / CHK-10)
+* 📝 **Summary:** Dynamic Course Search Query Parsing Failure (HTTP 400 Bad Request)
+* 📂 **Module:** Course Search & Filtration (`courses.html`)
+* ⚠️ **Severity:** Critical (Release Blocker)
+* 📌 **Priority:** Highest
+* 📋 **Steps to Reproduce:**
+  1. Navigate to the Courses Catalog (`courses.html`).
+  2. Focus on the dynamic search bar input field.
+  3. Enter search string `'API'`.
+* 🎯 **Expected Result:** API returns HTTP 200 OK with filtered results, dynamically displaying the 'API Testing' course card.
+* 💥 **Actual Result:** Client-side regex parser triggers an unhandled exception resulting in HTTP 400 Bad Request response from `/api/v1/courses/search`. Catalog view freezes in loading state without displaying an error message.
+* 🛠️ **Engineering Action:** Backend engineering hotfix required to sanitize query inputs and normalize uppercase string parsing.
 
-### 🏷️ Defect ID: BUG-03 (T337)
-*   📝 **Summary:** Hover State Transparency Overlay Inactive on Teacher Portrait
-*   📂 **Module:** `aboutus.html` / Instructor Card (Dmitry Kravchenko)
-*   ⚠️ **Severity:** 🟡 Minor
-*   📌 **Priority:** 🔸 Medium (Test Scope Priority) / 🔹 Low (Sprint Backlog Fix)
-*   📋 **Steps to Reproduce:**
-    1. Open the Team / Instructors section on `aboutus.html`.
-    2. Locate the mentor card for Dmitry Kravchenko.
-    3. Hover mouse cursor over the instructor portrait picture.
-*   🎯 **Expected Result:** Portrait darkens with opacity transition revealing social links.
-*   💥 **Actual Result:** CSS `:hover` state fails to trigger opacity layer; social link icons remain invisible and inaccessible to click events.
+### 🏷️ Defect ID: BUG-03 (T337 / CHK-21)
+* 📝 **Summary:** CSS `:hover` Transparency Overlay Inactive on Mentor Portrait Cards
+* 📂 **Module:** Team & Mentors Directory (`aboutus.html` sub-module)
+* ⚠️ **Severity:** Medium
+* 📌 **Priority:** Medium
+* 📋 **Steps to Reproduce:**
+  1. Navigate to the Team / Instructors section on `aboutus.html`.
+  2. Hover cursor over the portrait card of Dmitry Kravchenko.
+* 🎯 **Expected Result:** Card darkens with an animated opacity overlay (`opacity: 0.85`), revealing clickable LinkedIn and GitHub social link shortcuts.
+* 💥 **Actual Result:** CSS `:hover` pseudo-class fails to trigger; social icons remain completely hidden and inaccessible to click events.
+* 🛠️ **Engineering Action:** Add missing CSS transition rule and verify `z-index` stacking context on mentor card elements.
 
 ---
 
 ## 5. ⚖️ QUALITY ASSESSMENT & RELEASE RECOMMENDATION
-🚦 **RELEASE GATE VERDICT:** ⛔ **REJECTED (Quality Gate Failed)**
+🚦 **RELEASE QUALITY GATE VERDICT:** ⛔ **REJECTED (Release Blocked — Hotfixes Required)**
 
-🔍 **Quality Gate Criteria Compliance:**
-*   📉 **Pass Rate Criteria:** Target >= 98.00% (Actual: 96.5% — ❌ FAILED)
-*   🛑 **Blocker/Critical Defects:** Target = 0 (Actual: 1 Open Critical — ❌ FAILED)
+🔍 **Quality Gate Compliance Audit:**
+* 📉 **Overall Test Suite Pass Rate:** Target >= 98.00% | Actual: **96.47% (96.5%)** — ❌ **FAILED**
+* 🛑 **Blocker / Critical Defects:** Target = Exactly 0 Open | Actual: **1 Open (`BUG-02`)** — ❌ **FAILED**
+* ⚠️ **High Severity Defects:** Target <= 1 Open (Triaged) | Actual: **1 Open (`BUG-01`)** — ⚠️ **TRIAGED**
+* 📋 **Smoke Checklist Execution:** Target = 100.0% Passed | Actual: **88.0% Passed (22/25)** — ❌ **FAILED**
 
 📢 **Conclusion:**
-Build v2026.9.22 of QA Learning Web Platform cannot be deployed to Production. Broken search filtering API response (BUG-02 / T297) restricts core course discovery journeys. Non-blocking UI bugs (BUG-01 and BUG-03) are deferred to the sprint backlog.
+Target Build RC-1.0.4 cannot be deployed to Production. Broken search API parsing (`BUG-02`) blocks the core conversion funnel. Minor layout defect `BUG-01` and interactive CSS bug `BUG-03` require hotfixes prior to subsequent Quality Gate re-evaluation.
 
 ---
 
 ## 6. 🚀 RECOMMENDED ACTION PLAN & REGRESSION SCOPE
 
 💻 **Development Engineering:**
-*   🛠️ Fix database query routing and API endpoint connection for the search filter in `courses.html`.
-*   🎨 Patch CSS `:hover` pseudo-class overlay on mentor portrait wrappers in `aboutus.html`.
-*   📐 Adjust DOM container margin and padding in Corporate Values cards in `aboutus.html`.
+* 🛠️ Deploy hotfix branch addressing search parameter casing for `/api/v1/courses/search` (`BUG-02`).
+* 📐 Correct flex container padding and card margins in `aboutus.html` (`BUG-01`).
+* 🎨 Patch CSS hover overlay transition on instructor cards (`BUG-03`).
 
-🔁 **Regression Test Scope (Hotfix Verification):**
-*   🔄 Re-execute failed test cases: T278, T297, T337.
-*   🧪 Validate dependent backend filter/pagination API tests: T292, T295, T296, T300, T304.
-*   💨 Conduct sanity smoke run on DB connections for `register.html` and `courses.html`.
+🔁 **QA Regression Scope (Hotfix Verification):**
+* 🔄 Re-execute failed manual test cases: `T278`, `T297`, `T337`.
+* 💨 Execute full 25-point smoke checklist (`QA_Learning_Platform_25_Point_Checklist.xlsx`) to confirm 100% availability.
+* 🧪 Perform targeted regression across catalog filtering and pagination scenarios: `T289`–`T305`.
+* ⚖️ Re-evaluate Quality Gate criteria on Release Candidate RC-1.0.5.
 
 ***
 🏁 **END OF TEST SUMMARY REPORT** 🏁
