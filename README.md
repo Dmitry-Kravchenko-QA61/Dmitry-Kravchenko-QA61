@@ -48,11 +48,14 @@ This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) c
 *   🔐 **User Registration & Database (`register.html` / SQL):** Form field validation, input boundary constraints, client-server data exchange, and relational SQL database integrity (SELECT, INSERT, JOIN, WHERE) (6 Tests: T353 – T358).
 
 #### 📊 Execution Metrics & Quality Gate
-*   **Total Test Cases Executed:** 85 (IDs T274 – T358)
-*   **Passed:** 82 (96.5%)
-*   **Failed:** 3 (3.5%) — Defect reports logged: BUG-01 (T278), BUG-02 (T297), BUG-03 (T337)
-*   🛑 **Release Verdict:** ⛔ **REJECTED** (Quality Gate Failed due to open Critical defect BUG-02 in search API)
-*   **Deferred Scope:** Remaining pages (`home.html`, `testcases.html`, `interesting.html`) are scheduled for subsequent regression and end-to-end testing cycles.
+* **Total Test Cases Executed:** 85 (IDs T274 – T358 across 7 modules)
+* **Test Suite Pass Rate:** 82 Passed / 3 Failed (96.5%) — Defect reports: BUG-01 (High), BUG-02 (Critical), BUG-03 (Medium)
+* **Smoke Checklist Execution:** 22/25 Passed (88.0% availability)
+* 🛑 **Release Quality Gate Verdict:** ⛔ **REJECTED** (Release Blocked — criteria not met):
+  1. **Blocker / Critical Defects:** 1 Open Critical defect (`BUG-02` Search API 400 Bad Request, threshold = exactly 0).
+  2. **Overall Test Suite Pass Rate:** 96.5% achieved (threshold >= 98.0%).
+  3. **Smoke Checklist Execution:** 88.0% achieved (threshold = 100.0% P0 critical paths).
+* **Deferred Scope:** Remaining pages (`home.html`, `testcases.html`, `interesting.html`) are scheduled for subsequent regression and end-to-end testing cycles.
      
 #### 📂 Project 1 Deliverables & Artifacts (Documentation & Test Suite Files)
 
