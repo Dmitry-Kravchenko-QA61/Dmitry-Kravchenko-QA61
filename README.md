@@ -70,7 +70,7 @@ This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) c
 
 Target: Verify build stability, UI controls, interruptions, and performance limits for mobile titles.
 
-* 🎮 **Portfolio Folder:** **[PixelCraft Studio Mobile Games Testing Internship Portfolio](PixelCraft-Studio-Games-Testing):** This sub-folder contains my real test artifacts delivered during commercial game verification (Black-box & Grey-box approaches).
+* 🎮 **Portfolio Folder:** **[PixelCraft Studio Mobile Games Testing Internship Portfolio](PixelCraft-Studio-Games-Testing):** This folder contains my real test artifacts delivered during commercial game verification (Black-box & Grey-box approaches).
 * **Bug Reports Filed:** 
   * 🐛 **17 bug reports** for the 2D game *Shadows of Silence* (Live on Google Play Store).
   * 🐛 **5 bug reports** for the 3D indie game *Last Signal 2* (Active testing phase).
