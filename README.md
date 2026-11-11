@@ -64,7 +64,7 @@ This testing cycle was focused on 85 manual test scenarios (IDs T274 – T358) c
     * 📋 **Test Strategy & Planning:** [Read Full Test Plan](Web_Application_Test_Plan) 📑 *Testing strategy, scope, and risks for the full-stack web application core functionality (7 modules).*
     * ✅ **High-Level Verification Checklist:** [Download 25-Point Checklist (Excel)](QA_Learning_Platform_Checklist) 📑 *High-level functional checklist covering 25 core test scenarios (7 modules).*
     * 📑 **Manual Test Scenarios:** [Download & View 85 Raw Test Cases (Excel)](Web_Application_Test_Cases) 📑 *Step-by-step manual test scenarios.*
-    * 📊 **Metrics & Analysis:** [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Test metrics (96.5% pass rate), Quality Gate evaluation (Release Blocked), and Defect Log (BUG-01 – BUG-03).*
+    * 📊 **Metrics & Analysis:** [Read Full Test Summary Report](Test_Summary_Report.md) 📑 *Test metrics (96.5% pass rate), Quality Gate evaluation (Release Blocked), and Defect Log (BUG-01, BUG-02, BUG-03).*
 
 ### 🎮 Project 2: Mobile Game Testing (GameDev Artifacts)
 
